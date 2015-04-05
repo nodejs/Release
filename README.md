@@ -13,4 +13,10 @@ Define and execute a long-term support (LTS) plan for the io.js process.
 
 ## Working Group Members
 
-_To be filled in_
+* Rod Vagg [GitHub/@rvagg](https://github.com/rvagg) / [Twitter/@rvagg](https://twitter.com/rvagg)
+* Ben Noordhuis [GitHub/@bnoordhuis](https://github.com/bnoordhuis) / [Twitter/@bnoordhuis](http://twitter.com/bnoordhuis)
+* Trevor Norris [GitHub/@trevnorris](https://github.com/trevnorris) / [Twitter/@trevnorris](https://twitter.com/trevnorris)
+* Thorsten Lorenz [GitHub/@thlorenz](https://github.com/thlorenz) / [Twitter/@thlorenz](https://twitter.com/thlorenz)
+* Fedor Indutny [GitHub/@indutny](https://github.com/indutny) / [Twitter/@indutny](https://twitter.com/indutny)
+* Wyatt Preul [GitHub/@geek](https://github.com/geek) / [Twitter/@wpreul](https://twitter.com/wpreul)
+
