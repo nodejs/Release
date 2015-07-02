@@ -1,3 +1,108 @@
-# io.js Long-term Support Working Group
+# Node.js Long-term Support Working Group
 
-_See [issues](https://github.com/iojs/LTS/issues) for discussion on kicking off this working group._
+_See [issues](https://github.com/nodejs/LTS/issues) for discussion on kicking off this working group._
+
+# Strawman LTS
+
+On Monday, June 29th, the LTS WG met and discussed a strawman LTS plan. The
+basic details are as follows:
+
+1. The next LTS release will be cut from the Converged Repo (nodejs/node) once
+   the convergence of the joyent/node and nodejs/io.js streams has been
+   completed.
+2. After that, new LTS releases will occur once every 12 months, at around
+   the same time each year.
+3. Every LTS release will be actively maintained for a period of 18 months
+   from the date the LTS release is cut. After the 18 months have passed, the
+   release will transition into Maintenance mode until the current LTS
+   release moves into Maintenance 12 months later. (That is 18 months of
+   active LTS + 12 months Maintenance only).
+4. There will be no more than two active LTS releases at any given time,
+   overlapping for a maximum period of six months.
+5. The existing joyent/node v0.10 will continue in Maintenance mode for
+   approximately one year after the initial LTS release from the converged
+   repo. The existing joyent/node v0.12 will continue in LTS for a period
+   of 6 months after the initial LTS release from the converged repo,
+   after which it will transition into Maintenance for 12 months.
+6. There will be no LTS releases cut from the nodejs/io.js stream.
+7. Once a release enters LTS, no new features may be added to that release.
+   Changes are limited to bug fixes, security updates, documentation updates,
+   certain performance improvements that can be demonstrated to not break
+   existing applications, etc. Semver-minor changes are only permitted if
+   required for bug fixes. Semver-major changes are only permitted if required
+   for critical security and bug fixes.
+8. Once a release moves into Maintenance mode, only ***critical*** bugs,
+   ***critical*** security fixes, and documentation updates will be permitted.
+9. *semver-major* bumps are permitted *between* LTS releases. The LTS release
+   will be cut from the last stable release before a *semver-major* bump. The
+   implication of this is that the *semver-major* bump should be timed to
+   roughly coincide with the regular yearly LTS release schedule.
+10. Note that while it is possible that critical security and bug fixes may
+    lead to *semver-major* changes landing within an LTS stream, such
+    situations will be rare and will land as *semver-minor* bumps.
+
+## Example
+
+For example. Let's suppose that convergence of the source streams is completed.
+For the sake of the example, let's assume that the first converged stream
+release is v4.0.0 (the next major after the then current io.js release).
+
+Let's suppose that the revised release plan currently being discussed in
+https://github.com/nodejs/io.js/issues/1997 is adopted. This would mean
+that there are regular, periodic merges from the `next` branch into `master`
+that trigger a `semver-major` bump. Let's assume that the current `master`
+immediately before the `next` merge is at v4.4.1. When the `semver-major` bump
+from `next` occurs, v4.4.1 becomes the LTS release. If there are several merges
+from `next` into `master` through the year, the LTS release will still only
+occur once per year, at about the same time each year.
+
+Let's assume (hypothetically) that this first LTS Release occurs on
+October 1st, 2015.
+
+1. nodejs/node v4.4.1 becomes the current LTS Release
+2. joyent/node v0.10 continues in Maintainance only mode until
+   October 1st, 2016
+3. joyent/node v0.12 continues as LTS until April 1st, 2016, after
+   which it moves into Maintenance only mode until April 1st, 2017.
+4. On or around October 1st, 2016, the second LTS Release from the
+   converged is cut.
+5. LTS for v4.4.1 continues until April 1st, 2017, after which it
+   moves to Maintenance mode until around April 1st, 2017.
+6. On or around October 1st, 2017, the third LTS Release from the
+   converged is cut.
+
+
+<table>
+<tr>
+  <th>Release</th>
+  <th>LTS Start</th>
+  <th>Maintenance Start</th>
+  <th>LTS End</th>
+</tr>
+<tr>
+  <td>v0.10</td>
+  <td>(current)</td>
+  <td>2015-10-01</td>
+  <td>2016-10-01</td>
+</tr>
+<tr>
+  <td>v0.12</td>
+  <td>(current)</td>
+  <td>2016-04-01</td>
+  <td>2017-04-01</td>
+</tr>
+<tr>
+  <td>v4.4.1</td>
+  <td>2015-10-01</td>
+  <td>2017-04-01</td>
+  <td>2018-04-01</td>
+</tr>
+<tr>
+  <td>v.Next</td>
+  <td>2016-10-01</td>
+  <td>2018-04-01</td>
+  <td>2019-04-01</td>
+</tr>
+</table>
+
+<p><img src="strawmanschedule.png" alt="Strawman LTS Schedule"/></p>
