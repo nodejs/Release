@@ -2,16 +2,17 @@
 
 _See [issues](https://github.com/nodejs/LTS/issues) for discussion on kicking off this working group._
 
-# Strawman LTS
+# Proposed LTS
 
-On Monday, June 29th, the LTS WG met and discussed a strawman LTS plan. The
-basic details are as follows:
+The Proposed LTS Plan is:
 
 1. The next LTS release will be cut from the Converged Repo (nodejs/node) once
    the convergence of the joyent/node and nodejs/io.js streams has been
-   completed.
-2. After that, new LTS releases will occur once every 12 months, at around
-   the same time each year.
+   completed. The current target is to move to the fully converged stream by
+   the end of August, 2015, with the first LTS release cut during the first
+   week of October, 2015.
+2. After that, new LTS releases will occur once every 12 months, at the same
+   time each year.
 3. Every LTS release will be actively maintained for a period of 18 months
    from the date the LTS release is cut. After the 18 months have passed, the
    release will transition into Maintenance mode until the current LTS
@@ -26,11 +27,11 @@ basic details are as follows:
    after which it will transition into Maintenance for 12 months.
 6. There will be no LTS releases cut from the nodejs/io.js stream.
 7. Once a release enters LTS, no new features may be added to that release.
-   Changes are limited to bug fixes, security updates, documentation updates,
-   certain performance improvements that can be demonstrated to not break
-   existing applications, etc. Semver-minor changes are only permitted if
-   required for bug fixes. Semver-major changes are only permitted if required
-   for critical security and bug fixes.
+   Changes are limited to bug fixes, security updates, possible npm updates,
+   documentation updates, and certain performance improvements that can be 
+   demonstrated to not break existing applications, etc. Semver-minor changes
+   are only permitted if required for bug fixes. Semver-major changes are only
+   permitted if required for critical security and bug fixes.
 8. Once a release moves into Maintenance mode, only ***critical*** bugs,
    ***critical*** security fixes, and documentation updates will be permitted.
 9. *semver-major* bumps are permitted *between* LTS releases. The LTS release
@@ -50,11 +51,12 @@ release is v4.0.0 (the next major after the then current io.js release).
 Let's suppose that the revised release plan currently being discussed in
 https://github.com/nodejs/io.js/issues/1997 is adopted. This would mean
 that there are regular, periodic merges from the `next` branch into `master`
-that trigger a `semver-major` bump. Let's assume that the current `master`
-immediately before the `next` merge is at v4.4.1. When the `semver-major` bump
-from `next` occurs, v4.4.1 becomes the LTS release. If there are several merges
-from `next` into `master` through the year, the LTS release will still only
-occur once per year, at about the same time each year.
+that trigger a `semver-major` bump (assuming at least two per year, six months
+apart). Let's assume that the current `master` immediately before the `next`
+merge is at v4.4.1. When the `semver-major` bump from `next` occurs, v4.4.1
+becomes the LTS release. If there are several merges from `next` into `master`
+through the year, the LTS release will still only occur once per year, at the
+same time each year.
 
 Let's assume (hypothetically) that this first LTS Release occurs on
 October 1st, 2015.
@@ -71,6 +73,10 @@ October 1st, 2015.
 6. On or around October 1st, 2017, the third LTS Release from the
    converged is cut.
 
+Note that one implication of this schedule is that assuming that `next` merges
+into `master` twice per year, the LTS would be cut with a V8 version that is at
+least six months old and that will need to be supported for up to 30 months
+beyond the LTS release.
 
 <table>
 <tr>
