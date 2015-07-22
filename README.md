@@ -2,9 +2,9 @@
 
 _See [issues](https://github.com/nodejs/LTS/issues) for discussion on kicking off this working group._
 
-# Proposed LTS
+# LTS Plan
 
-The Proposed LTS Plan is:
+The Current LTS Plan is:
 
 1. The next LTS release will be cut from the Converged Repo (nodejs/node) once
    the convergence of the joyent/node and nodejs/io.js streams has been
@@ -28,7 +28,7 @@ The Proposed LTS Plan is:
 6. There will be no LTS releases cut from the nodejs/io.js stream.
 7. Once a release enters LTS, no new features may be added to that release.
    Changes are limited to bug fixes, security updates, possible npm updates,
-   documentation updates, and certain performance improvements that can be 
+   documentation updates, and certain performance improvements that can be
    demonstrated to not break existing applications, etc. Semver-minor changes
    are only permitted if required for bug fixes. Semver-major changes are only
    permitted if required for critical security and bug fixes.
@@ -41,8 +41,16 @@ The Proposed LTS Plan is:
 10. Note that while it is possible that critical security and bug fixes may
     lead to *semver-major* changes landing within an LTS stream, such
     situations will be rare and will land as *semver-minor* bumps.
+11. All LTS releases will be assigned a "codename" drawn from the names of
+    elements on the Periodic Table of Elements. For each upcoming LTS
+    release, the LTS Working Group will select a handful of candidate names
+    and submit those for a collaborator vote.
 
 ## Example
+
+The specific details may vary depending on the `next` and `master` release plan
+that is ultimately adopted. However, the release plan will not impact the
+schedule or proceses for managing an LTS release once it has been cut.
 
 For example. Let's suppose that convergence of the source streams is completed.
 For the sake of the example, let's assume that the first converged stream
