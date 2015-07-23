@@ -46,6 +46,13 @@ The Current LTS Plan is:
     release, the LTS Working Group will select a handful of candidate names
     and submit those for a collaborator vote.
 
+## Node abstraction layer
+
+It should be stated that the abstraction layer (currently `NAN`) should
+support all *current* LTS releases. Given that Active LTS will overlap
+for a period of 6 months, this means that the abstraction layer will, at
+any given point in time, fully support a maximum of 2 LTS releases.
+
 ## Example
 
 The specific details may vary depending on the `next` and `master` release plan
