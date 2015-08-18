@@ -110,7 +110,7 @@ beyond the LTS release.
   <td>v0.12</td>
   <td>(current)</td>
   <td>2016-04-01</td>
-  <td>2017-04-01</td>
+  <td>2016-12-31<sup>[1](#footnote1)</sup></td>
 </tr>
 <tr>
   <td>v4.4.1</td>
@@ -127,3 +127,7 @@ beyond the LTS release.
 </table>
 
 <p><img src="strawmanschedule.png" alt="Strawman LTS Schedule"/></p>
+
+<a name="footnote1">1</a>: LTS End of v0.12 has been changed from 2017-04-01
+to 2016-12-31 to coincide with OpenSSL v1.0.1's end of life.
+See [this issue](https://github.com/nodejs/LTS/issues/31) for background.
