@@ -126,4 +126,7 @@ beyond the LTS release.
 </tr>
 </table>
 
-<p><img src="strawmanschedule.png" alt="Strawman LTS Schedule"/></p>
+_(Note: v4.4.1 is only used here for example purposes, it is not yet known what
+version the v4.x branch will be at the time of the switch to LTS)_
+
+<p><img src="schedule.png" alt="LTS Schedule"/></p>
