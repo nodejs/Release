@@ -68,7 +68,7 @@ https://github.com/nodejs/io.js/issues/1997 is adopted. This would mean
 that there are regular, periodic merges from the `next` branch into `master`
 that trigger a `semver-major` bump (assuming at least two per year, six months
 apart). Let's assume that the current `master` immediately before the `next`
-merge is at v4.4.1. When the `semver-major` bump from `next` occurs, v4.4.1
+merge is at v4.2.0. When the `semver-major` bump from `next` occurs, v4.2.0
 becomes the LTS release. If there are several merges from `next` into `master`
 through the year, the LTS release will still only occur once per year, at the
 same time each year.
@@ -76,14 +76,14 @@ same time each year.
 Let's assume (hypothetically) that this first LTS Release occurs on
 October 1st, 2015.
 
-1. nodejs/node v4.4.1 becomes the current LTS Release
+1. nodejs/node v4.2.0 becomes the current LTS Release
 2. joyent/node v0.10 continues in Maintainance only mode until
    October 1st, 2016
 3. joyent/node v0.12 continues as LTS until April 1st, 2016, after
    which it moves into Maintenance only mode until April 1st, 2017.
 4. On or around October 1st, 2016, the second LTS Release from the
    converged is cut.
-5. LTS for v4.4.1 continues until April 1st, 2017, after which it
+5. LTS for v4.2.0 continues until April 1st, 2017, after which it
    moves to Maintenance mode until around April 1st, 2017.
 6. On or around October 1st, 2017, the third LTS Release from the
    converged is cut.
@@ -113,7 +113,7 @@ beyond the LTS release.
   <td>2017-04-01</td>
 </tr>
 <tr>
-  <td>v4.4.1</td>
+  <td>v4.2.0</td>
   <td>2015-10-01</td>
   <td>2017-04-01</td>
   <td>2018-04-01</td>
@@ -126,7 +126,6 @@ beyond the LTS release.
 </tr>
 </table>
 
-_(Note: v4.4.1 is only used here for example purposes, it is not yet known what
-version the v4.x branch will be at the time of the switch to LTS)_
+_(Note: v4.2.0 has been the first official LTS release. ((Blog))[https://nodejs.org/en/blog/release/v4.2.0/])_
 
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
