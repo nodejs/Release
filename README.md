@@ -126,6 +126,6 @@ beyond the LTS release.
 </tr>
 </table>
 
-_(Note: v4.2.0 has been the first official LTS release. ((Blog))[https://nodejs.org/en/blog/release/v4.2.0/])_
+_(Note: v4.2.0 has been the first official LTS release. [(Blog)](https://nodejs.org/en/blog/release/v4.2.0/))_
 
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
