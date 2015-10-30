@@ -12,7 +12,7 @@ The Current LTS Plan is:
    the end of August, 2015, with the first LTS release cut during the first
    week of October, 2015.
 2. After that, new LTS releases will occur once every 12 months, at the same
-   time each year.
+   time each year (April 1). ([*v4.2 is the exception to this rule*](#a-note-about-v42-lts)
 3. Every LTS release will be actively maintained for a period of 18 months
    from the date the LTS release is cut. After the 18 months have passed, the
    release will transition into Maintenance mode until the current LTS
@@ -125,6 +125,10 @@ beyond the LTS release.
   <td>2019-04-01</td>
 </tr>
 </table>
+
+## A note about v4.2 LTS
+
+While v4.2 was released in October, *this is a one-off event!* There was no LTS release plan in place in April 2015; v4.2 LTS was released in August in order to get v4.x updates into an LTS release as quickly as possible. In the future **LTS releases will be cut in April**.
 
 _(Note: v4.2.0 has been the first official LTS release. [(Blog)](https://nodejs.org/en/blog/release/v4.2.0/))_
 
