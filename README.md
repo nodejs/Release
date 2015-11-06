@@ -77,7 +77,7 @@ Let's assume (hypothetically) that this first LTS Release occurs on
 October 1st, 2015.
 
 1. nodejs/node v4.2.0 becomes the current LTS Release
-2. joyent/node v0.10 continues in Maintainance only mode until
+2. joyent/node v0.10 continues in Maintenance only mode until
    October 1st, 2016
 3. joyent/node v0.12 continues as LTS until April 1st, 2016, after
    which it moves into Maintenance only mode until April 1st, 2017.
