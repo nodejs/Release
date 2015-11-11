@@ -12,7 +12,8 @@ The Current LTS Plan is:
    the end of August, 2015, with the first LTS release cut during the first
    week of October, 2015.
 2. After that, new LTS releases will occur once every 12 months, at the same
-   time each year.
+   time each year (October), based on the even-major-number release cut in
+   April (e.g. 8.0 is released in April, and 8.3LTS could be released in October).
 3. Every LTS release will be actively maintained for a period of 18 months
    from the date the LTS release is cut. After the 18 months have passed, the
    release will transition into Maintenance mode until the current LTS
