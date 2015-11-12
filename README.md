@@ -85,7 +85,7 @@ October 1st, 2015.
 4. On or around October 1st, 2016, the second LTS Release from the
    converged is cut.
 5. LTS for v4.2.0 continues until April 1st, 2017, after which it
-   moves to Maintenance mode until around April 1st, 2017.
+   moves to Maintenance mode until around April 1st, 2018.
 6. On or around October 1st, 2017, the third LTS Release from the
    converged is cut.
 
