@@ -28,11 +28,13 @@ The Current LTS Plan is:
    after which it will transition into Maintenance for 12 months.
 6. There will be no LTS releases cut from the nodejs/io.js stream.
 7. Once a release enters LTS, no new features may be added to that release.
-   Changes are limited to bug fixes, security updates, possible npm updates,
-   documentation updates, and certain performance improvements that can be
-   demonstrated to not break existing applications, etc. Semver-minor changes
-   are only permitted if required for bug fixes. Semver-major changes are only
-   permitted if required for critical security and bug fixes.
+   Changes are limited to:
+    1. bug fixes
+    2. security updates
+    3. non-semver-major npm updates
+    4. relevant documentation updates
+    5. certain performance improvements where the risk of breaking existing applications is 
+    6. changes that introduce large amount of code churn where the risk of breaking existing applications is low and where the change in question may significantly ease the ability to backport future changes due to the reduction in diff noise
 8. Once a release moves into Maintenance mode, only ***critical*** bugs,
    ***critical*** security fixes, and documentation updates will be permitted.
 9. *semver-major* bumps are permitted *between* LTS releases. The LTS release
