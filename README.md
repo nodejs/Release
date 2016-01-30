@@ -126,7 +126,7 @@ beyond the LTS release.
   <td>2019-04-01</td>
 </tr>
 </table>
-
+<a name="lts_schedule"></a>
 _(Note: v4.2.0 has been the first official LTS release. [(Blog)](https://nodejs.org/en/blog/release/v4.2.0/))_
 
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
