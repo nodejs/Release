@@ -36,7 +36,7 @@ The Current LTS Plan is:
 8. Once a release moves into Maintenance mode, only ***critical*** bugs,
    ***critical*** security fixes, and documentation updates will be permitted.
 9. *semver-major* bumps are permitted *between* LTS releases. The LTS release
-   will be cut from the last stable release before a *semver-major* bump. The
+   will be cut from the last current release before a *semver-major* bump. The
    implication of this is that the *semver-major* bump should be timed to
    roughly coincide with the regular yearly LTS release schedule.
 10. Note that while it is possible that critical security and bug fixes may
