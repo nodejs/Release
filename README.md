@@ -113,7 +113,7 @@ beyond the LTS release.
   <td>v0.12</td>
   <td>(current)</td>
   <td>2016-04-01</td>
-  <td>2017-04-01</td>
+  <td>2016-04-01</td>
 </tr>
 <tr>
   <td>v4.2.0</td>
