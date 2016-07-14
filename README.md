@@ -52,7 +52,7 @@
 
 <tr>
   <th>v7</th>
-  <td>Unreleased</td>
+  <td><i>Unreleased</i>&nbsp;(non-LTS)</td>
   <td colspan="3" align="center">N/A</td>
 </tr>
 
