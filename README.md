@@ -89,6 +89,10 @@ on the Periodic Table of Elements. For each upcoming LTS release, the LTS
 Working Group will select a handful of candidate names and submit those for a 
 collaborator vote.
 
+An odd-numbered major release will be moved into Maintenance mode immediately
+when the subsequent even-numbered major release is cut and receive
+3 months of maintenance support, from April until June.
+
 ## LTS Staging Branches
 
 Every LTS major version has two branches in the GitHub repository: a release 
