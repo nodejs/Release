@@ -15,7 +15,7 @@
   <td>v0.10</td>
   <td>-</td>
   <td>2015-10-01</td>
-  <td>2016-10-01</td>
+  <td>2016-10-31</td>
 </tr>
 <tr>
   <td><b>Maintenance</b></td>
