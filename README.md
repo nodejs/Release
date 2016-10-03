@@ -4,15 +4,15 @@
 
 | Release |  LTS Status   | Codename | Active LTS Start | Maintenance Start | Maintenance End |
 |   :--:  |    :---:      |   :---:  |       :---:      |       :---:       |      :---:      |
-|  v0.10  |**End-of-Life**|    -     |        -         |    2015-10-01     |   2016-10-31    |
-|  v0.12  |**End-of-Life**|    -     |        -         |    2016-04-01     |   2016-12-31    |
-| [4.x][] |**Maintenance**| [Argon][]|    2015-10-01    |    2017-04-01     |   2018-04-01    |
+|  v0.10.x  |**End-of-Life**|    -     |        -         |    2015-10-01     |   2016-10-31    |
+|  v0.12.x  |**End-of-Life**|    -     |        -         |    2016-04-01     |   2016-12-31    |
+| [4.x][] |**Maintenance**| [Argon][]|    2015-10-01    |    2017-04-01     |   April 2018    |
 |  5.x    |No LTS         |          |                  |                   |                 |
-| [6.x][] |**Active**     | [Boron][]|    2016-10-18    |    2018-04-18     |   2019-04-18    |
+| [6.x][] |**Active**     | [Boron][]|    2016-10-18    |    April 2018     |   April 2019    |
 |  7.x    |No LTS         |          |                  |                   |                 |
-|  8.x    |**Pending**    | Pending  |    2017-10-01    |    2019-04-01     |   2019-12-31<sup>2</sup> |
+|  8.x    |**Pending**    | Pending  |    October 2017  |    April 2019     |   December 2019<sup>2</sup> |
 |  9.x    |No LTS         |          |                  |                   |                 |
-| 10.x    |**Pending**    | Pending  |    2018-10-01    |    2020-04-01     |   2021-04-01    |
+| 10.x    |**Pending**    | Pending  |    October 2018  |    April 2020     |   April 2021    |
 
 * <sup>1</sup>: All scheduled dates are subject to change by the Node.js LTS
   working group or Node.js Core Technical Committee.
@@ -39,6 +39,10 @@ Every major version covered by the LTS plan will be actively maintained for a
 period of 18 months from the date it enters LTS coverage. Following those 18
 months of active support, the major version will transition into "maintenance"
 mode for 12 additional months.
+
+The exact date that a release stream will be moved to LTS, moved between LTS
+modes, or deprecated will will be chosen no later than the first day of the month.
+If it is to be changed, it will be done with no less than 14 days notice.
 
 Given this schedule, there will be no more than two active LTS releases at any
 given time, overlapping for a maximum period of six months.
