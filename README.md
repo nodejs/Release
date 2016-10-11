@@ -6,9 +6,9 @@
 <tr>
   <th>LTS Status</th>
   <th>Release</th>
-  <th>LTS Start</th>
-  <th>Maintenance Start</th>
-  <th>LTS End</th>
+  <th>Active LTS Start</th>
+  <th>Active LTS End/Maintenance Start</th>
+  <th>Maintenance End</th>
 </tr>
 <tr>
   <td><b>Maintenance</b></td>
