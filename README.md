@@ -37,7 +37,7 @@
   <td colspan="3" align="center">N/A</td>
 </tr>
 <tr>
-  <td><b>Pending</b></td>
+  <td><b>Active</b></td>
   <td>v6</td>
   <td>2016-10-18</td>
   <td>2018-04-18</td>
