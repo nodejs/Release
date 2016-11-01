@@ -11,7 +11,7 @@
   <th>Maintenance End</th>
 </tr>
 <tr>
-  <td><b>Maintenance</b></td>
+  <td><b>EOL</b></td>
   <td>v0.10</td>
   <td>-</td>
   <td>2015-10-01</td>
