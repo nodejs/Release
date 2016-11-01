@@ -11,7 +11,7 @@
   <th>Maintenance End</th>
 </tr>
 <tr>
-  <td><b>Maintenance</b></td>
+  <td><b>End-of-Life</b></td>
   <td>v0.10</td>
   <td>-</td>
   <td>2015-10-01</td>
@@ -42,6 +42,11 @@
   <td>2016-10-18</td>
   <td>2018-04-18</td>
   <td>2019-04-18</td>
+</tr>
+<tr>
+  <td>N/A</td>
+  <td>v7</td>
+  <td colspan="3" align="center">N/A</td>
 </tr>
 </table>
 
