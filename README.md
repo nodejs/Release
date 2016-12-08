@@ -82,6 +82,10 @@ Changes in an LTS-covered major version are limited to:
 5. Certain performance improvements where the risk of breaking existing applications is minimal;
 6. Changes that introduce large amount of code churn where the risk of breaking existing applications is low and where the change in question may significantly ease the ability to backport future changes due to the reduction in diff noise.
 
+Generally changes are expected to live in a *Current* release for at least 2
+weeks before being backported. It is possible for a commit to land earlier at
+the discretion of the LTS Working Group and the maintainers of the LTS branches.
+
 Once a release moves into Maintenance mode, only ***critical*** bugs, 
 ***critical*** security fixes, and documentation updates will be permitted.
 
