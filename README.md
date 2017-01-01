@@ -18,7 +18,7 @@
   <td>2016-10-31</td>
 </tr>
 <tr>
-  <td><b>Maintenance</b></td>
+  <td><b>End-of-Life</b></td>
   <td>v0.12</td>
   <td>-</td>
   <td>2016-04-01</td>
