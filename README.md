@@ -54,9 +54,10 @@
 
 # LTS Plan
 
-New semver-major releases of Node.js are cut from `master` every six months.
-New even-numbered versions (e.g. v6, v8, v10, etc) are cut in April. New 
-odd-numbered versions (e.g. v5, v7, v9) are cut in October.
+New semver-major releases of Node.js are cut from `master` every six months
+and become the "current" release.  New even-numbered versions (e.g.  v6, v8,
+v10, etc) are cut in April.  New odd-numbered versions (e.g.  v5, v7, v9)
+are cut in October.
 
 When a new *odd-numbered* major release is cut, the previous *even-numbered* 
 major version transitions to the Long Term Support plan.
@@ -116,6 +117,6 @@ only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
 ## Node abstraction layer
 
 It should be stated that the abstraction layer (currently `NAN`) should
-support all *current* LTS releases. Given that Active LTS will overlap
+support all current and LTS releases. Given that Active LTS will overlap
 for a period of 6 months, this means that the abstraction layer will, at
 any given point in time, fully support a maximum of 2 LTS releases.
