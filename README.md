@@ -32,7 +32,7 @@
   <td>2018-04-01</td>
 </tr>
 <tr>
-  <td>N/A</td>
+  <td>No LTS</td>
   <td>v5</td>
   <td colspan="3" align="center">N/A</td>
 </tr>
@@ -44,7 +44,7 @@
   <td>2019-04-18</td>
 </tr>
 <tr>
-  <td>N/A</td>
+  <td>No LTS</td>
   <td>v7</td>
   <td colspan="3" align="center">N/A</td>
 </tr>
