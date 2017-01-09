@@ -55,22 +55,22 @@
 # LTS Plan
 
 New semver-major releases of Node.js are cut from `master` every six months.
-New even-numbered versions (e.g. v6, v8, v10, etc) are cut in April. New 
+New even-numbered versions (e.g. v6, v8, v10, etc) are cut in April. New
 odd-numbered versions (e.g. v5, v7, v9) are cut in October.
 
-When a new *odd-numbered* major release is cut, the previous *even-numbered* 
+When a new *odd-numbered* major release is cut, the previous *even-numbered*
 major version transitions to the Long Term Support plan.
 
-Every major version covered by the LTS plan will be actively maintained for a 
-period of 18 months from the date it enters LTS coverage. Following those 18 
-months of active support, the major version will transition into "maintenance" 
+Every major version covered by the LTS plan will be actively maintained for a
+period of 18 months from the date it enters LTS coverage. Following those 18
+months of active support, the major version will transition into "maintenance"
 mode for 12 additional months.
 
-Given this schedule, there will be no more than two active LTS releases at any 
+Given this schedule, there will be no more than two active LTS releases at any
 given time, overlapping for a maximum period of six months.
 
-Once a major version enters LTS coverage, new features (semver-minor) may only 
-be landed with consent of the CTC and the LTS Working Group. No semver-major 
+Once a major version enters LTS coverage, new features (semver-minor) may only
+be landed with consent of the CTC and the LTS Working Group. No semver-major
 changes other than those required for critical security fixes may be landed.
 
 Changes in an LTS-covered major version are limited to:
@@ -86,31 +86,31 @@ Generally changes are expected to live in a *Current* release for at least 2
 weeks before being backported. It is possible for a commit to land earlier at
 the discretion of the LTS Working Group and the maintainers of the LTS branches.
 
-Once a release moves into Maintenance mode, only ***critical*** bugs, 
+Once a release moves into Maintenance mode, only ***critical*** bugs,
 ***critical*** security fixes, and documentation updates will be permitted.
 
-Note that while it is possible that critical security and bug fixes may lead to 
-*semver-major* changes landing within an LTS stream, such situations will be 
+Note that while it is possible that critical security and bug fixes may lead to
+*semver-major* changes landing within an LTS stream, such situations will be
 rare and will land as *semver-minor* bumps in the LTS covered version.
 
-All LTS releases will be assigned a "codename" drawn from the names of elements 
-on the Periodic Table of Elements. For each upcoming LTS release, the LTS 
-Working Group will select a handful of candidate names and submit those for a 
+All LTS releases will be assigned a "codename" drawn from the names of elements
+on the Periodic Table of Elements. For each upcoming LTS release, the LTS
+Working Group will select a handful of candidate names and submit those for a
 collaborator vote.
 
 ## LTS Staging Branches
 
-Every LTS major version has two branches in the GitHub repository: a release 
-branch and a staging branch. The release branch is used to cut new releases. 
-Only members of the release team should land commits into the release branch. 
+Every LTS major version has two branches in the GitHub repository: a release
+branch and a staging branch. The release branch is used to cut new releases.
+Only members of the release team should land commits into the release branch.
 The staging branch is used to land cherry-picked or backported commits from
 master that need to be included in a future release.
 
 For example, for Node.js v4, there is a `v4.x` branch and a `v4.x-staging`
 branch. When commits land in master that must be cherry-picked for a future
 Node.js v4 release, those must be landed into the `v4.x-staging` branch. When
-commits are backported for a future Node.js v4 release, those must come in the 
-form of pull requests opened against the `v4.x-staging` branch. **Commits are 
+commits are backported for a future Node.js v4 release, those must come in the
+form of pull requests opened against the `v4.x-staging` branch. **Commits are
 only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
 
 ## Node abstraction layer
