@@ -6,6 +6,7 @@
 <tr>
   <th>LTS Status</th>
   <th>Release</th>
+  <th>Codename</th>
   <th>Active LTS Start</th>
   <th>Active LTS End/Maintenance Start</th>
   <th>Maintenance End</th>
@@ -13,6 +14,7 @@
 <tr>
   <td><b>End-of-Life</b></td>
   <td>v0.10</td>
+  <td></td>
   <td>-</td>
   <td>2015-10-01</td>
   <td>2016-10-31</td>
@@ -20,6 +22,7 @@
 <tr>
   <td><b>End-of-Life</b></td>
   <td>v0.12</td>
+  <td></td>
   <td>-</td>
   <td>2016-04-01</td>
   <td>2016-12-31</td>
@@ -27,6 +30,7 @@
 <tr>
   <td><b>Active</b></td>
   <td>v4</td>
+  <td>Argon</td>
   <td>2015-10-01</td>
   <td>2017-04-01</td>
   <td>2018-04-01</td>
@@ -34,11 +38,13 @@
 <tr>
   <td>No LTS</td>
   <td>v5</td>
+  <td></td>
   <td colspan="3" align="center">N/A</td>
 </tr>
 <tr>
   <td><b>Active</b></td>
   <td>v6</td>
+  <td>Boron</td>
   <td>2016-10-18</td>
   <td>2018-04-18</td>
   <td>2019-04-18</td>
@@ -46,6 +52,7 @@
 <tr>
   <td>No LTS</td>
   <td>v7</td>
+  <td></td>
   <td colspan="3" align="center">N/A</td>
 </tr>
 </table>
