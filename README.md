@@ -8,7 +8,7 @@
   <th>Release</th>
   <th>Codename</th>
   <th>Active LTS Start</th>
-  <th>Active LTS End/Maintenance Start</th>
+  <th>Maintenance Start</th>
   <th>Maintenance End</th>
 </tr>
 <tr>
