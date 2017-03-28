@@ -105,3 +105,15 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [Google Calendar]: https://calendar.google.com/calendar/ical/eln7trd6k7n6asgg49bu2vqn4s%40group.calendar.google.com/public/basic.ics
 [JSON]: schedule.json
 [ICal]: schedule.ical
+
+## LTS Team members
+
+* Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
+* James M Snell [@jasnell](https://github.com/jasnell)
+* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123)
+* Michael Dawson [@mhdawson](https://github.com/mhdawson)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
+* Rod Vagg [@rvagg](https://github.com/rvagg)
+* Sam Roberts [@sam-github](https://github.com/sam-github)
+
+Github team for LTS: https://github.com/orgs/nodejs/teams/lts
