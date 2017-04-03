@@ -1,63 +1,30 @@
 # Node.js Long-term Support Working Group
 
-# LTS schedule
+# LTS schedule<sup>1</sup>
 
-<table>
-<tr>
-  <th>LTS Status</th>
-  <th>Release</th>
-  <th>Codename</th>
-  <th>Active LTS Start</th>
-  <th>Maintenance Start</th>
-  <th>Maintenance End</th>
-</tr>
-<tr>
-  <td><b>End-of-Life</b></td>
-  <td>v0.10</td>
-  <td></td>
-  <td>-</td>
-  <td>2015-10-01</td>
-  <td>2016-10-31</td>
-</tr>
-<tr>
-  <td><b>End-of-Life</b></td>
-  <td>v0.12</td>
-  <td></td>
-  <td>-</td>
-  <td>2016-04-01</td>
-  <td>2016-12-31</td>
-</tr>
-<tr>
-  <td><b>Active</b></td>
-  <td>v4</td>
-  <td>Argon</td>
-  <td>2015-10-01</td>
-  <td>2017-04-01</td>
-  <td>2018-04-01</td>
-</tr>
-<tr>
-  <td>No LTS</td>
-  <td>v5</td>
-  <td></td>
-  <td colspan="3" align="center">N/A</td>
-</tr>
-<tr>
-  <td><b>Active</b></td>
-  <td>v6</td>
-  <td>Boron</td>
-  <td>2016-10-18</td>
-  <td>2018-04-18</td>
-  <td>2019-04-18</td>
-</tr>
-<tr>
-  <td>No LTS</td>
-  <td>v7</td>
-  <td></td>
-  <td colspan="3" align="center">N/A</td>
-</tr>
-</table>
+| Release |  LTS Status   | Codename | Active LTS Start | Maintenance Start | Maintenance End |
+|   :--:  |    :---:      |   :---:  |       :---:      |       :---:       |      :---:      |
+|  v0.10  |**End-of-Life**|    -     |        -         |    2015-10-01     |   2016-10-31    |
+|  v0.12  |**End-of-Life**|    -     |        -         |    2016-04-01     |   2016-12-31    |
+| [4.x][] |**Active**     | [Argon][]|    2015-10-01    |    2017-04-01     |   2018-04-01    |
+|  5.x    |No LTS         |          |                  |                   |                 |
+| [6.x][] |**Active**     | [Boron][]|    2016-10-18    |    2018-04-18     |   2019-04-18    |
+|  7.x    |No LTS         |          |                  |                   |                 |
+|  8.x    |**Pending**    | Pending  |    2017-10-01    |    2019-04-01     |   2019-12-31<sup>2</sup> |
+|  9.x    |No LTS         |          |                  |                   |                 |
+| 10.x    |**Pending**    | Pending  |    2018-10-01    |    2020-04-01     |   2021-04-01    |
+
+* <sup>1</sup>: All scheduled dates are subject to change by the Node.js LTS
+  working group or Node.js Core Technical Committee.
+* <sup>2</sup>: The 8.x *Maintenance* LTS cycle is currently scheduled to expire
+  early on December 31, 2019 to align with the scheduled End-of-Life of
+  OpenSSL-1.0.2. Note that this schedule *may* change if the version of OpenSSL
+  is upgraded to 1.1.x before 8.x enters the *Active* LTS cycle.
 
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
+
+The LTS Schedule is available also as a [JSON][] file or [ICal][]. There is
+also a live [Google Calendar][] that may be subscribed to.
 
 # LTS Plan
 
@@ -86,8 +53,12 @@ Changes in an LTS-covered major version are limited to:
 2. Security updates;
 3. Non-semver-major npm updates;
 4. Relevant documentation updates;
-5. Certain performance improvements where the risk of breaking existing applications is minimal;
-6. Changes that introduce large amount of code churn where the risk of breaking existing applications is low and where the change in question may significantly ease the ability to backport future changes due to the reduction in diff noise.
+5. Certain performance improvements where the risk of breaking existing
+   applications is minimal;
+6. Changes that introduce large amount of code churn where the risk of breaking
+   existing applications is low and where the change in question may
+   significantly ease the ability to backport future changes due to the
+   reduction in diff noise.
 
 Generally changes are expected to live in a *Current* release for at least 2
 weeks before being backported. It is possible for a commit to land earlier at
@@ -126,3 +97,11 @@ It should be stated that the abstraction layer (currently `NAN`) should
 support all *current* LTS releases. Given that Active LTS will overlap
 for a period of 6 months, this means that the abstraction layer will, at
 any given point in time, fully support a maximum of 2 LTS releases.
+
+[Argon]: https://nodejs.org/download/release/latest-argon/
+[Boron]: https://nodejs.org/download/release/latest-boron/
+[4.x]: https://nodejs.org/download/release/latest-v4.x/
+[6.x]: https://nodejs.org/download/release/latest-v6.x/
+[Google Calendar]: https://calendar.google.com/calendar/ical/eln7trd6k7n6asgg49bu2vqn4s%40group.calendar.google.com/public/basic.ics
+[JSON]: schedule.json
+[ICal]: schedule.ical
