@@ -93,7 +93,7 @@ only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
 
 ## Node abstraction layer
 
-It should be stated that the abstraction layer (currently `NAN`) should
+It should be stated that the abstraction layer (currently [`NAN`][]) should
 support all *current* LTS releases. Given that Active LTS will overlap
 for a period of 6 months, this means that the abstraction layer will, at
 any given point in time, fully support a maximum of 2 LTS releases.
@@ -105,6 +105,7 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [Google Calendar]: https://calendar.google.com/calendar/ical/eln7trd6k7n6asgg49bu2vqn4s%40group.calendar.google.com/public/basic.ics
 [JSON]: schedule.json
 [ICal]: schedule.ical
+[`NAN`]: https://github.com/nodejs/nan
 
 ## LTS Team members
 
