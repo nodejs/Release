@@ -76,6 +76,9 @@ on the Periodic Table of Elements. For each upcoming LTS release, the LTS
 Working Group will select a handful of candidate names and submit those for a
 collaborator vote.
 
+An odd-numbered major release will cease to be actively updated when the
+subsequent even-numbered major release is cut.
+
 ## LTS Staging Branches
 
 Every LTS major version has two branches in the GitHub repository: a release
