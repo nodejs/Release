@@ -1,6 +1,6 @@
-# Node.js Long-term Support Working Group
+# Node.js Release and Long-term Support Working Group
 
-# LTS schedule<sup>1</sup>
+## LTS schedule<sup>1</sup>
 
 | Release |  LTS Status   | Codename | Active LTS Start | Maintenance Start | Maintenance End |
 |   :--:  |    :---:      |   :---:  |       :---:      |       :---:       |      :---:      |
@@ -26,7 +26,42 @@
 The LTS Schedule is available also as a [JSON][] file or [ICal][]. There is
 also a live [Google Calendar][] that may be subscribed to.
 
-# LTS Plan
+## Mandate
+
+The Release and LTS working group's purpose is:
+
+* Management/execution the release process for all releases.
+* Maintenance of the LTS releases.
+
+Its responsibilities are:
+
+* Define the release process.
+* Generate and create releases. 
+* Manage the LTS and Current branches including backporting changes to 
+  these branches.
+
+The Release and LTS working group is structured into teams and membership in
+the working group does not automatically result in membership in these
+teams. These teams are:
+
+* Release team
+* LTS team
+* Backporting team
+
+The release team is entrusted with the secrets and CI access to be able
+build and sign releases.  **Additions to the release team must be approved
+by the CTC.**
+
+The LTS team manages the process/content of LTS releases as outlined in the
+LTS plan. All members of the working group are members of the LTS team unless
+they do not wish to be.
+
+The backporting team is the team that does the ongoing work of porting
+commits back to the LTS and Current branches. This team may consist of
+collaborators from any of the Node.js working groups. 
+
+
+## LTS Plan
 
 New semver-major releases of Node.js are cut from `master` every six months.
 New even-numbered versions (e.g. v6, v8, v10, etc) are cut in April. New
@@ -83,7 +118,7 @@ collaborator vote.
 An odd-numbered major release will cease to be actively updated when the
 subsequent even-numbered major release is cut.
 
-## LTS Staging Branches
+### LTS Staging Branches
 
 Every LTS major version has two branches in the GitHub repository: a release
 branch and a staging branch. The release branch is used to cut new releases.
@@ -98,7 +133,7 @@ commits are backported for a future Node.js v4 release, those must come in the
 form of pull requests opened against the `v4.x-staging` branch. **Commits are
 only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
 
-## Node abstraction layer
+### Node abstraction layer
 
 It should be stated that the abstraction layer (currently [`NAN`][]) should
 support all *current* LTS releases. Given that Active LTS will overlap
@@ -114,14 +149,15 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [ICal]: schedule.ical
 [`NAN`]: https://github.com/nodejs/nan
 
-## LTS Team members
+## Release and LTS Team members
 
+* Colin Ihrig [@cjhrig](https://github.com/cjihrig)
+* Evan Lucas [@evanlucas](https://github.com/evanlucas)
 * Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
-* James M Snell [@jasnell](https://github.com/jasnell)
-* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123)
+* Italo A. Casas [@italoacasas](https://github.com/italoacasas) (release team)
+* James M Snell [@jasnell](https://github.com/jasnell) (release team)
+* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123) (release team)
 * Michael Dawson [@mhdawson](https://github.com/mhdawson)
-* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
-* Rod Vagg [@rvagg](https://github.com/rvagg)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins) (release team)
+* Rod Vagg [@rvagg](https://github.com/rvagg) (release team)
 * Sam Roberts [@sam-github](https://github.com/sam-github)
-
-Github team for LTS: https://github.com/orgs/nodejs/teams/lts
