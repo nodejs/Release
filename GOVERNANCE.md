@@ -1,6 +1,6 @@
 # Release and LTS Working Group
 
-The nodejs Release LTS project is governed by a Working Group (WG) that
+The nodejs Release and LTS project is governed by a Working Group (WG) that
 is responsible for high-level guidance of the project.
 
 The WG has final authority over this project including:
