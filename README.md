@@ -1,6 +1,6 @@
-# Node.js Long-term Support Working Group
+# Node.js Release Working Group
 
-# LTS schedule<sup>1</sup>
+## Release schedule<sup>1</sup>
 
 | Release |  LTS Status   | Codename | Active LTS Start | Maintenance Start | Maintenance End |
 |   :--:  |    :---:      |   :---:  |       :---:      |       :---:       |      :---:      |
@@ -14,7 +14,7 @@
 |  9.x    |No LTS         |          |                  |                   |                 |
 | 10.x    |**Pending**    | Pending  |    October 2018  |    April 2020     |   April 2021    |
 
-* <sup>1</sup>: All scheduled dates are subject to change by the Node.js LTS
+* <sup>1</sup>: All scheduled dates are subject to change by the Node.js Release
   working group or Node.js Core Technical Committee.
 * <sup>2</sup>: The 8.x *Maintenance* LTS cycle is currently scheduled to expire
   early on December 31, 2019 to align with the scheduled End-of-Life of
@@ -23,10 +23,48 @@
 
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
 
-The LTS Schedule is available also as a [JSON][] file or [ICal][]. There is
+The Release schedule is available also as a [JSON][] file or [ICal][]. There is
 also a live [Google Calendar][] that may be subscribed to.
 
-# LTS Plan
+## Mandate
+
+The Release working group's purpose is:
+
+* Management/execution of the release and support process for all releases.
+
+Its responsibilities are:
+
+* Define the release process.
+* Define the content of releases.
+* Generate and create releases.
+* Test Releases
+* Manage the LTS and Current branches including backporting changes to
+  these branches.
+* Define the policy for what gets backported to release streams.
+
+The Release working group is structured into teams and membership in
+the working group does not automatically result in membership in these
+teams. These teams are:
+
+* Releasers team
+* LTS team
+* CITGM team
+
+The `releasers` team is entrusted with the secrets and CI access to be able
+build and sign releases. **Additions to the releasers team must be approved
+by the CTC.**
+
+The Long Term Support (LTS) team manages the process/content of LTS releases
+and the required backporting for these releases. Additions to the LTS
+team needs sign off from the rest of the LTS team.
+
+The Canary in the Gold Mine (CITGM) team maintains CITGM as one of
+the key sanity checks for releases. This team maintains the CITGM
+repository and works to keep CITGM builds running and passing regularly.
+This also includes maintaining the CI jobs in collaboration with the Build
+Working Group.
+
+## Release Plan
 
 New semver-major releases of Node.js are cut from `master` every six months.
 New even-numbered versions (e.g. v6, v8, v10, etc) are cut in April. New
@@ -48,7 +86,7 @@ Given this schedule, there will be no more than two active LTS releases at any
 given time, overlapping for a maximum period of six months.
 
 Once a major version enters LTS coverage, new features (semver-minor) may only
-be landed with consent of the CTC and the LTS Working Group. No semver-major
+be landed with consent of the Release working group. No semver-major
 changes other than those required for critical security fixes may be landed.
 
 Changes in an LTS-covered major version are limited to:
@@ -66,7 +104,7 @@ Changes in an LTS-covered major version are limited to:
 
 Generally changes are expected to live in a *Current* release for at least 2
 weeks before being backported. It is possible for a commit to land earlier at
-the discretion of the LTS Working Group and the maintainers of the LTS branches.
+the discretion of the Release working group and the maintainers of the LTS branches.
 
 Once a release moves into Maintenance mode, only ***critical*** bugs,
 ***critical*** security fixes, and documentation updates will be permitted.
@@ -76,14 +114,14 @@ Note that while it is possible that critical security and bug fixes may lead to
 rare and will land as *semver-minor* bumps in the LTS covered version.
 
 All LTS releases will be assigned a "codename" drawn from the names of elements
-on the Periodic Table of Elements. For each upcoming LTS release, the LTS
-Working Group will select a handful of candidate names and submit those for a
+on the Periodic Table of Elements. For each upcoming LTS release, the Release
+working group will select a handful of candidate names and submit those for a
 collaborator vote.
 
 An odd-numbered major release will cease to be actively updated when the
 subsequent even-numbered major release is cut.
 
-## LTS Staging Branches
+### LTS Staging Branches
 
 Every LTS major version has two branches in the GitHub repository: a release
 branch and a staging branch. The release branch is used to cut new releases.
@@ -98,7 +136,7 @@ commits are backported for a future Node.js v4 release, those must come in the
 form of pull requests opened against the `v4.x-staging` branch. **Commits are
 only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
 
-## Node abstraction layer
+### Node abstraction layer
 
 It should be stated that the abstraction layer (currently [`NAN`][]) should
 support all *current* LTS releases. Given that Active LTS will overlap
@@ -114,14 +152,32 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [ICal]: schedule.ical
 [`NAN`]: https://github.com/nodejs/nan
 
-## LTS Team members
+The working group members are the union of the LTS, Releasers
+and CITGM team members listed below.
 
+## LTS Team members
 * Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
 * James M Snell [@jasnell](https://github.com/jasnell)
 * Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123)
 * Michael Dawson [@mhdawson](https://github.com/mhdawson)
 * Myles Borins [@MylesBorins](https://github.com/MylesBorins)
-* Rod Vagg [@rvagg](https://github.com/rvagg)
 * Sam Roberts [@sam-github](https://github.com/sam-github)
 
-Github team for LTS: https://github.com/orgs/nodejs/teams/lts
+### Releasers team
+* Colin Ihrig [@cjihrig](https://github.com/cjihrig)
+* Evan Lucas [@evanlucas](https://github.com/evanlucas)
+* Italo A. Casas [@italoacasas](https://github.com/italoacasas)
+* James M Snell [@jasnell](https://github.com/jasnell)
+* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
+* Rod Vagg [@rvagg](https://github.com/rvagg)
+
+### CITGM team
+* Bartosz Sosnowski [@bzoz](https://github.com/bzoz)
+* Bryan English [@bengl](https://github.com/bengl)
+* George Adams [@gdams](https://github.com/gdams)
+* Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
+* James M Snell [@jasnell](https://github.com/jasnell)
+* Michaël Zasso [@targos](https://github.com/targos)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
+* Richard Lau [@richardlau](https://github.com/richardlau)
