@@ -1,6 +1,6 @@
-# Node.js Release and Long-term Support Working Group
+# Node.js Release Working Group
 
-## LTS schedule<sup>1</sup>
+## Release schedule<sup>1</sup>
 
 | Release |  LTS Status   | Codename | Active LTS Start | Maintenance Start | Maintenance End |
 |   :--:  |    :---:      |   :---:  |       :---:      |       :---:       |      :---:      |
@@ -23,43 +23,43 @@
 
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
 
-The LTS Schedule is available also as a [JSON][] file or [ICal][]. There is
+The Release schedule is available also as a [JSON][] file or [ICal][]. There is
 also a live [Google Calendar][] that may be subscribed to.
 
 ## Mandate
 
-The Release and LTS working group's purpose is:
+The Release working group's purpose is:
 
-* Management/execution the release process for all releases.
+* Management/execution of the release process for all releases.
 * Maintenance of the LTS releases.
 
 Its responsibilities are:
 
 * Define the release process.
+* Define the content for releases.
 * Generate and create releases. 
 * Manage the LTS and Current branches including backporting changes to 
   these branches.
 
-The Release and LTS working group is structured into teams and membership in
+The Release working group is structured into teams and membership in
 the working group does not automatically result in membership in these
 teams. These teams are:
 
 * Release team
-* LTS team
-* Backporting team
+* Releasers team
+* CITGM team
 
-The release team is entrusted with the secrets and CI access to be able
-build and sign releases.  **Additions to the release team must be approved
+The `releasers` team is entrusted with the secrets and CI access to be able
+build and sign releases.  **Additions to the releasers team must be approved
 by the CTC.**
 
-The LTS team manages the process/content of LTS releases as outlined in the
-LTS plan. All members of the working group are members of the LTS team unless
+The release team manages the process/content of releases.
+All members of the working group are members of the release team unless
 they do not wish to be.
 
-The backporting team is the team that does the ongoing work of porting
-commits back to the LTS and Current branches. This team may consist of
-collaborators from any of the Node.js working groups. 
-
+The CITGM team maintains CITGM as one of the key sanity checks for releases.
+This team maintains the CITGM implementation and works to keep CITGM
+builds running and passing regularly.
 
 ## LTS Plan
 
@@ -149,8 +149,7 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [ICal]: schedule.ical
 [`NAN`]: https://github.com/nodejs/nan
 
-## Release and LTS Team members
-
+## Release Team members
 * Colin Ihrig [@cjhrig](https://github.com/cjihrig)
 * Evan Lucas [@evanlucas](https://github.com/evanlucas)
 * Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
@@ -161,3 +160,25 @@ any given point in time, fully support a maximum of 2 LTS releases.
 * Myles Borins [@MylesBorins](https://github.com/MylesBorins) (release team)
 * Rod Vagg [@rvagg](https://github.com/rvagg) (release team)
 * Sam Roberts [@sam-github](https://github.com/sam-github)
+* George Adams [George Adams](https://github.com/gdams)
+* Bartosz Sosnowski [Bartosz Sosnowski](https://github.com/bzoz)
+* Richard Lau [Richard Lau](https://github.com/richardlau)
+* MichaëZasso [MichaëZasso](https://github.com/targos)
+* Bryan English [Bryan English](https://github.com/bengl)
+
+### Releasers team
+* Italo A. Casas [@italoacasas](https://github.com/italoacasas) (release team)
+* James M Snell [@jasnell](https://github.com/jasnell) (release team)
+* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123) (release team)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins) (release team)
+* Rod Vagg [@rvagg](https://github.com/rvagg) (release team)
+
+### CITGM team
+* James M Snell [@jasnell](https://github.com/jasnell) (release team)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins) (release team)
+* Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
+* George Adams [George Adams](https://github.com/gdams)
+* Bartosz Sosnowski [Bartosz Sosnowski](https://github.com/bzoz)
+* Richard Lau [Richard Lau](https://github.com/richardlau)
+* MichaëZasso [MichaëZasso](https://github.com/targos)
+* Bryan English [Bryan English](https://github.com/bengl)

@@ -1,22 +1,23 @@
-# Release and LTS Working Group
+# Release Working Group
 
-The nodejs Release and LTS project is governed by a Working Group (WG) that
-is responsible for high-level guidance of the project.
+The Node.js Release Working Group (WG) maintains oversight
+over the Node.js Release and Long Term Support (LTS) teams. It
+manages the release and long term support shedule and policies
+for all Node.js releases.
 
-The WG has final authority over this project including:
+The WG has final authority over Releases including:
 
-    Technical direction
-    Project governance and process (including this policy)
-    Contribution policy
-    GitHub repository hosting
-    Conduct guidelines
-    Maintaining the list of additional Collaborators
+* Release process and tools.
+* Content for all releases.
+* Schedule for all release.
+* Contribution policy for the Release repository.
+* Conduct guidelines for the Working group.
 
 For the current list of WG members, see the project README.md.
 
 ## Collaborators
 
-The benchmarking GitHub repository is maintained by the WG and additional
+The Release GitHub repository is maintained by the WG and additional
 Collaborators who are added by the WG on an ongoing basis.
 
 Individuals making significant and valuable contributions are made
@@ -28,7 +29,7 @@ during the weekly WG meeting.
 commit-access log an issue or contact a WG member directly and it will
 be brought up in the next WG meeting.
 
-Modifications of the contents of the LTS and Release repository are made 
+Modifications of the contents of the Release repository are made 
 on a collaborative basis.  Anybody with a GitHub account may propose a
 modification via pull request and it will be considered by the project
 Collaborators. All pull requests must be reviewed and accepted by a
@@ -48,10 +49,7 @@ For the current list of Collaborators, see the project README.md.
 
 ## WG Membership
 
-WG seats are not time-limited. There is no fixed size of the WG. However,
-the expected target is between 6 and 12, to ensure adequate coverage of
-important areas of expertise, balanced with the ability to make
-decisions efficiently.
+WG seats are not time-limited. There is no fixed size of the WG.
 
 There is no specific set of requirements or qualifications
 for WG membership beyond these rules.
@@ -59,7 +57,9 @@ for WG membership beyond these rules.
 The WG may add additional members to the WG by unanimous consensus.
 
 A WG member may be removed from the WG by voluntary resignation,
-or by unanimous consensus of all other WG members.
+or by unanimous consensus of all other WG members. If a member is
+removed from the WG then they are also removed from all WG teams
+(including the Releasers team).
 
 Changes to WG membership should be posted in the agenda, and may be
 suggested as any other agenda item (see "WG Meetings" below).
@@ -81,9 +81,14 @@ WG members affiliated with the over-represented employer(s).
 
 ## WG Meetings
 
-The WG meets weekly on a Google Hangout On Air. A designated moderator
-approved by the WG runs the meeting. Each meeting should be
+The WG meets every 3 weeks on a Google Hangout On Air. One of the
+WG members will volunteer to act as the moderator for each meeting
+subject to agreement from the rest of the members. Each meeting should be
 published to YouTube.
+
+Members of the `releasers` sub-team are not required to attend
+the WG meetings and maintain their WG membership simply by
+participating in the release process.
 
 Items are added to the WG agenda that are considered contentious or are
 modifications of governance, contribution policy,
