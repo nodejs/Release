@@ -53,7 +53,7 @@ The `releasers` team is entrusted with the secrets and CI access to be able
 build and sign releases.  **Additions to the releasers team must be approved
 by the CTC.**
 
-The Long Terms Support (LTS)  team manages the process/content of LTS  releases
+The Long Term Support (LTS) team manages the process/content of LTS releases
 and the required backporting for these releases.
 
 The CITGM team maintains CITGM as one of the key sanity checks for releases.
@@ -150,22 +150,24 @@ any given point in time, fully support a maximum of 2 LTS releases.
 
 ## LTS Team members
 * Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
-* James M Snell [@jasnell](https://github.com/jasnell) 
-* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123) 
+* James M Snell [@jasnell](https://github.com/jasnell)
+* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123)
 * Michael Dawson [@mhdawson](https://github.com/mhdawson)
-* Myles Borins [@MylesBorins](https://github.com/MylesBorins) 
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
 * Sam Roberts [@sam-github](https://github.com/sam-github)
 
 ### Releasers team
-* Italo A. Casas [@italoacasas](https://github.com/italoacasas) (release team)
+* Colin Ihrig [@cjhrig](https://github.com/cjihrig)
+* Evan Lucas [@evanlucas](https://github.com/evanlucas)
+* Italo A. Casas [@italoacasas](https://github.com/italoacasas)
 * James M Snell [@jasnell](https://github.com/jasnell) (release team)
-* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123) (release team)
-* Myles Borins [@MylesBorins](https://github.com/MylesBorins) (release team)
-* Rod Vagg [@rvagg](https://github.com/rvagg) (release team)
+* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
+* Rod Vagg [@rvagg](https://github.com/rvagg)
 
 ### CITGM team
-* James M Snell [@jasnell](https://github.com/jasnell) (release team)
-* Myles Borins [@MylesBorins](https://github.com/MylesBorins) (release team)
+* James M Snell [@jasnell](https://github.com/jasnell)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
 * Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
 * George Adams [George Adams](https://github.com/gdams)
 * Bartosz Sosnowski [Bartosz Sosnowski](https://github.com/bzoz)

@@ -9,7 +9,7 @@ The WG has final authority over Releases including:
 
 * Release process and tools.
 * Content for all releases.
-* Schedule for all release.
+* Schedule for all releases.
 * Contribution policy for the Release repository.
 * Conduct guidelines for the Working group.
 
@@ -26,7 +26,7 @@ are identified by the WG and their addition as Collaborators is discussed
 during the weekly WG meeting.
 
 **Note**: If you make a significant contribution and are not considered for
-commit-access log an issue or contact a WG member directly and it will
+commit-access, log an issue or contact a WG member directly and it will
 be brought up in the next WG meeting.
 
 Modifications of the contents of the Release repository are made 
@@ -88,7 +88,7 @@ published to YouTube.
 
 Members of the `releasers` sub-team are not required to attend
 the WG meetings and maintain their WG membership simply by
-participating in the release process.
+participating in the release process at least once a year.
 
 Items are added to the WG agenda that are considered contentious or are
 modifications of governance, contribution policy,
