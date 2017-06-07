@@ -45,17 +45,16 @@ The Release working group is structured into teams and membership in
 the working group does not automatically result in membership in these
 teams. These teams are:
 
-* Release team
 * Releasers team
+* LTS team
 * CITGM team
 
 The `releasers` team is entrusted with the secrets and CI access to be able
 build and sign releases.  **Additions to the releasers team must be approved
 by the CTC.**
 
-The release team manages the process/content of releases.
-All members of the working group are members of the release team unless
-they do not wish to be.
+The Long Terms Support (LTS)  team manages the process/content of LTS  releases
+and the required backporting for these releases.
 
 The CITGM team maintains CITGM as one of the key sanity checks for releases.
 This team maintains the CITGM implementation and works to keep CITGM
