@@ -148,22 +148,13 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [ICal]: schedule.ical
 [`NAN`]: https://github.com/nodejs/nan
 
-## Release Team members
-* Colin Ihrig [@cjhrig](https://github.com/cjihrig)
-* Evan Lucas [@evanlucas](https://github.com/evanlucas)
+## LTS Team members
 * Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
-* Italo A. Casas [@italoacasas](https://github.com/italoacasas) (release team)
-* James M Snell [@jasnell](https://github.com/jasnell) (release team)
-* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123) (release team)
+* James M Snell [@jasnell](https://github.com/jasnell) 
+* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123) 
 * Michael Dawson [@mhdawson](https://github.com/mhdawson)
-* Myles Borins [@MylesBorins](https://github.com/MylesBorins) (release team)
-* Rod Vagg [@rvagg](https://github.com/rvagg) (release team)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins) 
 * Sam Roberts [@sam-github](https://github.com/sam-github)
-* George Adams [George Adams](https://github.com/gdams)
-* Bartosz Sosnowski [Bartosz Sosnowski](https://github.com/bzoz)
-* Richard Lau [Richard Lau](https://github.com/richardlau)
-* MichaëZasso [MichaëZasso](https://github.com/targos)
-* Bryan English [Bryan English](https://github.com/bengl)
 
 ### Releasers team
 * Italo A. Casas [@italoacasas](https://github.com/italoacasas) (release team)
