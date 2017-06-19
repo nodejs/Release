@@ -82,7 +82,7 @@ Given this schedule, there will be no more than two active LTS releases at any
 given time, overlapping for a maximum period of six months.
 
 Once a major version enters LTS coverage, new features (semver-minor) may only
-be landed with consent of the CTC and the LTS Working Group. No semver-major
+be landed with consent of the the Release working group. No semver-major
 changes other than those required for critical security fixes may be landed.
 
 Changes in an LTS-covered major version are limited to:
@@ -100,7 +100,7 @@ Changes in an LTS-covered major version are limited to:
 
 Generally changes are expected to live in a *Current* release for at least 2
 weeks before being backported. It is possible for a commit to land earlier at
-the discretion of the LTS Working Group and the maintainers of the LTS branches.
+the discretion of the Release working group and the maintainers of the LTS branches.
 
 Once a release moves into Maintenance mode, only ***critical*** bugs,
 ***critical*** security fixes, and documentation updates will be permitted.
@@ -110,8 +110,8 @@ Note that while it is possible that critical security and bug fixes may lead to
 rare and will land as *semver-minor* bumps in the LTS covered version.
 
 All LTS releases will be assigned a "codename" drawn from the names of elements
-on the Periodic Table of Elements. For each upcoming LTS release, the LTS
-Working Group will select a handful of candidate names and submit those for a
+on the Periodic Table of Elements. For each upcoming LTS release, the Release 
+working group will select a handful of candidate names and submit those for a
 collaborator vote.
 
 An odd-numbered major release will cease to be actively updated when the
@@ -148,6 +148,9 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [ICal]: schedule.ical
 [`NAN`]: https://github.com/nodejs/nan
 
+The working group members are the union of the LTS, Releasers
+and CITGM team members listed below.
+
 ## LTS Team members
 * Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
 * James M Snell [@jasnell](https://github.com/jasnell)
@@ -160,7 +163,7 @@ any given point in time, fully support a maximum of 2 LTS releases.
 * Colin Ihrig [@cjhrig](https://github.com/cjihrig)
 * Evan Lucas [@evanlucas](https://github.com/evanlucas)
 * Italo A. Casas [@italoacasas](https://github.com/italoacasas)
-* James M Snell [@jasnell](https://github.com/jasnell) (release team)
+* James M Snell [@jasnell](https://github.com/jasnell)
 * Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123)
 * Myles Borins [@MylesBorins](https://github.com/MylesBorins)
 * Rod Vagg [@rvagg](https://github.com/rvagg)

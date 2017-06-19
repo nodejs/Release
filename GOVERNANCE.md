@@ -17,7 +17,8 @@ For the current list of WG members, see the project README.md.
 
 ## Collaborators
 
-The Release GitHub repository is maintained by the WG and additional
+The Release GitHub repository is maintained by the WG (all WG
+members are Collaborators for the Release respository) and additional
 Collaborators who are added by the WG on an ongoing basis.
 
 Individuals making significant and valuable contributions are made
@@ -44,8 +45,6 @@ Collaborators may opt to elevate significant or controversial modifications,
 or modifications that have not found consensus to the WG for discussion by
 assigning the WG-agenda tag to a pull request or issue. The WG should serve
 as the final arbiter where required.
-
-For the current list of Collaborators, see the project README.md.
 
 ## WG Membership
 
