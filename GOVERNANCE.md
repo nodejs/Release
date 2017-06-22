@@ -1,9 +1,9 @@
 # Release Working Group
 
 The Node.js Release Working Group (WG) maintains oversight
-over the Node.js Release and Long Term Support (LTS) teams. It
-manages the release and long term support shedule and policies
-for all Node.js releases.
+over the Node.js Release, Long Term Support (LTS) and
+Canary in the Gold Mine (CITGM) teams. It manages the release
+and long term support shedule and policies for all Node.js releases.
 
 The WG has final authority over Releases including:
 
@@ -31,7 +31,7 @@ commit-access, log an issue or contact a WG member directly and it will
 be brought up in the next WG meeting.
 
 Modifications of the contents of the Release repository are made 
-on a collaborative basis.  Anybody with a GitHub account may propose a
+on a collaborative basis. Anybody with a GitHub account may propose a
 modification via pull request and it will be considered by the project
 Collaborators. All pull requests must be reviewed and accepted by a
 Collaborator with sufficient expertise who is able to take full responsibility

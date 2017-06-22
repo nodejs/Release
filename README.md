@@ -31,7 +31,6 @@ also a live [Google Calendar][] that may be subscribed to.
 The Release working group's purpose is:
 
 * Management/execution of the release process for all releases.
-* Maintenance of the LTS releases.
 
 Its responsibilities are:
 
@@ -40,6 +39,7 @@ Its responsibilities are:
 * Generate and create releases. 
 * Manage the LTS and Current branches including backporting changes to 
   these branches.
+* Define the policy for what gets backported to release streams.
 
 The Release working group is structured into teams and membership in
 the working group does not automatically result in membership in these
@@ -50,15 +50,15 @@ teams. These teams are:
 * CITGM team
 
 The `releasers` team is entrusted with the secrets and CI access to be able
-build and sign releases.  **Additions to the releasers team must be approved
+build and sign releases. **Additions to the releasers team must be approved
 by the CTC.**
 
 The Long Term Support (LTS) team manages the process/content of LTS releases
 and the required backporting for these releases.
 
-The CITGM team maintains CITGM as one of the key sanity checks for releases.
-This team maintains the CITGM implementation and works to keep CITGM
-builds running and passing regularly.
+The Canary in the Gold Mine (CITGM) team maintains CITGM as one of
+the key sanity checks for releases. This team maintains the CITGM
+implementation and works to keep CITGM builds running and passing regularly.
 
 ## LTS Plan
 
