@@ -35,7 +35,7 @@ The Release working group's purpose is:
 Its responsibilities are:
 
 * Define the release process.
-* Define the content for releases.
+* Define the content of releases.
 * Generate and create releases. 
 * Manage the LTS and Current branches including backporting changes to 
   these branches.
