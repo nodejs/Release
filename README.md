@@ -175,5 +175,5 @@ and CITGM team members listed below.
 * George Adams [@gdams](https://github.com/gdams)
 * Bartosz Sosnowski [@bzoz](https://github.com/bzoz)
 * Richard Lau [@richardlau](https://github.com/richardlau)
-* Michaël Zasso* [@targos](https://github.com/targos))
+* Michaël Zasso [@targos](https://github.com/targos)
 * Bryan English [@bengl](https://github.com/bengl)
