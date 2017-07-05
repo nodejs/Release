@@ -89,6 +89,10 @@ Members of the `releasers` sub-team are not required to attend
 the WG meetings and maintain their WG membership simply by
 participating in the release process at least once a year.
 
+Members of the `CITGM` sub-team are not required to attend
+the WG meetings and maintain their WG membership simply by
+participating in the CITGM repository at least once a year.
+
 Items are added to the WG agenda that are considered contentious or are
 modifications of governance, contribution policy,
 WG membership, or release process.
