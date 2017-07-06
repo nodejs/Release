@@ -82,7 +82,7 @@ Given this schedule, there will be no more than two active LTS releases at any
 given time, overlapping for a maximum period of six months.
 
 Once a major version enters LTS coverage, new features (semver-minor) may only
-be landed with consent of the the Release working group. No semver-major
+be landed with consent of the Release working group. No semver-major
 changes other than those required for critical security fixes may be landed.
 
 Changes in an LTS-covered major version are limited to:
