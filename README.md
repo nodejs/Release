@@ -10,7 +10,7 @@
 |  5.x    |No LTS         |          |                  |                   |                 |
 | [6.x][] |**Active**     | [Boron][]|    2016-10-18    |    April 2018     |   April 2019    |
 |  7.x    |No LTS         |          |                  |                   |                 |
-|  8.x    |**Pending**    | Pending  |    October 2017  |    April 2019     |   December 2019<sup>2</sup> |
+|  8.x    |**Pending**    | Carbon  |    October 2017  |    April 2019     |   December 2019<sup>2</sup> |
 |  9.x    |No LTS         |          |                  |                   |                 |
 | 10.x    |**Pending**    | Pending  |    October 2018  |    April 2020     |   April 2021    |
 
