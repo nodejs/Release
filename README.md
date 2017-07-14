@@ -14,7 +14,7 @@
 |  9.x    |No LTS         |          |                  |                   |                 |
 | 10.x    |**Pending**    | Pending  |    October 2018  |    April 2020     |   April 2021    |
 
-* <sup>1</sup>: All scheduled dates are subject to change by the Node.js LTS
+* <sup>1</sup>: All scheduled dates are subject to change by the Node.js Release
   working group or Node.js Core Technical Committee.
 * <sup>2</sup>: The 8.x *Maintenance* LTS cycle is currently scheduled to expire
   early on December 31, 2019 to align with the scheduled End-of-Life of
@@ -58,9 +58,9 @@ and the required backporting for these releases.
 
 The Canary in the Gold Mine (CITGM) team maintains CITGM as one of
 the key sanity checks for releases. This team maintains the CITGM
-implementation and works to keep CITGM builds running and passing regularly.
+repository and works to keep CITGM builds running and passing regularly.
 
-## LTS Plan
+## Release Plan
 
 New semver-major releases of Node.js are cut from `master` every six months.
 New even-numbered versions (e.g. v6, v8, v10, etc) are cut in April. New

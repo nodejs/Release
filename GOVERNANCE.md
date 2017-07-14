@@ -2,7 +2,7 @@
 
 The Node.js Release Working Group (WG) maintains oversight
 over the Node.js Release, Long Term Support (LTS) and
-Canary in the Gold Mine (CITGM) teams. It manages the release
+Canary in the Gold Mine (CitGM) teams. It manages the release
 and long term support schedule and policies for all Node.js releases.
 
 The WG has final authority over Releases including:
@@ -89,9 +89,9 @@ Members of the `releasers` sub-team are not required to attend
 the WG meetings and maintain their WG membership simply by
 participating in the release process at least once a year.
 
-Members of the `CITGM` sub-team are not required to attend
+Members of the `CitGM` sub-team are not required to attend
 the WG meetings and maintain their WG membership simply by
-participating in the CITGM repository at least once a year.
+participating in the CitGM repository at least once a year.
 
 Items are added to the WG agenda that are considered contentious or are
 modifications of governance, contribution policy,
