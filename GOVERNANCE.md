@@ -12,6 +12,7 @@ The WG has final authority over Releases including:
 * Schedule for all releases.
 * Contribution policy for the Release repository.
 * Conduct guidelines for the Working group.
+* Administration of Long Term Support policy for all releases.
 
 For the current list of WG members, see the project README.md.
 
@@ -24,7 +25,7 @@ Collaborators who are added by the WG on an ongoing basis.
 Individuals making significant and valuable contributions are made
 Collaborators and given commit-access to the project. These individuals
 are identified by the WG and their addition as Collaborators is discussed
-during the weekly WG meeting.
+during the WG meeting.
 
 **Note**: If you make a significant contribution and are not considered for
 commit access, log an issue or contact a WG member directly and it will
@@ -53,7 +54,9 @@ WG seats are not time-limited. There is no fixed size of the WG.
 There is no specific set of requirements or qualifications
 for WG membership beyond these rules.
 
-The WG may add additional members to the WG by unanimous consensus.
+The WG may add additional members to the WG by unanimous consensus(defined
+as no objections, more than 50% of the members participating in the
+discussion, and all those participating in the discussion agreeing).
 
 A WG member may be removed from the WG by voluntary resignation,
 or by unanimous consensus of all other WG members. If a member is
@@ -85,14 +88,6 @@ WG members will volunteer to act as the moderator for each meeting
 subject to agreement from the rest of the members. Each meeting should be
 published to YouTube.
 
-Members of the `releasers` sub-team are not required to attend
-the WG meetings and maintain their WG membership simply by
-participating in the release process at least once a year.
-
-Members of the `CitGM` sub-team are not required to attend
-the WG meetings and maintain their WG membership simply by
-participating in the CitGM repository at least once a year.
-
 Items are added to the WG agenda that are considered contentious or are
 modifications of governance, contribution policy,
 WG membership, or release process.
@@ -108,8 +103,7 @@ to the agenda by adding the WG-agenda tag to the issue.
 
 Prior to each WG meeting the moderator will share the Agenda with
 members of the WG. WG members can add any items they like to the
-agenda at the beginning of each meeting. The moderator and the WG
-cannot veto or remove items.
+agenda at the beginning of each meeting.
 
 The WG may invite persons or representatives from certain
 projects to participate in a non-voting capacity.

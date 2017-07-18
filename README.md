@@ -30,13 +30,14 @@ also a live [Google Calendar][] that may be subscribed to.
 
 The Release working group's purpose is:
 
-* Management/execution of the release process for all releases.
+* Management/execution of the release and support process for all releases.
 
 Its responsibilities are:
 
 * Define the release process.
 * Define the content of releases.
 * Generate and create releases. 
+* Test Releases
 * Manage the LTS and Current branches including backporting changes to 
   these branches.
 * Define the policy for what gets backported to release streams.
@@ -54,11 +55,14 @@ build and sign releases. **Additions to the releasers team must be approved
 by the CTC.**
 
 The Long Term Support (LTS) team manages the process/content of LTS releases
-and the required backporting for these releases.
+and the required backporting for these releases. Additions to the LTS
+team needs sign off from the rest of the LTS team.
 
 The Canary in the Gold Mine (CITGM) team maintains CITGM as one of
 the key sanity checks for releases. This team maintains the CITGM
 repository and works to keep CITGM builds running and passing regularly.
+This also includes maintaining the CI jobs in collaboration with the Build
+Working Group.
 
 ## Release Plan
 
@@ -169,11 +173,11 @@ and CITGM team members listed below.
 * Rod Vagg [@rvagg](https://github.com/rvagg)
 
 ### CITGM team
-* James M Snell [@jasnell](https://github.com/jasnell)
-* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
-* Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
-* George Adams [@gdams](https://github.com/gdams)
 * Bartosz Sosnowski [@bzoz](https://github.com/bzoz)
-* Richard Lau [@richardlau](https://github.com/richardlau)
-* Michaël Zasso [@targos](https://github.com/targos)
 * Bryan English [@bengl](https://github.com/bengl)
+* George Adams [@gdams](https://github.com/gdams)
+* Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
+* James M Snell [@jasnell](https://github.com/jasnell)
+* Michaël Zasso [@targos](https://github.com/targos)
+* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
+* Richard Lau [@richardlau](https://github.com/richardlau)
