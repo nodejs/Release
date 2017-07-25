@@ -41,7 +41,7 @@ months of active support, the major version will transition into "maintenance"
 mode for 12 additional months.
 
 The exact date that a release stream will be moved to LTS, moved between LTS
-modes, or deprecated will will be chosen no later than the first day of the month.
+modes, or deprecated will be chosen no later than the first day of the month.
 If it is to be changed, it will be done with no less than 14 days notice.
 
 Given this schedule, there will be no more than two active LTS releases at any
