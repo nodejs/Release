@@ -164,7 +164,7 @@ and CITGM team members listed below.
 * Sam Roberts [@sam-github](https://github.com/sam-github)
 
 ### Releasers team
-* Colin Ihrig [@cjhrig](https://github.com/cjihrig)
+* Colin Ihrig [@cjihrig](https://github.com/cjihrig)
 * Evan Lucas [@evanlucas](https://github.com/evanlucas)
 * Italo A. Casas [@italoacasas](https://github.com/italoacasas)
 * James M Snell [@jasnell](https://github.com/jasnell)
