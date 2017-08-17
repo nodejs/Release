@@ -23,9 +23,9 @@ members are Collaborators for the Release repository) and additional
 Collaborators who are added by the WG on an ongoing basis.
 
 Individuals making significant and valuable contributions are made
-Collaborators and given commit-access to the project. These individuals
-are identified by the WG and their addition as Collaborators is discussed
-during the WG meeting.
+Collaborators and given commit-access to the Release repository.
+These individuals are identified by the WG and their addition
+as Collaborators is discussed during the WG meeting.
 
 **Note**: If you make a significant contribution and are not considered for
 commit access, log an issue or contact a WG member directly and it will
@@ -83,10 +83,10 @@ WG members affiliated with the over-represented employer(s).
 
 ## WG Meetings
 
-The WG meets every 3 weeks on a Google Hangout On Air. One of the
-WG members will volunteer to act as the moderator for each meeting
-subject to agreement from the rest of the members. Each meeting should be
-published to YouTube.
+The WG meets regularly, check the foundation calendar for details.
+One of the WG members will volunteer to act as the moderator
+for each meeting subject to agreement from the rest of the
+members. Each meeting should be published to YouTube.
 
 Items are added to the WG agenda that are considered contentious or are
 modifications of governance, contribution policy,
