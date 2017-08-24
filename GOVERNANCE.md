@@ -54,7 +54,7 @@ WG seats are not time-limited. There is no fixed size of the WG.
 There is no specific set of requirements or qualifications
 for WG membership beyond these rules.
 
-The WG may add additional members to the WG by unanimous consensus(defined
+The WG may add additional members to the WG by consensus(defined
 as no objections, more than 50% of the members participating in the
 discussion, and all those participating in the discussion agreeing).
 
