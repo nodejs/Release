@@ -15,7 +15,7 @@
 | 10.x    |**Pending**    | Pending  |    October 2018  |    April 2020     |   April 2021    |
 
 * <sup>1</sup>: All scheduled dates are subject to change by the Node.js Release
-  working group or Node.js Core Technical Committee.
+  working group or Node.js Technical Steering Committee.
 * <sup>2</sup>: The 8.x *Maintenance* LTS cycle is currently scheduled to expire
   early on December 31, 2019 to align with the scheduled End-of-Life of
   OpenSSL-1.0.2. Note that this schedule *may* change if the version of OpenSSL
@@ -52,7 +52,7 @@ teams. These teams are:
 
 The `releasers` team is entrusted with the secrets and CI access to be able
 build and sign releases. **Additions to the releasers team must be approved
-by the CTC.**
+by the TSC.**
 
 The Long Term Support (LTS) team manages the process/content of LTS releases
 and the required backporting for these releases. Additions to the LTS
