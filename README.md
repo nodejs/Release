@@ -1,6 +1,6 @@
 # Node.js Release Working Group
 
-## Release schedule<sup>1</sup>
+## Release schedule
 
 | Release |  LTS Status   | Codename | Active LTS Start | Maintenance Start | Maintenance End |
 |   :--:  |    :---:      |   :---:  |       :---:      |       :---:       |      :---:      |
@@ -10,13 +10,13 @@
 |  5.x    |No LTS         |          |                  |                   |                 |
 | [6.x][] |**Active**     | [Boron][]|    2016-10-18    |    April 2018     |   April 2019    |
 |  7.x    |No LTS         |          |                  |                   |                 |
-|  8.x    |**Pending**    | Carbon  |    2017-10-31  |    April 2019     |   December 2019<sup>2</sup> |
+|  8.x    |**Pending**    | Carbon  |    2017-10-31  |    April 2019     |   December 2019<sup>1</sup> |
 |  9.x    |No LTS         |          |                  |                   |                 |
 | 10.x    |**Pending**    | Pending  |    October 2018  |    April 2020     |   April 2021    |
 
-* <sup>1</sup>: All scheduled dates are subject to change by the Node.js Release
-  working group or Node.js Technical Steering Committee.
-* <sup>2</sup>: The 8.x *Maintenance* LTS cycle is currently scheduled to expire
+Dates are subject to change.
+
+* <sup>1</sup>: The 8.x *Maintenance* LTS cycle is currently scheduled to expire
   early on December 31, 2019 to align with the scheduled End-of-Life of
   OpenSSL-1.0.2. Note that this schedule *may* change if the version of OpenSSL
   is upgraded to 1.1.x before 8.x enters the *Active* LTS cycle.
