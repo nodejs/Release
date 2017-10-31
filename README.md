@@ -8,7 +8,7 @@
 |  v0.12.x  |**End-of-Life**|    -     |        -         |    2016-04-01     |   2016-12-31    |
 | [4.x][] |**Maintenance**| [Argon][]|    2015-10-01    |    2017-04-01     |   April 2018    |
 |  5.x    |No LTS         |          |                  |                   |                 |
-| [6.x][] |**Maintenance**     | [Boron][]|    2016-10-18    |    April 2018     |   April 2019    |
+| [6.x][] |**Active**     | [Boron][]|    2016-10-18    |    April 2018     |   April 2019    |
 |  7.x    |No LTS         |          |                  |                   |                 |
 |  8.x    |**Active**    | Carbon  |    2017-10-31  |    April 2019     |   December 2019<sup>2</sup> |
 |  9.x    |No LTS         |          |                  |                   |                 |
