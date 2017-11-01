@@ -24,7 +24,8 @@ Dates are subject to change.
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
 
 The Release schedule is available also as a [JSON][] file or [ICal][]. There is
-also a live [Google Calendar][] that may be subscribed to.
+also a live [Google Calendar][] that may be subscribed to. The Release schedule,
+is generated using the [lts module][].
 
 ## Mandate
 
@@ -150,6 +151,7 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [Google Calendar]: https://calendar.google.com/calendar/ical/eln7trd6k7n6asgg49bu2vqn4s%40group.calendar.google.com/public/basic.ics
 [JSON]: schedule.json
 [ICal]: schedule.ical
+[lts module]: https://www.npmjs.com/package/lts
 [`NAN`]: https://github.com/nodejs/nan
 
 The working group members are the union of the LTS, Releasers
