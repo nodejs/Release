@@ -158,28 +158,28 @@ The working group members are the union of the LTS, Releasers
 and CITGM team members listed below.
 
 ## LTS Team members
-* Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
-* James M Snell [@jasnell](https://github.com/jasnell)
-* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123)
-* Michael Dawson [@mhdawson](https://github.com/mhdawson)
-* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
-* Sam Roberts [@sam-github](https://github.com/sam-github)
+- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
+- [@jasnell](https://github.com/jasnell) - James M Snell
+- [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+- [@sam-github](https://github.com/sam-github) - Sam Roberts
 
 ### Releasers team
-* Colin Ihrig [@cjihrig](https://github.com/cjihrig)
-* Evan Lucas [@evanlucas](https://github.com/evanlucas)
-* Italo A. Casas [@italoacasas](https://github.com/italoacasas)
-* James M Snell [@jasnell](https://github.com/jasnell)
-* Jeremiah Senkpiel [@Fishrock123](https://github.com/Fishrock123)
-* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
-* Rod Vagg [@rvagg](https://github.com/rvagg)
+- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
+- [@evanlucas](https://github.com/evanlucas) - Evan Lucas
+- [@italoacasas](https://github.com/italoacasas) - Italo A. Casas
+- [@jasnell](https://github.com/jasnell) - James M Snell
+- [@rvagg](https://github.com/rvagg) - Rod Vagg
 
 ### CITGM team
-* Bartosz Sosnowski [@bzoz](https://github.com/bzoz)
-* Bryan English [@bengl](https://github.com/bengl)
-* George Adams [@gdams](https://github.com/gdams)
-* Gibson Fahnestock [@gibfahn](https://github.com/gibfahn)
-* James M Snell [@jasnell](https://github.com/jasnell)
-* Michaël Zasso [@targos](https://github.com/targos)
-* Myles Borins [@MylesBorins](https://github.com/MylesBorins)
-* Richard Lau [@richardlau](https://github.com/richardlau)
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@bengl](https://github.com/bengl) - Bryan English
+- [@bzoz](https://github.com/bzoz) - Bartosz Sosnowski
+- [@gdams](https://github.com/gdams) - George Adams
+- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
+- [@jasnell](https://github.com/jasnell) - James M Snell
+- [@richardlau](https://github.com/richardlau) - Richard Lau
+- [@targos](https://github.com/targos) - Michaël Zasso
