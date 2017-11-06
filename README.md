@@ -170,6 +170,7 @@ and CITGM team members listed below.
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
+- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@italoacasas](https://github.com/italoacasas) - Italo A. Casas
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
