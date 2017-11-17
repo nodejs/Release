@@ -2,17 +2,17 @@
 
 ## Release schedule
 
-| Release | LTS Status          | Codename  | Active LTS Start | Maintenance LTS Start | Maintenance LTS End       |
-| :--:    | :---:               | :---:     | :---:            | :---:                 | :---:                     |
-| v0.10.x | **End-of-Life**     | -         | -                | 2015-10-01            | 2016-10-31                |
-| v0.12.x | **End-of-Life**     | -         | -                | 2016-04-01            | 2016-12-31                |
-| [4.x][] | **Maintenance LTS** | [Argon][] | 2015-10-01       | 2017-04-01            | April 2018                |
-| 5.x     | No LTS              |           |                  |                       |                           |
-| [6.x][] | **Active LTS**      | [Boron][] | 2016-10-18       | April 2018            | April 2019                |
-| 7.x     | No LTS              |           |                  |                       |                           |
-| 8.x     | **Active LTS**      | Carbon    | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
-| 9.x     | No LTS              |           |                  |                       |                           |
-| 10.x    | **Pending**         | Pending   | October 2018     | April 2020            | April 2021                |
+| Release | LTS Status          | Codename   | Active LTS Start | Maintenance LTS Start | Maintenance LTS End       |
+| :--:    | :---:               | :---:      | :---:            | :---:                 | :---:                     |
+| v0.10.x | **End-of-Life**     | -          | -                | 2015-10-01            | 2016-10-31                |
+| v0.12.x | **End-of-Life**     | -          | -                | 2016-04-01            | 2016-12-31                |
+| [4.x][] | **Maintenance LTS** | [Argon][]  | 2015-10-01       | 2017-04-01            | April 2018                |
+| 5.x     | No LTS              |            |                  |                       |                           |
+| [6.x][] | **Active LTS**      | [Boron][]  | 2016-10-18       | April 2018            | April 2019                |
+| 7.x     | No LTS              |            |                  |                       |                           |
+| 8.x     | **Active LTS**      | [Carbon][] | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
+| 9.x     | No LTS              |            |                  |                       |                           |
+| 10.x    | **Pending**         | Pending    | October 2018     | April 2020            | April 2021                |
 
 Dates are subject to change.
 
@@ -146,6 +146,7 @@ any given point in time, fully support a maximum of 2 LTS releases.
 
 [Argon]: https://nodejs.org/download/release/latest-argon/
 [Boron]: https://nodejs.org/download/release/latest-boron/
+[Carbon]: https://nodejs.org/download/release/latest-carbon/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
 [6.x]: https://nodejs.org/download/release/latest-v6.x/
 [Google Calendar]: https://calendar.google.com/calendar/ical/eln7trd6k7n6asgg49bu2vqn4s%40group.calendar.google.com/public/basic.ics
