@@ -6,9 +6,9 @@
 | :--:    | :---:               | :---:      | :---:            | :---:                 | :---:                     |
 | v0.10.x | **End-of-Life**     | -          | -                | 2015-10-01            | 2016-10-31                |
 | v0.12.x | **End-of-Life**     | -          | -                | 2016-04-01            | 2016-12-31                |
-| [4.x][] | **Maintenance LTS** | [Argon][]  | 2015-10-01       | 2017-04-01            | April 2018                |
+| [4.x][] | **Maintenance LTS** | [Argon][]  | 2015-10-01       | 2017-04-01            | 2017-04-31                |
 | 5.x     | No LTS              |            |                  |                       |                           |
-| [6.x][] | **Active LTS**      | [Boron][]  | 2016-10-18       | April 2018            | April 2019                |
+| [6.x][] | **Active LTS**      | [Boron][]  | 2016-10-18       | 2017-04-30            | April 2019                |
 | 7.x     | No LTS              |            |                  |                       |                           |
 | 8.x     | **Active LTS**      | [Carbon][] | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
 | 9.x     | No LTS              |            |                  |                       |                           |
