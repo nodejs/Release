@@ -18,8 +18,7 @@ Dates are subject to change.
 
 * <sup>1</sup>: The 8.x *Maintenance* LTS cycle is currently scheduled to expire
   early on December 31, 2019 to align with the scheduled End-of-Life of
-  OpenSSL-1.0.2. Note that this schedule *may* change if the version of OpenSSL
-  is upgraded to 1.1.x before 8.x enters the *Active* LTS cycle.
+  OpenSSL-1.0.2.
 
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
 
