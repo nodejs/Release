@@ -2,17 +2,17 @@
 
 ## Release schedule
 
-| Release | Status              | Codename   | Active LTS Start | Maintenance LTS Start | Maintenance LTS End       |
-| :--:    | :---:               | :---:      | :---:            | :---:                 | :---:                     |
-| v0.10.x | **End-of-Life**     | -          | -                | 2015-10-01            | 2016-10-31                |
-| v0.12.x | **End-of-Life**     | -          | -                | 2016-04-01            | 2016-12-31                |
-| [4.x][] | **Maintenance LTS** | [Argon][]  | 2015-10-01       | 2017-04-01            | 2018-04-30                |
-| 5.x     | **End-of-Life**     |            |                  |                       |                           |
-| [6.x][] | **Active LTS**      | [Boron][]  | 2016-10-18       | 2018-04-30            | April 2019                |
-| 7.x     | **End-of-Life**     |            |                  |                       |                           |
-| [8.x][] | **Active LTS**      | [Carbon][] | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
-| 9.x     | **Current Release** |            |                  |                       |                           |
-| 10.x    | **Pending**         | Pending    | October 2018     | April 2020            | April 2021                |
+| Release | Status              | Codename   |Initial Release | Active LTS Start | Maintenance LTS Start | End-of-life               |
+| :--:    | :---:               | :---:      | :---:          | :---:            | :---:                 | :---:                     |
+| v0.10.x | **End-of-Life**     | -          | 2013-03-11     | -                | 2015-10-01            | 2016-10-31                |
+| v0.12.x | **End-of-Life**     | -          | 2015-02-06     | -                | 2016-04-01            | 2016-12-31                |
+| [4.x][] | **Maintenance LTS** | [Argon][]  | 2015-09-08     | 2015-10-01       | 2017-04-01            | 2018-04-30                |
+| 5.x     | **End-of-Life**     |            | 2015-10-29     |                  |                       | 2016-06-30                |
+| [6.x][] | **Active LTS**      | [Boron][]  | 2016-04-26     | 2016-10-18       | 2018-04-30            | April 2019                |
+| 7.x     | **End-of-Life**     |            | 2016-10-25     |                  |                       | 2017-06-30                |
+| [8.x][] | **Active LTS**      | [Carbon][] | 2017-05-30     | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
+| 9.x     | **Current Release** |            | 2017-10-01     |                  |                       | June 2018                 |
+| 10.x    | **Pending**         | Pending    | Apr 2018       | October 2018     | April 2020            | April 2021                |
 
 Dates are subject to change.
 
