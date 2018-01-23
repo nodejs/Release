@@ -2,7 +2,7 @@
 
 ## Release schedule
 
-| Release | Status              | Codename   |Initial Release | Active LTS Start | Maintenance LTS Start | End of life               |
+| Release | Status              | Codename   |Initial Release | Active LTS Start | Maintenance LTS Start | End-of-life               |
 | :--:    | :---:               | :---:      | :---:          | :---:            | :---:                 | :---:                     |
 | v0.10.x | **End-of-Life**     | -          | 2013-03-11     | -                | 2015-10-01            | 2016-10-31                |
 | v0.12.x | **End-of-Life**     | -          | 2015-02-06     | -                | 2016-04-01            | 2016-12-31                |
