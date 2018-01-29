@@ -10,7 +10,7 @@
 | 5.x     | **End-of-Life**     |            |                  |                       |                           |
 | [6.x][] | **Active LTS**      | [Boron][]  | 2016-10-18       | 2018-04-30            | April 2019                |
 | 7.x     | **End-of-Life**     |            |                  |                       |                           |
-| 8.x     | **Active LTS**      | [Carbon][] | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
+| [8.x][] | **Active LTS**      | [Carbon][] | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
 | 9.x     | **Current Release** |            |                  |                       |                           |
 | 10.x    | **Pending**         | Pending    | October 2018     | April 2020            | April 2021                |
 
@@ -148,6 +148,7 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [Carbon]: https://nodejs.org/download/release/latest-carbon/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
 [6.x]: https://nodejs.org/download/release/latest-v6.x/
+[8.x]: https://nodejs.org/download/release/latest-v8.x/
 [Google Calendar]: https://calendar.google.com/calendar/ical/eln7trd6k7n6asgg49bu2vqn4s%40group.calendar.google.com/public/basic.ics
 [JSON]: schedule.json
 [lts module]: https://www.npmjs.com/package/lts
