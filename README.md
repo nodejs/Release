@@ -23,7 +23,7 @@ Dates are subject to change.
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
 
 The Release schedule is available also as a [JSON][] file. There is
-also a live [Google Calendar][] that may be subscribed to. The Release schedule,
+also a live [Google Calendar][] that may be subscribed to. The Release schedule
 is generated using the [lts module][].
 
 ## Mandate
