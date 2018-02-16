@@ -161,7 +161,6 @@ and CITGM team members listed below.
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
-- [@jasnell](https://github.com/jasnell) - James M Snell
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@sam-github](https://github.com/sam-github) - Sam Roberts
 
@@ -181,6 +180,13 @@ and CITGM team members listed below.
 - [@bzoz](https://github.com/bzoz) - Bartosz Sosnowski
 - [@gdams](https://github.com/gdams) - George Adams
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
-- [@jasnell](https://github.com/jasnell) - James M Snell
 - [@richardlau](https://github.com/richardlau) - Richard Lau
 - [@targos](https://github.com/targos) - Michaël Zasso
+
+### Emeritus
+
+#### LTS Team members
+- [@jasnell](https://github.com/jasnell) - James M Snell
+
+#### CITGM team
+- [@jasnell](https://github.com/jasnell) - James M Snell
