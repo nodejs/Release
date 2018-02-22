@@ -176,6 +176,7 @@ and CITGM team members listed below.
 
 ### CITGM team
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@al-k21](https://github.com/al-k21) - Oleksandr Kushchak
 - [@bengl](https://github.com/bengl) - Bryan English
 - [@bzoz](https://github.com/bzoz) - Bartosz Sosnowski
 - [@gdams](https://github.com/gdams) - George Adams
