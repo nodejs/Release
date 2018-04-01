@@ -9,5 +9,3 @@ This file contains a list of codenames for LTS releases.
 * Gallium (16.x 2021)
 * Hydrogen (18.x 2022)
 * Iron (20.x 2023)
-* Krypton (22.x 2024)
-* Lithium (24.x 2025)
