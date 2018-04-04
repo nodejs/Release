@@ -58,7 +58,7 @@ teams. These teams are:
 
 The `releasers` team is entrusted with the secrets and CI access to be able
 build and sign releases. **Additions to the releasers team must be approved
-by the TSC.**
+by the TSC following the process outlined in GOVERNANCE.md.**
 
 The Long Term Support (LTS) team manages the process/content of LTS releases
 and the required backporting for these releases. Additions to the LTS

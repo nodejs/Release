@@ -125,3 +125,25 @@ discussion will continue. Simple majority wins.
 
 Note that changes to WG membership require unanimous consensus.
 See "WG Membership" above.
+
+## Adding new releasers
+
+When considering adding a new releaser an email should be sent to the
+[Technical Steering Committee](https://github.com/nodejs/tsc) for approval.
+After approval the nominee will be assigned a mentor from the release team
+to help walk them through the process to learn how to prepare a release.
+The nominee will then be expected to prepare 3 Current releases, which
+can be promoted by any other member of the release team. After the 3rd
+release the nominee will be considered a full member of the releasers
+team. At any point during this process any member of the Release WG
+can raise an objection to the TSC.
+
+When being officially added to the Releasers group the following must happen:
+
+* Added to Releasers team in the Node.js org (grants ci-release access)
+* SSH keys need to be added to the dist user on the www machine
+* GPG keys need to be added to the nodejs/node [README.md](https://github.com/nodejs/node/#release-team)
+* Raise an issue in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to note that the gpg keys will need to be updated.
+
+New Releasers need to also be on the LTS team to do LTS releases.
+New Releasers should wait at least 2 weeks after adding credentials before signing a release.
