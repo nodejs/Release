@@ -1,4 +1,5 @@
-This file contains a list of codenames for LTS releases.
+This file contains a list of codenames for LTS releases. Codenames for future
+releases are subject to change.
 
 * Argon (4.x 2015)
 * Boron (6.x 2016)
