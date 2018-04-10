@@ -113,10 +113,8 @@ Note that while it is possible that critical security and bug fixes may lead to
 *semver-major* changes landing within an LTS stream, such situations will be
 rare and will land as *semver-minor* bumps in the LTS covered version.
 
-All LTS releases will be assigned a "codename" drawn from the names of elements
-on the Periodic Table of Elements. For each upcoming LTS release, the Release
-working group will select a handful of candidate names and submit those for a
-collaborator vote.
+All LTS releases will be assigned a codename. A list of expected upcoming
+codenames is available in [CODENAMES.md](./CODENAMES.md).
 
 An odd-numbered major release will cease to be actively updated when the
 subsequent even-numbered major release is cut.
