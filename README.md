@@ -121,7 +121,7 @@ rare and will land as *semver-minor* bumps in the LTS covered version.
 All LTS releases will be assigned a codename. A list of expected upcoming
 codenames is available in [CODENAMES.md](./CODENAMES.md).
 
-An odd-numbered major release will cease to be actively updated when the
+An odd-numbered major release will recieve security updates for approxamately three months once the
 subsequent even-numbered major release is cut.
 
 ### LTS Staging Branches
