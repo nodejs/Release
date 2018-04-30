@@ -11,8 +11,8 @@
 | [6.x][] | **Active LTS**      | [Boron][]  | 2016-04-26     | 2016-10-18       | 2018-04-30            | April 2019                |
 | 7.x     | **End-of-Life**     |            | 2016-10-25     |                  |                       | 2017-06-30                |
 | [8.x][] | **Active LTS**      | [Carbon][] | 2017-05-30     | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
-| 9.x     | **Current Release** |            | 2017-10-01     |                  |                       | June 2018                 |
-| 10.x    | **Pending**         | Pending    | Apr 2018       | October 2018     | April 2020            | April 2021                |
+| 9.x     | **Maintenance**     |            | 2017-10-01     |                  |                       | June 2018                 |
+| [10.x][]| **Current Release** | Dubnium    | 2018-04-24     | October 2018     | April 2020            | April 2021                |
 
 Dates are subject to change.
 
@@ -144,9 +144,11 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [Argon]: https://nodejs.org/download/release/latest-argon/
 [Boron]: https://nodejs.org/download/release/latest-boron/
 [Carbon]: https://nodejs.org/download/release/latest-carbon/
+[Dubnium]: https://nodejs.org/download/release/latest-dubnium/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
 [6.x]: https://nodejs.org/download/release/latest-v6.x/
 [8.x]: https://nodejs.org/download/release/latest-v8.x/
+[10.x]: https://nodejs.org/download/release/latest-v10.x/
 [Google Calendar]: https://calendar.google.com/calendar/ical/eln7trd6k7n6asgg49bu2vqn4s%40group.calendar.google.com/public/basic.ics
 [JSON]: schedule.json
 [lts module]: https://www.npmjs.com/package/lts
