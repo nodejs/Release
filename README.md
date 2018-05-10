@@ -8,7 +8,7 @@
 | [8.x][]  | **Active LTS**      | [Carbon][] | 2017-05-30     | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
 | 9.x      | **Maintenance**     |            | 2017-10-01     |                  |                       | June 2018                 |
 | [10.x][] | **Current Release** | Dubnium    | 2018-04-24     | October 2018     | April 2020            | April 2021                |
-| 11.x     | **Pending**         |            | 2018-04-23     |                  |                       | June 2019                 |
+| 11.x     | **Pending**         |            | 2018-10-23     |                  |                       | June 2019                 |
 
 Dates are subject to change.
 
