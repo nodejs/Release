@@ -141,6 +141,7 @@ can raise an objection to the TSC.
 When being officially added to the Releasers group the following must happen:
 
 * Added to Releasers team in the Node.js org (grants ci-release access)
+* Added to security-release team in the Node.js and nodejs-private orgs
 * SSH keys need to be added to the dist user on the www machine
 * GPG keys need to be added to the nodejs/node [README.md](https://github.com/nodejs/node/#release-team)
 * Raise an issue in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to note that the gpg keys will need to be updated.
