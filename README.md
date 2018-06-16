@@ -178,6 +178,7 @@ and CITGM team members listed below.
 - [@italoacasas](https://github.com/italoacasas) - Italo A. Casas
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
+- [@targos](https://github.com/targos) - Michaël Zasso
 
 ### CITGM team
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
