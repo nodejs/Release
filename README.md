@@ -163,32 +163,76 @@ The working group members are the union of the LTS, Releasers
 and CITGM team members listed below.
 
 ## LTS Team members
+
+<!-- ncu-team-sync.team(nodejs/lts) -->
+
+- [@addaleax](https://github.com/addaleax) - Anna Henningsen
+- [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+- [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
+- [@codebytere](https://github.com/codebytere) - Shelley Vohr
+- [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
-- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@geek](https://github.com/geek) - Wyatt Preul
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
+- [@jasnell](https://github.com/jasnell) - James M Snell
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@othiym23](https://github.com/othiym23) - Forrest L Norvell
+- [@rvagg](https://github.com/rvagg) - Rod Vagg
+- [@sam-github](https://github.com/sam-github) - Sam Roberts
+- [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
+- [@srl295](https://github.com/srl295) - Steven R. Loomis
+- [@trevnorris](https://github.com/trevnorris) - Trevor Norris
+- [@yunong](https://github.com/yunong) - Yunong Xiao
+
+<!-- ncu-team-sync end -->
+
+### Backporters team
+
+<!-- ncu-team-sync.team(nodejs/backporters) -->
+
+- [@addaleax](https://github.com/addaleax) - Anna Henningsen
+- [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
+- [@jasnell](https://github.com/jasnell) - James M Snell
+- [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@sam-github](https://github.com/sam-github) - Sam Roberts
 
+<!-- ncu-team-sync end -->
+
 ### Releasers team
-- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
-- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+
+<!-- ncu-team-sync.team(nodejs/releasers) -->
+
+- [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
+- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
-- [@italoacasas](https://github.com/italoacasas) - Italo A. Casas
 - [@jasnell](https://github.com/jasnell) - James M Snell
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 - [@targos](https://github.com/targos) - Michaël Zasso
 
+<!-- ncu-team-sync end -->
+
 ### CITGM team
-- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+
+<!-- ncu-team-sync.team(nodejs/citgm) -->
+
 - [@al-k21](https://github.com/al-k21) - Oleksandr Kushchak
 - [@bengl](https://github.com/bengl) - Bryan English
+- [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@bzoz](https://github.com/bzoz) - Bartosz Sosnowski
 - [@gdams](https://github.com/gdams) - George Adams
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
+- [@jasnell](https://github.com/jasnell) - James M Snell
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@richardlau](https://github.com/richardlau) - Richard Lau
 - [@targos](https://github.com/targos) - Michaël Zasso
+
+<!-- ncu-team-sync end -->
 
 ### Emeritus
 
