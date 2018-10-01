@@ -17,9 +17,7 @@ Dates are subject to change.
 
 <p><img src="schedule.png" alt="LTS Schedule"/></p>
 
-The Release schedule is available also as a [JSON][] file. There is
-also a live [Google Calendar][] that may be subscribed to. The Release schedule
-is generated using the [lts module][].
+The Release schedule is available also as a [JSON][] file.
 
 ### End-of-Life Releases
 
@@ -154,7 +152,6 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [6.x]: https://nodejs.org/download/release/latest-v6.x/
 [8.x]: https://nodejs.org/download/release/latest-v8.x/
 [10.x]: https://nodejs.org/download/release/latest-v10.x/
-[Google Calendar]: https://calendar.google.com/calendar/ical/eln7trd6k7n6asgg49bu2vqn4s%40group.calendar.google.com/public/basic.ics
 [JSON]: schedule.json
 [lts module]: https://www.npmjs.com/package/lts
 [`NAN`]: https://github.com/nodejs/nan
