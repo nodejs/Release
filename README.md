@@ -153,7 +153,6 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [8.x]: https://nodejs.org/download/release/latest-v8.x/
 [10.x]: https://nodejs.org/download/release/latest-v10.x/
 [JSON]: schedule.json
-[lts module]: https://www.npmjs.com/package/lts
 [`NAN`]: https://github.com/nodejs/nan
 
 The working group members are the union of the LTS, Releasers
