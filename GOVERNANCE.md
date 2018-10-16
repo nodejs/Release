@@ -133,9 +133,12 @@ When considering adding a new releaser an email should be sent to the
 After approval the nominee will be assigned a mentor from the release team
 to help walk them through the process to learn how to prepare a release.
 The nominee will then be expected to prepare 1 release on any branch, which
-can be promoted by any other member of the release team. After this
+can be promoted by any other member of the release team. After thi
 release the nominee will be considered a full member of the releasers
-team. At any point during this process any member of the Release WG
+team. The first release promoted by a new release team member must have
+a mentor from the current release team available to support during the process.
+
+At any point during this process any member of the Release WG
 can raise an objection to the TSC.
 
 When being officially added to the Releasers group the following must happen:
