@@ -132,10 +132,13 @@ When considering adding a new releaser an email should be sent to the
 [Technical Steering Committee](https://github.com/nodejs/tsc) for approval.
 After approval the nominee will be assigned a mentor from the release team
 to help walk them through the process to learn how to prepare a release.
-The nominee will then be expected to prepare 3 Current releases, which
-can be promoted by any other member of the release team. After the 3rd
+The nominee will then be expected to prepare 1 release on any branch, which
+can be promoted by any other member of the release team. After this
 release the nominee will be considered a full member of the releasers
-team. At any point during this process any member of the Release WG
+team. The first release promoted by a new release team member must have
+a mentor from the current release team available to support during the process.
+
+At any point during this process any member of the Release WG
 can raise an objection to the TSC.
 
 When being officially added to the Releasers group the following must happen:
