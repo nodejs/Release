@@ -7,7 +7,7 @@
 | [6.x][]  | **Maintenance LTS** | [Boron][]  | 2016-04-26     | 2016-10-18       | 2018-04-30            | April 2019                |
 | [8.x][]  | **Active LTS**      | [Carbon][] | 2017-05-30     | 2017-10-31       | April 2019            | December 2019<sup>1</sup> |
 | [10.x][] | **Current Release** | Dubnium    | 2018-04-24     | 2018-10-30       | April 2020            | April 2021                |
-| 11.x     | **Pending**         |            | 2018-10-23     |                  |                       | June 2019                 |
+| [11.x][]     | **Current Release**         |            | 2018-10-23     |                  |                       | June 2019                 |
 
 Dates are subject to change.
 
@@ -152,6 +152,7 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [6.x]: https://nodejs.org/download/release/latest-v6.x/
 [8.x]: https://nodejs.org/download/release/latest-v8.x/
 [10.x]: https://nodejs.org/download/release/latest-v10.x/
+[11.x]: https://nodejs.org/download/release/latest-v11.x/
 [JSON]: schedule.json
 [`NAN`]: https://github.com/nodejs/nan
 
