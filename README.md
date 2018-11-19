@@ -127,10 +127,10 @@ subsequent even-numbered major release is cut.
 
 Every LTS major version has two branches in the GitHub repository: a release
 branch and a staging branch. The release branch is used to cut new releases.
-Only members of the @nodejs/releasers team should land commits into the release branch.
+Only members of the @nodejs/releasers team should land commits onto release branches.
 The staging branch is used to land cherry-picked or backported commits from
 master that need to be included in a future release. Only members of
-@nodejs/backporters should land commits into the staging branch.
+@nodejs/backporters should land commits onto staging branches.
 
 For example, for Node.js v4, there is a `v4.x` branch and a `v4.x-staging`
 branch. When commits land in master that must be cherry-picked for a future
