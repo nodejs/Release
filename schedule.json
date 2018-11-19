@@ -34,7 +34,7 @@
   "v8": {
     "start": "2017-05-30",
     "lts": "2017-10-31",
-    "maintenance": "2019-04-01",
+    "maintenance": "2019-01-01",
     "end": "2019-12-31",
     "codename": "Carbon"
   },
