@@ -130,24 +130,66 @@ See "WG Membership" above.
 
 When considering adding a new releaser an email should be sent to the
 [Technical Steering Committee](https://github.com/nodejs/tsc) for approval.
-After approval the nominee will be assigned a mentor from the release team
+After approval the nominee will be assigned a mentor from the releasers team
 to help walk them through the process to learn how to prepare a release.
-The nominee will then be expected to prepare 1 release on any branch, which
-can be promoted by any other member of the release team. After this
-release the nominee will be considered a full member of the releasers
-team. The first release promoted by a new release team member must have
-a mentor from the current release team available to support during the process.
 
-At any point during this process any member of the Release WG
-can raise an objection to the TSC.
+The nominee will then be expected to prepare one release on any active release
+line, which can be tagged, signed and promoted by any other existing member of
+the releasers team. After this release the nominee will be considered a full
+member of the releasers team. The first release promoted by a new releasers
+team member must have a mentor from the current releasers team available to
+support during the process.
 
-When being officially added to the Releasers group the following must happen:
+At any point during this process any member of the Release WG can raise an
+objection to the TSC.
 
-* Added to Releasers team in the Node.js org (grants ci-release access)
-* Added to security-release team in the Node.js and nodejs-private orgs
-* SSH keys need to be added to the dist user on the www machine
-* GPG keys need to be added to the nodejs/node [README.md](https://github.com/nodejs/node/#release-team)
+After being being approved by the TSC, the new releaser must:
+
+* Be added to the GitHub [releasers team](https://github.com/orgs/nodejs/teams/releasers) in the Node.js org (grants ci-release access)
+* Be added to the GitHub [security-release team](https://github.com/orgs/nodejs/teams/security-release) in the Node.js and nodejs-private orgs
+* Have a single, high quality SSH key added to the "dist" user on the primary www server (see below for guidelines regarding SSH key quality)
+* Have a GPG key added to the nodejs/node [README.md](https://github.com/nodejs/node/#release-team)
 * Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to add gpg key to [node.keys](https://github.com/nodejs/docker-node/blob/master/keys/node.keys)
 
-New Releasers need to also be on the LTS team to do LTS releases.
-New Releasers should wait at least 2 weeks after adding credentials before signing a release.
+New releasers should wait at least 2 weeks after adding a GPG key to the
+nodejs/node README credentials before signing a release.
+
+**Actual or suspected compromise of either private SSH or GPG keys must be
+reported to the TSC immediately so remedial action can be taken.**
+
+For releasing on LTS release lines, releasers must:
+
+* Be added as members of the GitHub [LTS team](https://github.com/orgs/nodejs/teams/lts)
+* Fully release at least one Current Node.js release; for practice, and to help promote the new GPG key to the user ecosystem prior to it being required to verify an LTS release
+
+### SSH key guidance
+
+SSH keys should have complexity roughly similar to RSA at 4096 bits to be
+considered secure in modern environments.
+
+An RSA key with 4096 bits can be generated with the following command:
+
+```
+ssh-keygen -t rsa -b 4096 -o -a 100 -N ''
+```
+
+By default, the resulting private key will be placed in `~/.ssh/id_rsa` and
+public key in `~/.ssh/id_rsa.pub`.
+
+Ed25519 is an elliptic curve DSA algorithm that offers similar complexity to
+RSA at 4096 bits but is significantly smaller in file size. It is not supported
+by very old versions of OpenSSH but that is not a concern for Node.js. An
+Ed25519 SSH key can be generated with the following command:
+
+```
+ssh-keygen -t ed25519 -a 100 -N ''
+```
+
+By default, the resulting private key will be placed in `~/.ssh/id_ed25519` and
+public key in `~/.ssh/id_ed25519.pub`.
+
+The public key an be shared with an existing member of the releasers team to be
+placed on the www server for access to the "dist" user. The private key should
+be kept very secure and not shared with anyone. Any actual or suspected
+compromise of the private key should be reported immediately and the key should
+be entirely removed from use.
