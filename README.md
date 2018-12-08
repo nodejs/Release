@@ -143,7 +143,7 @@ only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
 ### Node abstraction layer
 
 It should be stated that the abstraction layer (currently [`NAN`][]) should
-support all *current* LTS releases. Given that Active LTS will overlap
+support all Active LTS releases. Given that Active LTS will overlap
 for a period of 6 months, this means that the abstraction layer will, at
 any given point in time, fully support a maximum of 2 LTS releases.
 
