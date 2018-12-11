@@ -140,13 +140,6 @@ commits are backported for a future Node.js v4 release, those must come in the
 form of pull requests opened against the `v4.x-staging` branch. **Commits are
 only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
 
-### Node abstraction layer
-
-It should be stated that the abstraction layer (currently [`NAN`][]) should
-support all Active LTS releases. Given that Active LTS will overlap
-for a period of 6 months, this means that the abstraction layer will, at
-any given point in time, fully support a maximum of 2 LTS releases.
-
 [Argon]: https://nodejs.org/download/release/latest-argon/
 [Boron]: https://nodejs.org/download/release/latest-boron/
 [Carbon]: https://nodejs.org/download/release/latest-carbon/
@@ -157,7 +150,6 @@ any given point in time, fully support a maximum of 2 LTS releases.
 [10.x]: https://nodejs.org/download/release/latest-v10.x/
 [11.x]: https://nodejs.org/download/release/latest-v11.x/
 [JSON]: schedule.json
-[`NAN`]: https://github.com/nodejs/nan
 
 The working group members are the union of the LTS, Releasers
 and CITGM team members listed below.
