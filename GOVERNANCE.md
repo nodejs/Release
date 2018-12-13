@@ -147,7 +147,7 @@ When being officially added to the Releasers group the following must happen:
 * Added to security-release team in the Node.js and nodejs-private orgs
 * SSH keys need to be added to the dist user on the www machine
 * GPG keys need to be added to the nodejs/node [README.md](https://github.com/nodejs/node/#release-team)
-* Raise an issue in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to note that the gpg keys will need to be updated.
+* Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to add gpg key.
 
 New Releasers need to also be on the LTS team to do LTS releases.
 New Releasers should wait at least 2 weeks after adding credentials before signing a release.
