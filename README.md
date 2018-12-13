@@ -16,7 +16,7 @@ Dates are subject to change.
   early on December 31, 2019 to align with the scheduled End-of-Life of
   OpenSSL-1.0.2.
 
-<p><img src="schedule.png" alt="LTS Schedule"/></p>
+<p><img src="schedule.svg" alt="LTS Schedule"/></p>
 
 The Release schedule is available also as a [JSON][] file.
 
