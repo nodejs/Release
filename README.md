@@ -193,6 +193,7 @@ and CITGM team members listed below.
 
 - [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+- [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
@@ -205,8 +206,10 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/releasers) -->
 
+- [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
+- [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
