@@ -143,7 +143,7 @@ support during the process.
 At any point during this process any member of the Release WG can raise an
 objection to the TSC.
 
-After being being approved by the TSC, the new releaser must:
+After the nominee's first prepared release has been promoted the new releaser must:
 
 * Be added to the GitHub [releasers team](https://github.com/orgs/nodejs/teams/releasers) in the Node.js org (grants ci-release access)
 * Be added to the GitHub [security-release team](https://github.com/orgs/nodejs/teams/security-release) in the Node.js and nodejs-private orgs
