@@ -121,7 +121,7 @@ Note that while it is possible that critical security and bug fixes may lead to
 *semver-major* changes landing within an LTS stream, such situations will be
 rare and will land as *semver-minor* bumps in the LTS covered version.
 
-Upates to ensure consistency and usability of the N-API across LTS releases
+Updates to ensure consistency and usability of the N-API across LTS releases
 are allowed as it is important to ensure that N-API native modules can be used
 across LTS versions in order to support adoption.
 
