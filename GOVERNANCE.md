@@ -188,7 +188,7 @@ ssh-keygen -t ed25519 -a 100 -N ''
 By default, the resulting private key will be placed in `~/.ssh/id_ed25519` and
 public key in `~/.ssh/id_ed25519.pub`.
 
-The public key an be shared with an existing member of the releasers team to be
+The public key can be shared with an existing member of the releasers team to be
 placed on the www server for access to the "dist" user. The private key should
 be kept very secure and not shared with anyone. Any actual or suspected
 compromise of the private key should be reported immediately and the key should
