@@ -133,21 +133,23 @@ even-numbered major release is cut. Depending on circumstances the project may
 decide to provide an update to the odd-numbered release after the cutoff. However, 
 there is no guarantee that any release will be made.
 
-### LTS Staging Branches
+### Staging Branches
 
-Every LTS major version has two branches in the GitHub repository: a release
-branch and a staging branch. The release branch is used to cut new releases.
-Only members of the @nodejs/releasers team should land commits onto release branches.
-The staging branch is used to land cherry-picked or backported commits from
+Every major version has three branches in the GitHub repository: a release branch
+and two staging branches. The release branch is used to cut new releases. Only
+members of the @nodejs/releasers team should land commits onto release branches.
+The staging branches are used to land cherry-picked or backported commits from
 master that need to be included in a future release. Only members of
-@nodejs/backporters should land commits onto staging branches.
+@nodejs/releasers should land commits onto staging branches.
 
-For example, for Node.js v4, there is a `v4.x` branch and a `v4.x-staging`
-branch. When commits land in master that must be cherry-picked for a future
-Node.js v4 release, those must be landed into the `v4.x-staging` branch. When
-commits are backported for a future Node.js v4 release, those must come in the
-form of pull requests opened against the `v4.x-staging` branch. **Commits are
-only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
+For example, for Node.js v10, there is a `v10.x` branch and a `v10.x-staging-patch`
+and `v10.x-staging-minor` branch. When commits land in master that must
+be cherry-picked for a future Node.js v10 release, all patch commits must be landed
+in the `v10.x-staging-patch` branch while all semver-minor and patch commits must be
+landed in the `v10.x-staging-minor` branch. When commits are backported for a future
+Node.js v10 release, those must come in the form of pull requests opened against the
+`v10.x-staging-minor` branch. **Commits are only landed in the `v10.x` branch when a
+new `v10.x` release is being prepared.**
 
 [Argon]: https://nodejs.org/download/release/latest-argon/
 [Boron]: https://nodejs.org/download/release/latest-boron/
