@@ -94,19 +94,6 @@ Once a major version enters LTS coverage, new features (semver-minor) may only
 be landed with consent of the Release working group. No semver-major
 changes other than those required for critical security fixes may be landed.
 
-Changes in an LTS-covered major version are limited to:
-
-1. Bug fixes;
-2. Security updates;
-3. Non-semver-major npm updates;
-4. Relevant documentation updates;
-5. Certain performance improvements where the risk of breaking existing
-   applications is minimal;
-6. Changes that introduce large amount of code churn where the risk of breaking
-   existing applications is low and where the change in question may
-   significantly ease the ability to backport future changes due to the
-   reduction in diff noise.
-
 Generally changes are expected to live in a *Current* release for at least 2
 weeks before being backported. It is possible for a commit to land earlier at
 the discretion of the Release working group and the maintainers of the LTS branches.
