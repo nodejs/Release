@@ -80,7 +80,7 @@ major version transitions to the Long Term Support plan.
 
 Every major version covered by the LTS plan will be actively maintained for a
 period of 18 months from the date it enters LTS coverage. Following those 18
-months of active support, the major version will transition into "maintenance"
+months of active support, the major version will transition into Maintenance
 mode for 12 additional months.
 
 The exact date that a release stream will be moved to LTS, moved between LTS
