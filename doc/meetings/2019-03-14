@@ -1,0 +1,65 @@
+# Node.js Foundation Release WorkGroup Meeting 2019-03-14
+
+## Links
+
+* **Recording**:  
+* **GitHub Issue**: https://github.com/nodejs/Release/issues/419
+
+## Present
+
+* Michael Dawson (@mhdawson)
+* Shelley Vohr (@codebytere)
+* Michael Zasso (@targos)
+* Richard Lau (@richardlau)
+* Bethany Griggs (@BethGriggs)
+
+## Agenda
+
+## Announcements
+ 
+*Extracted from **Release-agenda** labelled issues and pull requests from the **nodejs org** prior to the meeting.
+
+### nodejs/node
+
+* Should libuv upgrades be semver-minor? [#25785](https://github.com/nodejs/node/issues/25785)
+  * Defer discussion to when we have Myles 
+
+* \[v6.x backport\] src: add environment cleanup hooks [#22633](https://github.com/nodejs/node/pull/22633)
+  * Michael will ping Gabriel to make sure it is on his radar, Done and
+    Gabriel will look ASAP.
+
+### nodejs/Release
+
+* Plan for Node.js 11 Current releases [#397](https://github.com/nodejs/Release/issues/397)
+  * Ruben is working on this, had to pull out a few PRs
+     * Some related to crypto, but not Sam’s to get us to 1.1.1
+     * CITGM looks good, failures look like noise or not related
+     * Last actions, pull out one more crypto PR, check with Fastify on one issue
+     * Asked that Beth take a look at CITGM results as well.
+
+* Ruben, should we be landing commits in staging in advance as opposed to waiting
+  for release? 
+  * Beth I think it’s just a matter of people getting time? 
+  * Ruben 2 branches, patch proposal and minor proposal?
+     * First step start with branches, and can immediately land when ready
+     * Michael first step is probably to do PR to update doc on flow?
+       * Ruben, will do that.
+       
+* Final 6.x release before EOL? [Discussion] #414
+  * Target for first week of April (sounds good to everybody)
+
+* Preparation for Node 12 [#417](https://github.com/nodejs/Release/issues/417) (Build?) 
+
+* Review v10.x Q2 release plan 
+  * Beth showed overview of proposal
+
+* Will defer review of SemVer minors for 8.x and 10.x to next meeting as we don’t currently have
+   the lists 
+
+## Q&A, Other
+
+## Upcoming Meetings
+
+* **Node.js Foundation Calendar**: https://nodejs.org/calendar
+
+Click `+GoogleCalendar` at the bottom right to add to your own Google calendar.
