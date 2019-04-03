@@ -178,7 +178,6 @@ and CITGM team members listed below.
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@othiym23](https://github.com/othiym23) - Forrest L Norvell
-- [@rvagg](https://github.com/rvagg) - Rod Vagg
 - [@sam-github](https://github.com/sam-github) - Sam Roberts
 - [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@srl295](https://github.com/srl295) - Steven R. Loomis
@@ -195,7 +194,6 @@ and CITGM team members listed below.
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
-- [@jasnell](https://github.com/jasnell) - James M Snell
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@sam-github](https://github.com/sam-github) - Sam Roberts
@@ -240,6 +238,7 @@ and CITGM team members listed below.
 
 #### LTS Team members
 - [@jasnell](https://github.com/jasnell) - James M Snell
+- [@rvagg](https://github.com/rvagg) - Rod Vagg
 
 #### CITGM team
 - [@jasnell](https://github.com/jasnell) - James M Snell
