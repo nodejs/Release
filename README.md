@@ -215,7 +215,6 @@ and CITGM team members listed below.
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-- [@rvagg](https://github.com/rvagg) - Rod Vagg
 - [@targos](https://github.com/targos) - Michaël Zasso
 
 <!-- ncu-team-sync end -->
@@ -238,8 +237,11 @@ and CITGM team members listed below.
 
 ### Emeritus
 
-#### LTS Team members
+#### LTS team
 - [@jasnell](https://github.com/jasnell) - James M Snell
+- [@rvagg](https://github.com/rvagg) - Rod Vagg
+
+#### Releasers team
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
 #### CITGM team
