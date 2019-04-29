@@ -2,14 +2,13 @@
 
 ## Release schedule
 
-| Release  | Status              | Codename    |Initial Release | Active LTS Start | Maintenance LTS Start | End-of-life               |
-| :--:     | :---:               | :---:       | :---:          | :---:            | :---:                 | :---:                     |
-| [6.x][]  | **Maintenance LTS** | [Boron][]   | 2016-04-26     | 2016-10-18       | 2018-04-30            | 2019-04-30                |
+| Release  | Status              | Codename    |Initial Release | Active LTS Start | Maintenance Start | End-of-life                |
+| :--:     | :---:               | :---:       | :---:          | :---:            | :---:                 | :---:                      |
 | [8.x][]  | **Maintenance LTS** | [Carbon][]  | 2017-05-30     | 2017-10-31       | 2019-01-01            | December 2019<sup>1</sup> |
 | [10.x][] | **Active LTS**      | [Dubnium][] | 2018-04-24     | 2018-10-30       | April 2020            | April 2021                |
-| [11.x][] | **Current Release** |             | 2018-10-23     |                  |                       | 2019-06-01                |
-| 12.x     | **Pending**         |             | 2019-04-23     | 2019-10-22       | April 2021            | April 2022                |
-| 13.x     | **Pending**         |             | 2019-10-22     |                  |                       | June 2020                 |
+| [11.x][] | **Current Release** |             | 2018-10-23     |                  | Mai 2019              | 2019-06-01                |
+| [12.x][] | **Current Release** |             | 2019-04-23     | 2019-10-22       | April 2021            | April 2022                |
+| 13.x     | **Pending**         |             | 2019-10-22     |                  |                       | June 2020                  |
 | 14.x     | **Pending**         |             | April 2020     | October 2020     | April 2022            | April 2023                |
 
 Dates are subject to change.
@@ -24,14 +23,15 @@ The Release schedule is available also as a [JSON][] file.
 
 ### End-of-Life Releases
 
-| Release | Status              | Codename   |Initial Release | Active LTS Start | Maintenance LTS Start | End-of-life               |
-| :--:    | :---:               | :---:      | :---:          | :---:            | :---:                 | :---:                     |
-| v0.10.x | **End-of-Life**     | -          | 2013-03-11     | -                | 2015-10-01            | 2016-10-31                |
-| v0.12.x | **End-of-Life**     | -          | 2015-02-06     | -                | 2016-04-01            | 2016-12-31                |
-| [4.x][] | **End-of-Life**     | [Argon][]  | 2015-09-08     | 2015-10-01       | 2017-04-01            | 2018-04-30                |
-| 5.x     | **End-of-Life**     |            | 2015-10-29     |                  |                       | 2016-06-30                |
-| 7.x     | **End-of-Life**     |            | 2016-10-25     |                  |                       | 2017-06-30                |
-| 9.x     | **End-of-Life**     |            | 2017-10-01     |                  |                       | 2018-06-30                |
+| Release | Status              | Codename   |Initial Release | Active LTS Start | Maintenance LTS Start | End-of-life                 |
+| :--:    | :---:               | :---:      | :---:          | :---:            | :---:                 | :---:                       |
+| v0.10.x | **End-of-Life**     | -          | 2013-03-11     | -                | 2015-10-01            | 2016-10-31                 |
+| v0.12.x | **End-of-Life**     | -          | 2015-02-06     | -                | 2016-04-01            | 2016-12-31                 |
+| [4.x][] | **End-of-Life**     | [Argon][]  | 2015-09-08     | 2015-10-01       | 2017-04-01            | 2018-04-30                 |
+| [5.x][] | **End-of-Life**     |            | 2015-10-29     |                  |                       | 2016-06-30                 |
+| [6.x][] | **Maintenance LTS** | [Boron][]  | 2016-04-26     | 2016-10-18       | 2018-04-30            | 2019-04-30                 |
+| [7.x][] | **End-of-Life**     |            | 2016-10-25     |                  |                       | 2017-06-30                 |
+| [9.x]   | **End-of-Life**     |            | 2017-10-01     |                  |                       | 2018-06-30                 |
 
 ## Mandate
 
@@ -156,10 +156,14 @@ only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
 [Carbon]: https://nodejs.org/download/release/latest-carbon/
 [Dubnium]: https://nodejs.org/download/release/latest-dubnium/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
+[5.x]: https://nodejs.org/download/release/latest-v5.x/
 [6.x]: https://nodejs.org/download/release/latest-v6.x/
+[7.x]: https://nodejs.org/download/release/latest-v7.x/
 [8.x]: https://nodejs.org/download/release/latest-v8.x/
+[9.x]: https://nodejs.org/download/release/latest-v9.x/
 [10.x]: https://nodejs.org/download/release/latest-v10.x/
 [11.x]: https://nodejs.org/download/release/latest-v11.x/
+[12.x]: https://nodejs.org/download/release/latest-v12.x/
 [JSON]: schedule.json
 
 The working group members are the union of the LTS, Releasers
