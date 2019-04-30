@@ -6,7 +6,7 @@
 | :--:     | :---:               | :---:       | :---:          | :---:            | :---:                 | :---:                      |
 | [8.x][]  | **Maintenance LTS** | [Carbon][]  | 2017-05-30     | 2017-10-31       | 2019-01-01            | December 2019<sup>1</sup> |
 | [10.x][] | **Active LTS**      | [Dubnium][] | 2018-04-24     | 2018-10-30       | April 2020            | April 2021                |
-| [11.x][] | **Current Release** |             | 2018-10-23     |                  | Mai 2019              | 2019-06-01                |
+| [11.x][] | **Current Release** |             | 2018-10-23     |                  | May 2019              | 2019-06-01                |
 | [12.x][] | **Current Release** |             | 2019-04-23     | 2019-10-22       | April 2021            | April 2022                |
 | 13.x     | **Pending**         |             | 2019-10-22     |                  |                       | June 2020                  |
 | 14.x     | **Pending**         |             | April 2020     | October 2020     | April 2022            | April 2023                |
