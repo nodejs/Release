@@ -31,7 +31,7 @@ The Release schedule is available also as a [JSON][] file.
 |  [6.x][] | **End-of-Life** | [Boron][] |    2016-04-26   |    2016-10-18    |       2018-04-30      |  2019-04-30 |
 |  [7.x][] | **End-of-Life** |           |    2016-10-25   |                  |                       |  2017-06-30 |
 |   [9.x]  | **End-of-Life** |           |    2017-10-01   |                  |                       |  2018-06-30 |
-| [11.x][] | **End-of-Life** |           |    2018-10-23   |                  |        May 2019       |  2019-06-01 |
+| [11.x][] | **End-of-Life** |           |    2018-10-23   |                  |                       |  2019-06-01 |
 
 
 ## Mandate
