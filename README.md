@@ -84,7 +84,8 @@ major version transitions to the Long Term Support plan.
 Every major version covered by the LTS plan will be actively maintained for a
 period of 12 months from the date it enters LTS coverage. Following those 12
 months of active support, the major version will transition into "maintenance"
-mode for 18 additional months.
+mode for 18 additional months. Prior to Node.js 12 the active period was 18
+months and the maintenance period 12 months.
 
 The exact date that a release stream will be moved to LTS, moved between LTS
 modes, or deprecated will be chosen no later than the first day of the month.
