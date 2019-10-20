@@ -188,6 +188,7 @@ and CITGM team members listed below.
 - [@sam-github](https://github.com/sam-github) - Sam Roberts
 - [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@srl295](https://github.com/srl295) - Steven R. Loomis
+- [@targos](https://github.com/targos) - Michaël Zasso
 - [@trevnorris](https://github.com/trevnorris) - Trevor Norris
 - [@yunong](https://github.com/yunong) - Yunong Xiao
 
