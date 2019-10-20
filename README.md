@@ -82,9 +82,9 @@ When a new *odd-numbered* major release is cut, the previous *even-numbered*
 major version transitions to the Long Term Support plan.
 
 Every major version covered by the LTS plan will be actively maintained for a
-period of 18 months from the date it enters LTS coverage. Following those 18
+period of 12 months from the date it enters LTS coverage. Following those 12
 months of active support, the major version will transition into "maintenance"
-mode for 12 additional months.
+mode for 18 additional months.
 
 The exact date that a release stream will be moved to LTS, moved between LTS
 modes, or deprecated will be chosen no later than the first day of the month.
