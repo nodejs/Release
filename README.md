@@ -78,7 +78,7 @@ New semver-major releases of Node.js are cut from `master` every six months.
 New even-numbered versions (e.g. v6, v8, v10, etc) are cut in April. New
 odd-numbered versions (e.g. v5, v7, v9) are cut in October.
 
-In co-ordination with a new *odd-numbered* major release being cut, the
+In coordination with a new *odd-numbered* major release being cut, the
 previous *even-numbered* major version will transition to the Long Term Support
 plan. The transition to Long Term Support can happen either before or after
 the new major version is cut in a Semver-Minor release following
