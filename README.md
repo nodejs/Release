@@ -81,7 +81,7 @@ odd-numbered versions (e.g. v5, v7, v9) are cut in October.
 In co-ordination with a new *odd-numbered* major release being cut, the
 previous *even-numbered* major version will transition to the Long Term Support
 plan. The transition to Long Term Support can happen either before or after
-the new major-version is cut in a Semver-Minor release following
+the new major version is cut in a Semver-Minor release following
 [the process documented below])(#marking-a-release-line-as-lts).
 
 Every major version covered by the LTS plan will be actively maintained for a
