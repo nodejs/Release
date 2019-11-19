@@ -249,7 +249,6 @@ and CITGM team members listed below.
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
-- [@evanlucas](https://github.com/evanlucas) - Evan Lucas
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
@@ -281,6 +280,7 @@ and CITGM team members listed below.
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
 #### Releasers team
+- [@evanlucas](https://github.com/evanlucas) - Evan Lucas
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
 #### CITGM team
