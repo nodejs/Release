@@ -15,6 +15,14 @@ Dates are subject to change.
 
 The Release schedule is available also as a [JSON][] file.
 
+### Release Phases
+
+There are three phases that a Node.js release can be in: 'Current', 'Active Long-term Support', and 'Maintenance'. Odd-numbered release lines are not promoted to LTS - they will not go through the 'Active LTS' or 'Maintenance' phases. 
+
+ * Current - Should incorporate most of the non-major (non-breaking) PRs that land on `nodejs/node` master branch.
+ * Active LTS - New features, bug fixes, and updates that have been audited by the LTS team and have been determined to be appropriate and stable for the release line.
+ * Maintenance - Critical bug fixes and security updates. New features may be added at the discretion of the LTS team - typically only in cases where the new feature supports migration to later release lines. 
+
 ### End-of-Life Releases
 
 |  Release |      Status     |  Codename | Initial Release | Active LTS Start | Maintenance LTS Start | End-of-life |
