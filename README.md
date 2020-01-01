@@ -4,17 +4,12 @@
 
 | Release  | Status              | Codename    |Initial Release | Active LTS Start | Maintenance Start | End-of-life                |
 | :--:     | :---:               | :---:       | :---:          | :---:            | :---:                 | :---:                     |
-| [8.x][]  | **Maintenance LTS** | [Carbon][]  | 2017-05-30     | 2017-10-31       | 2019-01-01            | December 2019<sup>1</sup> |
 | [10.x][] | **Active LTS**      | [Dubnium][] | 2018-04-24     | 2018-10-30       | April 2020            | April 2021                |
 | [12.x][] | **Active LTS**      | [Erbium][]  | 2019-04-23     | 2019-10-21       | October 2020          | April 2022                |
 | 13.x     | **Current**         |             | 2019-10-22     |                  |                       | June 2020                 |
 | 14.x     | **Pending**         |             | April 2020     | October 2020     | October 2021          | April 2023                |
 
 Dates are subject to change.
-
-* <sup>1</sup>: The 8.x *Maintenance* LTS cycle is currently scheduled to expire
-  early on December 31, 2019 to align with the scheduled End-of-Life of
-  OpenSSL-1.0.2.
 
 <p><img src="schedule.svg" alt="LTS Schedule"/></p>
 
@@ -27,11 +22,12 @@ The Release schedule is available also as a [JSON][] file.
 |  v0.10.x | **End-of-Life** |     -     |    2013-03-11   |         -        |       2015-10-01      |  2016-10-31 |
 |  v0.12.x | **End-of-Life** |     -     |    2015-02-06   |         -        |       2016-04-01      |  2016-12-31 |
 |  [4.x][] | **End-of-Life** | [Argon][] |    2015-09-08   |    2015-10-01    |       2017-04-01      |  2018-04-30 |
-|  [5.x][] | **End-of-Life** |           |    2015-10-29   |                  |                       |  2016-06-30 |
+|  [5.x][] | **End-of-Life** |           |    2015-10-29   |         -        |                       |  2016-06-30 |
 |  [6.x][] | **End-of-Life** | [Boron][] |    2016-04-26   |    2016-10-18    |       2018-04-30      |  2019-04-30 |
-|  [7.x][] | **End-of-Life** |           |    2016-10-25   |                  |                       |  2017-06-30 |
-|   [9.x]  | **End-of-Life** |           |    2017-10-01   |                  |                       |  2018-06-30 |
-| [11.x][] | **End-of-Life** |           |    2018-10-23   |                  |                       |  2019-06-01 |
+|  [7.x][] | **End-of-Life** |           |    2016-10-25   |         -        |                       |  2017-06-30 |
+|  [8.x][] | **End-of-Life** | [Carbon][]|    2017-05-30   |    2017-10-31    |       2019-01-01      |  2019-12-31 |
+|   [9.x]  | **End-of-Life** |           |    2017-10-01   |         -        |                       |  2018-06-30 |
+| [11.x][] | **End-of-Life** |           |    2018-10-23   |         -        |                       |  2019-06-01 |
 
 
 ## Mandate
