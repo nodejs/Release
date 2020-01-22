@@ -210,7 +210,6 @@ and CITGM team members listed below.
 - [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@geek](https://github.com/geek) - Wyatt Preul
-- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@othiym23](https://github.com/othiym23) - Forrest L Norvell
@@ -230,7 +229,6 @@ and CITGM team members listed below.
 - [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
-- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@sam-github](https://github.com/sam-github) - Sam Roberts
@@ -246,7 +244,6 @@ and CITGM team members listed below.
 - [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
-- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@targos](https://github.com/targos) - Michaël Zasso
@@ -262,7 +259,6 @@ and CITGM team members listed below.
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@bzoz](https://github.com/bzoz) - Bartosz Sosnowski
 - [@gdams](https://github.com/gdams) - George Adams
-- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@richardlau](https://github.com/richardlau) - Richard Lau
 - [@targos](https://github.com/targos) - Michaël Zasso
@@ -272,12 +268,15 @@ and CITGM team members listed below.
 ### Emeritus
 
 #### LTS team
+- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
 #### Releasers team
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
+- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
 #### CITGM team
+- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
