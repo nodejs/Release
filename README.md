@@ -133,36 +133,8 @@ codenames is available in [CODENAMES.md](./CODENAMES.md).
 
 An odd-numbered major release will cease to be actively updated when the subsequent
 even-numbered major release is cut. Depending on circumstances the project may
-decide to provide an update to the odd-numbered release after the cutoff. However, 
+decide to provide an update to the odd-numbered release after the cutoff. However,
 there is no guarantee that any release will be made.
-
-#### Marking a Release Line As LTS
-
-To mark a release line as LTS, the following changes must be made to `src/node_version.h`:
-
-* The `NODE_MINOR_VERSION` macro must be incremented by one
-* The `NODE_PATCH_VERSION` macro must be set to `0`
-* The `NODE_VERSION_IS_LTS` macro must be set to `1`
-* The `NODE_VERSION_LTS_CODENAME` macro must be set to the codename selected for the LTS release.
-
-For example:
-
-```diff
--#define NODE_MINOR_VERSION 12
--#define NODE_PATCH_VERSION 1
-+#define NODE_MINOR_VERSION 13
-+#define NODE_PATCH_VERSION 0
-
--#define NODE_VERSION_IS_LTS 0
--#define NODE_VERSION_LTS_CODENAME ""
-+#define NODE_VERSION_IS_LTS 1
-+#define NODE_VERSION_LTS_CODENAME "Erbium"
-
--#define NODE_VERSION_IS_RELEASE 0
-+#define NODE_VERSION_IS_RELEASE 1
-```
-
-The changes must be made as part of a new semver-minor release.
 
 ### LTS Staging Branches
 
