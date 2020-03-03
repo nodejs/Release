@@ -180,7 +180,6 @@ and CITGM team members listed below.
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
-- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@geek](https://github.com/geek) - Wyatt Preul
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
@@ -215,7 +214,6 @@ and CITGM team members listed below.
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
-- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@targos](https://github.com/targos) - Michaël Zasso
@@ -240,12 +238,14 @@ and CITGM team members listed below.
 ### Emeritus
 
 #### LTS team
+- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
 #### Releasers team
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
+- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
