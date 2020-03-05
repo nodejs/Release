@@ -33,6 +33,9 @@ rare and will land as *semver-minor*.
  added at the discretion of the LTS team - typically only in cases where
  the new feature supports migration to later release lines.
 
+The term 'supported release lines' will be used to refer to all release lines
+that are not End-of-Life.
+
 ### End-of-Life Releases
 
 |  Release |      Status     |  Codename | Initial Release | Active LTS Start | Maintenance LTS Start | End-of-life |
