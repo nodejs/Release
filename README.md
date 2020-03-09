@@ -93,14 +93,14 @@ Working Group.
 
 ## Release Plan
 
-New semver-major releases of Node.js are branched from `master` every six
+New *semver-major* releases of Node.js are branched from `master` every six
 months. New even-numbered versions are released in April and odd-numbered
 versions in October.
 
 In coordination with a new *odd-numbered* major release, the previous
 *even-numbered* major version will transition to Long Term Support. The
-transition to Long Term Support should happen after the new major version is
-released in a semver-minor release.
+transition to Long Term Support will happen in a *semver-minor* release and can
+ happen either before or after the new major version is released.
 
 Every even (LTS) major version will be actively maintained for 12 months from
 the date it enters LTS coverage. Following those 12 months of active support,
@@ -110,8 +110,9 @@ months. See [Releases Phases](#release-phases) for details of which changes
 are expected to land during each release phase.
 
 The exact date that a release will be moved to LTS, moved between LTS modes,
-or deprecated will be chosen no later than the first day of the month it is to change.
-If the release team plans to change the release date, it will be done with no less than 14 days notice.
+or deprecated will be chosen no later than the first day of the month it is to
+change. If the release team plans to change the release date, it will be done
+with no less than 14 days notice.
 
 All LTS releases will be assigned a codename. A list of expected upcoming
 codenames is available in [CODENAMES.md](./CODENAMES.md).
