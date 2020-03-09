@@ -184,7 +184,6 @@ and CITGM team members listed below.
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@othiym23](https://github.com/othiym23) - Forrest L Norvell
-- [@sam-github](https://github.com/sam-github) - Sam Roberts
 - [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@srl295](https://github.com/srl295) - Steven R. Loomis
 - [@targos](https://github.com/targos) - Michaël Zasso
@@ -202,7 +201,6 @@ and CITGM team members listed below.
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-- [@sam-github](https://github.com/sam-github) - Sam Roberts
 
 <!-- ncu-team-sync end -->
 
@@ -242,6 +240,7 @@ and CITGM team members listed below.
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
+- [@sam-github](https://github.com/sam-githb) - Sam Roberts
 
 #### Releasers team
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
