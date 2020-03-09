@@ -110,8 +110,8 @@ months. See [Releases Phases](#release-phases) for details of which changes
 are expected to land during each release phase.
 
 The exact date that a release will be moved to LTS, moved between LTS modes,
-or deprecated will be chosen no later than the first day of the month. If it
-is to be changed, it will be done with no less than 14 days notice.
+or deprecated will be chosen no later than the first day of the month it is to change.
+If the release team plans to change the release date, it will be done with no less than 14 days notice.
 
 All LTS releases will be assigned a codename. A list of expected upcoming
 codenames is available in [CODENAMES.md](./CODENAMES.md).
