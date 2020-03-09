@@ -18,7 +18,7 @@ The Release schedule is available also as a [JSON][] file.
 ### Release Phases
 
 There are three phases that a Node.js release can be in: 'Current', 'Active
-Long Term Support', and 'Maintenance'. Odd-numbered release lines are not
+Long Term Support (LTS)', and 'Maintenance'. Odd-numbered release lines are not
 promoted to LTS - they will not go through the 'Active LTS' or 'Maintenance'
 phases.
 
