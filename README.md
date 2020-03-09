@@ -32,7 +32,7 @@ phases.
  the new feature supports migration to later release lines.
 
 Changes required for critical security and bug fixes may lead to *semver-major*
-changes landing within an LTS stream, such situations will be rare and will
+changes landing within a release stream, such situations will be rare and will
 land as *semver-minor*.
 
 The term 'supported release lines' will be used to refer to all release lines
