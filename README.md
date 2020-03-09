@@ -26,12 +26,14 @@ phases.
  changes that land on `nodejs/node` master branch.
  * Active LTS - New features, bug fixes, and updates that have been audited by
  the LTS team and have been determined to be appropriate and stable for the
- release line. Changes required for critical security and bug fixes
- may lead to *semver-major* changes landing within an LTS stream, such situations will be
-rare and will land as *semver-minor*.
+ release line.
  * Maintenance - Critical bug fixes and security updates. New features may be
  added at the discretion of the LTS team - typically only in cases where
  the new feature supports migration to later release lines.
+
+Changes required for critical security and bug fixes may lead to *semver-major*
+changes landing within an LTS stream, such situations will be rare and will
+land as *semver-minor*.
 
 The term 'supported release lines' will be used to refer to all release lines
 that are not End-of-Life.
@@ -91,14 +93,14 @@ Working Group.
 
 ## Release Plan
 
-New semver-major releases of Node.js are cut from `master` every six months.
-New even-numbered versions are cut in April and odd-numbered versions are cut
-in October.
+New semver-major releases of Node.js are branched from `master` every six
+months. New even-numbered versions are released in April and odd-numbered
+versions in October.
 
-In coordination with a new *odd-numbered* major release being cut, the
-previous *even-numbered* major version will transition to Long Term Support.
-The transition to Long Term Support can happen either before or after the new
-major version is cut in a Semver-Minor release.
+In coordination with a new *odd-numbered* major release, the previous
+*even-numbered* major version will transition to Long Term Support. The
+transition to Long Term Support should happen after the new major version is
+released in a semver-minor release.
 
 Every even (LTS) major version will be actively maintained for 12 months from
 the date it enters LTS coverage. Following those 12 months of active support,
