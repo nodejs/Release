@@ -15,6 +15,29 @@ Dates are subject to change.
 
 The Release schedule is available also as a [JSON][] file.
 
+### Release Phases
+
+There are three phases that a Node.js release can be in: 'Current', 'Active
+Long Term Support (LTS)', and 'Maintenance'. Odd-numbered release lines are not
+promoted to LTS - they will not go through the 'Active LTS' or 'Maintenance'
+phases.
+
+ * Current - Should incorporate most of the non-major (non-breaking)
+ changes that land on `nodejs/node` master branch.
+ * Active LTS - New features, bug fixes, and updates that have been audited by
+ the LTS team and have been determined to be appropriate and stable for the
+ release line.
+ * Maintenance - Critical bug fixes and security updates. New features may be
+ added at the discretion of the LTS team - typically only in cases where
+ the new feature supports migration to later release lines.
+
+Changes required for critical security and bug fixes may lead to *semver-major*
+changes landing within a release stream, such situations will be rare and will
+land as *semver-minor*.
+
+The term 'supported release lines' will be used to refer to all release lines
+that are not End-of-Life.
+
 ### End-of-Life Releases
 
 |  Release |      Status     |  Codename | Initial Release | Active LTS Start | Maintenance LTS Start | End-of-life |
@@ -26,7 +49,7 @@ The Release schedule is available also as a [JSON][] file.
 |  [6.x][] | **End-of-Life** | [Boron][] |    2016-04-26   |    2016-10-18    |       2018-04-30      |  2019-04-30 |
 |  [7.x][] | **End-of-Life** |           |    2016-10-25   |         -        |                       |  2017-06-30 |
 |  [8.x][] | **End-of-Life** | [Carbon][]|    2017-05-30   |    2017-10-31    |       2019-01-01      |  2019-12-31 |
-|   [9.x]  | **End-of-Life** |           |    2017-10-01   |         -        |                       |  2018-06-30 |
+|  [9.x][] | **End-of-Life** |           |    2017-10-01   |         -        |                       |  2018-06-30 |
 | [11.x][] | **End-of-Life** |           |    2018-10-23   |         -        |                       |  2019-06-01 |
 
 
@@ -41,7 +64,7 @@ Its responsibilities are:
 * Define the release process.
 * Define the content of releases.
 * Generate and create releases.
-* Test Releases
+* Test Releases.
 * Manage the LTS and Current branches including backporting changes to
   these branches.
 * Define the policy for what gets backported to release streams.
@@ -70,71 +93,29 @@ Working Group.
 
 ## Release Plan
 
-New semver-major releases of Node.js are cut from `master` every six months.
-New even-numbered versions (e.g. v6, v8, v10, etc) are cut in April. New
-odd-numbered versions (e.g. v5, v7, v9) are cut in October.
+New *semver-major* releases of Node.js are branched from `master` every six
+months. New even-numbered versions are released in April and odd-numbered
+versions in October.
 
-In coordination with a new *odd-numbered* major release being cut, the
-previous *even-numbered* major version will transition to the Long Term Support
-plan. The transition to Long Term Support can happen either before or after
-the new major version is cut in a Semver-Minor release following
-[the process documented below](#marking-a-release-line-as-lts).
+In coordination with a new *odd-numbered* major release, the previous
+*even-numbered* major version will transition to Long Term Support. The
+transition to Long Term Support will happen in a *semver-minor* release and can
+ happen either before or after the new major version is released.
 
-Every major version covered by the LTS plan will be actively maintained for a
-period of 12 months from the date it enters LTS coverage. Following those 12
-months of active support, the major version will transition into "maintenance"
-mode for 18 additional months. Prior to Node.js 12 the active period was 18
-months and the maintenance period 12 months.
+Every even (LTS) major version will be actively maintained for 12 months from
+the date it enters LTS coverage. Following those 12 months of active support,
+the major version will transition into "maintenance" mode for 18 months. Prior
+to Node.js 12 the active period was 18 months and the maintenance period 12
+months. See [Releases Phases](#release-phases) for details of which changes
+are expected to land during each release phase.
 
-The exact date that a release stream will be moved to LTS, moved between LTS
-modes, or deprecated will be chosen no later than the first day of the month.
-If it is to be changed, it will be done with no less than 14 days notice.
-
-Given this schedule, there will be no more than two active LTS releases at any
-given time, overlapping for a maximum period of six months.
-
-Once a major version enters LTS coverage, new features (semver-minor) may only
-be landed with consent of the Release working group. No semver-major
-changes other than those required for critical security fixes may be landed.
-
-Changes in an LTS-covered major version are limited to:
-
-1. Bug fixes.
-2. Security updates.
-3. Non-semver-major npm updates.
-4. Relevant documentation updates.
-5. Certain performance improvements where the risk of breaking existing
-   applications is minimal.
-6. Changes that introduce large amount of code churn where the risk of breaking
-   existing applications is low and where the change in question may
-   significantly ease the ability to backport future changes due to the
-   reduction in diff noise.
-
-Generally changes are expected to live in a *Current* release for at least 2
-weeks before being backported. It is possible for a commit to land earlier at
-the discretion of the Release working group and the maintainers of the LTS branches.
-
-Once a release moves into Maintenance mode, only ***critical*** bugs,
-***critical*** security fixes, documentation updates, and updates to ensure
-consistency and usability of the N-API across LTS releases will be permitted.
-Unless a change is ***urgent*** it will be planned into a release once per
-quarter. Such releases will only be made when necessary.
-
-Note that while it is possible that critical security and bug fixes may lead to
-*semver-major* changes landing within an LTS stream, such situations will be
-rare and will land as *semver-minor* bumps in the LTS covered version.
-
-Updates to ensure consistency and usability of the N-API across LTS releases
-are allowed as it is important to ensure that N-API native modules can be used
-across LTS versions in order to support adoption.
+The exact date that a release will be moved to LTS, moved between LTS modes,
+or deprecated will be chosen no later than the first day of the month it is to
+change. If the release team plans to change the release date, it will be done
+with no less than 14 days notice.
 
 All LTS releases will be assigned a codename. A list of expected upcoming
 codenames is available in [CODENAMES.md](./CODENAMES.md).
-
-An odd-numbered major release will cease to be actively updated when the subsequent
-even-numbered major release is cut. Depending on circumstances the project may
-decide to provide an update to the odd-numbered release after the cutoff. However,
-there is no guarantee that any release will be made.
 
 ### LTS Staging Branches
 
@@ -151,6 +132,10 @@ Node.js v4 release, those must be landed into the `v4.x-staging` branch. When
 commits are backported for a future Node.js v4 release, those must come in the
 form of pull requests opened against the `v4.x-staging` branch. **Commits are
 only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
+
+Generally, changes are expected to live in a *Current* release for at least 2
+weeks before being backported. It is possible for a commit to land earlier at
+the discretion of the Release working group.
 
 [Argon]: https://nodejs.org/download/release/latest-argon/
 [Boron]: https://nodejs.org/download/release/latest-boron/
