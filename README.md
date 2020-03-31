@@ -216,15 +216,15 @@ and CITGM team members listed below.
 
 #### LTS team
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
-- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
+- [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@geek](https://github.com/geek) - Wyatt Preul
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@othiym23](https://github.com/othiym23) - Forrest L Norvell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
-- [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@sam-github](https://github.com/sam-githb) - Sam Roberts
+- [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@srl295](https://github.com/srl295) - Steven R. Loomis
 - [@trevnorris](https://github.com/trevnorris) - Trevor Norris
 - [@yunong](https://github.com/yunong) - Yunong Xiao
