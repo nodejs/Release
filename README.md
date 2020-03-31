@@ -162,18 +162,11 @@ and CITGM team members listed below.
 
 - [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
-- [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
-- [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
-- [@geek](https://github.com/geek) - Wyatt Preul
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-- [@othiym23](https://github.com/othiym23) - Forrest L Norvell
 - [@richardlau](https://github.com/richardlau) - Richard Lau
-- [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@targos](https://github.com/targos) - Michaël Zasso
-- [@trevnorris](https://github.com/trevnorris) - Trevor Norris
-- [@yunong](https://github.com/yunong) - Yunong Xiao
 
 <!-- ncu-team-sync end -->
 
@@ -222,12 +215,19 @@ and CITGM team members listed below.
 ### Emeritus
 
 #### LTS team
+- [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
+- [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
+- [@geek](https://github.com/geek) - Wyatt Preul
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
+- [@othiym23](https://github.com/othiym23) - Forrest L Norvell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
+- [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@sam-github](https://github.com/sam-githb) - Sam Roberts
 - [@srl295](https://github.com/srl295) - Steven R. Loomis
+- [@trevnorris](https://github.com/trevnorris) - Trevor Norris
+- [@yunong](https://github.com/yunong) - Yunong Xiao
 
 #### Releasers team
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
