@@ -8,7 +8,7 @@
 | [12.x][] | **Active LTS**      | [Erbium][]  | 2019-04-23     | 2019-10-21       | 2020-10-20        | April 2022                |
 | 13.x     | **Current**         |             | 2019-10-22     | -                | -                 | June 2020                 |
 | 14.x     | **Current**         |             | 2020-04-21     | 2020-10-20       | 2021-10-19        | April 2023                |
-| 15.x     | **Pending**         |             | 2020-10-20     | -                | -                 | June 2021                 |
+| 15.x     | **Pending**         |             | 2020-10-21     | -                | -                 | June 2021                 |
 
 Dates are subject to change.
 
