@@ -163,6 +163,7 @@ and CITGM team members listed below.
 
 - [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+- [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
