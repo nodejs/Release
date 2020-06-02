@@ -6,8 +6,7 @@
 | :--:     | :---:               | :---:       | :---:          | :---:            | :---:             | :---:                     |
 | [10.x][] | **Active LTS**      | [Dubnium][] | 2018-04-24     | 2018-10-30       | 2020-05-19        | April 2021                |
 | [12.x][] | **Active LTS**      | [Erbium][]  | 2019-04-23     | 2019-10-21       | 2020-10-20        | April 2022                |
-| 13.x     | **Current**         |             | 2019-10-22     | -                | -                 | June 2020                 |
-| 14.x     | **Current**         |             | 2020-04-21     | 2020-10-20       | 2021-10-19        | April 2023                |
+| [14.x][] | **Current**         |             | 2020-04-21     | 2020-10-20       | 2021-10-19        | April 2023                |
 | 15.x     | **Pending**         |             | 2020-10-21     | -                | -                 | June 2021                 |
 
 Dates are subject to change.
@@ -52,7 +51,7 @@ that are not End-of-Life.
 |  [8.x][] | **End-of-Life** | [Carbon][]|    2017-05-30   |    2017-10-31    |       2019-01-01      |  2019-12-31 |
 |  [9.x][] | **End-of-Life** |           |    2017-10-01   |         -        |                       |  2018-06-30 |
 | [11.x][] | **End-of-Life** |           |    2018-10-23   |         -        |                       |  2019-06-01 |
-
+| [13.x][] | **End-of-Life** |           |    2019-10-22   |         -        |                       |  2020-06-01 |
 
 ## Mandate
 
@@ -152,6 +151,8 @@ the discretion of the Release working group.
 [10.x]: https://nodejs.org/download/release/latest-v10.x/
 [11.x]: https://nodejs.org/download/release/latest-v11.x/
 [12.x]: https://nodejs.org/download/release/latest-v12.x/
+[13.x]: https://nodejs.org/download/release/latest-v13.x/
+[14.x]: https://nodejs.org/download/release/latest-v14.x/
 [JSON]: schedule.json
 
 The working group members are the union of the LTS, Releasers
