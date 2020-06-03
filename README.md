@@ -4,7 +4,7 @@
 
 | Release  | Status              | Codename    |Initial Release | Active LTS Start | Maintenance Start | End-of-life               |
 | :--:     | :---:               | :---:       | :---:          | :---:            | :---:             | :---:                     |
-| [10.x][] | **Active LTS**      | [Dubnium][] | 2018-04-24     | 2018-10-30       | 2020-05-19        | April 2021                |
+| [10.x][] | **Maintenance**      | [Dubnium][] | 2018-04-24     | 2018-10-30       | 2020-05-19        | April 2021                |
 | [12.x][] | **Active LTS**      | [Erbium][]  | 2019-04-23     | 2019-10-21       | 2020-10-20        | April 2022                |
 | [14.x][] | **Current**         |             | 2020-04-21     | 2020-10-20       | 2021-10-19        | April 2023                |
 | 15.x     | **Pending**         |             | 2020-10-21     | -                | -                 | June 2021                 |
