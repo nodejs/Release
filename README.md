@@ -196,6 +196,7 @@ and CITGM team members listed below.
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@richardlau](https://github.com/richardlau) - Richard Lau
 - [@targos](https://github.com/targos) - Michaël Zasso
 
 <!-- ncu-team-sync end -->
