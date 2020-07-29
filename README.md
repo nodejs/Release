@@ -197,6 +197,7 @@ and CITGM team members listed below.
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@richardlau](https://github.com/richardlau) - Richard Lau
+- [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
 - [@targos](https://github.com/targos) - Michaël Zasso
 
 <!-- ncu-team-sync end -->
