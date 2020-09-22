@@ -174,7 +174,12 @@ ssh-keygen -t rsa -b 4096 -o -a 100 -N ''
 ```
 
 By default, the resulting private key will be placed in `~/.ssh/id_rsa` and
-public key in `~/.ssh/id_rsa.pub`.
+public key in `~/.ssh/id_rsa.pub`. You can write the key to a Node namespace with
+the `-f` flag:
+
+```
+ssh-keygen -t rsa -b 4096 -o -a 100 -N '' -f ~/.ssh/node_id_rsa
+```
 
 Ed25519 is an elliptic curve DSA algorithm that offers similar complexity to
 RSA at 4096 bits but is significantly smaller in file size. It is not supported
