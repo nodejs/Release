@@ -6,7 +6,7 @@
 | :--:     | :---:               | :---:       | :---:          | :---:            | :---:             | :---:                     |
 | [10.x][] | **Maintenance**     | [Dubnium][] | 2018-04-24     | 2018-10-30       | 2020-05-19        | 2021-04-30                |
 | [12.x][] | **Active LTS**      | [Erbium][]  | 2019-04-23     | 2019-10-21       | 2020-11-30        | 2022-04-30                |
-| [14.x][] | **Current**         |             | 2020-04-21     | 2020-10-27       | 2021-10-19        | 2023-04-30                |
+| [14.x][] | **Active LTS**      | [Fermium][] | 2020-04-21     | 2020-10-27       | 2021-10-19        | April 2023                |
 | 15.x     | **Pending**         |             | 2020-10-20     | -                | 2021-04-01        | 2021-06-01                |
 | 16.x     | **Pending**         |             | 2021-04-20     | 2021-10-26       | 2022-10-18        | 2024-04-30                |
 
@@ -143,6 +143,7 @@ the discretion of the Release working group.
 [Carbon]: https://nodejs.org/download/release/latest-carbon/
 [Dubnium]: https://nodejs.org/download/release/latest-dubnium/
 [Erbium]: https://nodejs.org/download/release/latest-erbium/
+[Fermium]: https://nodejs.org/download/release/latest-fermium/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
 [5.x]: https://nodejs.org/download/release/latest-v5.x/
 [6.x]: https://nodejs.org/download/release/latest-v6.x/
