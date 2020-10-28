@@ -230,7 +230,7 @@ and CITGM team members listed below.
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@othiym23](https://github.com/othiym23) - Forrest L Norvell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
-- [@sam-github](https://github.com/sam-githb) - Sam Roberts
+- [@sam-github](https://github.com/sam-github) - Sam Roberts
 - [@shigeki](https://github.com/shigeki) - Shigeki Ohtsu
 - [@srl295](https://github.com/srl295) - Steven R. Loomis
 - [@trevnorris](https://github.com/trevnorris) - Trevor Norris
