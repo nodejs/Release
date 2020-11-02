@@ -196,6 +196,7 @@ and CITGM team members listed below.
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
+- [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@richardlau](https://github.com/richardlau) - Richard Lau
