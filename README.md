@@ -188,7 +188,7 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync end -->
 
-### Releasers team
+## Releasers team
 
 <!-- ncu-team-sync.team(nodejs/releasers) -->
 
@@ -205,7 +205,7 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync end -->
 
-### CITGM team
+## CITGM team
 
 <!-- ncu-team-sync.team(nodejs/citgm) -->
 
@@ -220,9 +220,9 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync end -->
 
-### Emeritus
+## Emeritus
 
-#### LTS team
+### LTS team
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 - [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
@@ -237,12 +237,12 @@ and CITGM team members listed below.
 - [@trevnorris](https://github.com/trevnorris) - Trevor Norris
 - [@yunong](https://github.com/yunong) - Yunong Xiao
 
-#### Releasers team
+### Releasers team
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
-#### CITGM team
+### CITGM team
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
