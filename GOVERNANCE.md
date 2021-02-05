@@ -199,7 +199,7 @@ be kept very secure and not shared with anyone. Any actual or suspected
 compromise of the private key should be reported immediately and the key should
 be entirely removed from use.
 
-## Offboaring releasers
+## Offboarding releasers
 
 *Note*: This section is specifically concerning removing members from the [@nodejs/releasers](https://github.com/orgs/nodejs/teams/releasers) team, not removing members from the overall Release WG.
 
