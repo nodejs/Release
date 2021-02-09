@@ -222,6 +222,7 @@ and CITGM team members listed below.
 ## Emeritus
 
 ### LTS team
+- [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 - [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
