@@ -164,13 +164,13 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/lts) -->
 
-- [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@richardlau](https://github.com/richardlau) - Richard Lau
+- [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
 - [@targos](https://github.com/targos) - Michaël Zasso
 
 <!-- ncu-team-sync end -->
@@ -179,7 +179,6 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/backporters) -->
 
-- [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@mhdawson](https://github.com/mhdawson) - Michael Dawson
@@ -223,6 +222,7 @@ and CITGM team members listed below.
 ## Emeritus
 
 ### LTS team
+- [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
 - [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
