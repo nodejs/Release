@@ -203,7 +203,7 @@ be entirely removed from use.
 
 *Note*: This section is specifically concerning removing members from the [@nodejs/releasers](https://github.com/orgs/nodejs/teams/releasers) team, not removing members from the overall Release WG.
 
-Releasers have access to critical infrastructure in the project - this elevated access must be restricted to active releasers. Members of the releasers team should be offboarded when they no longer intend to prepare releases. As a guideline, offboarding should be considered if a releaser has not prepared a release in the past 18 months.
+Releasers have access to critical infrastructure in the project - this elevated access must be restricted to active releasers. Members of the releasers team should be offboarded when they no longer intend to prepare releases. As a guideline, offboarding should be considered if a releaser has not prepared a release in the past 12 months.
 
 The following steps should be taken as part of the offboarding process:
 * Be removed from the GitHub [releasers team](https://github.com/orgs/nodejs/teams/releasers) in the Node.js organizations.
