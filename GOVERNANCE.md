@@ -149,6 +149,8 @@ After the nominee's first prepared release has been promoted the new releaser mu
 * Be added to the GitHub [security-release team](https://github.com/orgs/nodejs/teams/security-release) in the Node.js and nodejs-private orgs
 * Have a single, high quality SSH key added to the "dist" user on the primary www server (see below for guidelines regarding SSH key quality)
 * Have a GPG key added to the nodejs/node [README.md](https://github.com/nodejs/node/#release-team)
+  * The key should be cherry-picked to all active release branches.
+  * Any future updates to the key should also be cherry-picked to all active release branches.
 * Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to add gpg key to [node.keys](https://github.com/nodejs/docker-node/blob/master/keys/node.keys)
 
 New releasers should wait at least 2 weeks after adding a GPG key to the
