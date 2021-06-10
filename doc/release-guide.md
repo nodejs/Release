@@ -11,9 +11,9 @@ When making amendments to the release schedule the following files in this repos
  * `README.md` - The [Release Schedule Table](https://github.com/nodejs/Release#release-schedule) should be updated.
  * `schedule.svg` - The timeline graphic should be regenerated. See [Updating the schedule.svg](#updating-the-schedulesvg)
 
- # Updating the `schedule.svg`
+# Updating the `schedule.svg`
 
- The following commands can be used to regenerate the `schedule.svg`:
+The following commands can be used to regenerate the `schedule.svg`:
 
 ```sh
 $ npx lts --start yyyy-mm-dd --end yyyy-mm-dd -d "$PWD/schedule.json" -g "$PWD/schedule.svg"
