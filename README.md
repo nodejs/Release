@@ -54,7 +54,7 @@ that are not End-of-Life.
 | [10.x][] | **End-of-Life** |[Dubnium][]|    2018-04-24   |    2018-10-30    |       2020-05-19      |  2021-04-30 |
 | [11.x][] | **End-of-Life** |           |    2018-10-23   |         -        |                       |  2019-06-01 |
 | [13.x][] | **End-of-Life** |           |    2019-10-22   |         -        |                       |  2020-06-01 |
-|     15.x | **End-of-Life** |           |    2020-10-20   |         -        |       2021-04-01      |  2021-06-01 |
+| [15.x][] | **End-of-Life** |           |    2020-10-20   |         -        |       2021-04-01      |  2021-06-01 |
 
 ## Mandate
 
@@ -157,6 +157,7 @@ the discretion of the Release working group.
 [12.x]: https://nodejs.org/download/release/latest-v12.x/
 [13.x]: https://nodejs.org/download/release/latest-v13.x/
 [14.x]: https://nodejs.org/download/release/latest-v14.x/
+[15.x]: https://nodejs.org/download/release/latest-v15.x/
 [16.x]: https://nodejs.org/download/release/latest-v16.x/
 [JSON]: schedule.json
 
