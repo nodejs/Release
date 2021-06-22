@@ -6,8 +6,7 @@
 | :--:     | :---:               | :---:       | :---:          | :---:            | :---:             | :---:                     |
 | [12.x][] | **Maintenance**     | [Erbium][]  | 2019-04-23     | 2019-10-21       | 2020-11-30        | 2022-04-30                |
 | [14.x][] | **Active LTS**      | [Fermium][] | 2020-04-21     | 2020-10-27       | 2021-10-19        | April 2023                |
-| 15.x     | **Maintenance**     |             | 2020-10-20     | -                | 2021-04-01        | 2021-06-01                |
-| 16.x     | **Current**         |             | 2021-04-20     | 2021-10-26       | 2022-10-18        | 2024-04-30                |
+| [16.x][] | **Current**         |             | 2021-04-20     | 2021-10-26       | 2022-10-18        | 2024-04-30                |
 | 17.x     | **Pending**         |             | 2021-10-19     | -                | 2022-04-01        | 2022-06-01                |
 | 18.x     | **Pending**         |             | 2022-04-19     | 2022-10-25       | 2023-10-18        | 2025-04-30                |
 
@@ -55,6 +54,7 @@ that are not End-of-Life.
 | [10.x][] | **End-of-Life** |[Dubnium][]|    2018-04-24   |    2018-10-30    |       2020-05-19      |  2021-04-30 |
 | [11.x][] | **End-of-Life** |           |    2018-10-23   |         -        |                       |  2019-06-01 |
 | [13.x][] | **End-of-Life** |           |    2019-10-22   |         -        |                       |  2020-06-01 |
+| [15.x][] | **End-of-Life** |           |    2020-10-20   |         -        |       2021-04-01      |  2021-06-01 |
 
 ## Mandate
 
@@ -157,6 +157,8 @@ the discretion of the Release working group.
 [12.x]: https://nodejs.org/download/release/latest-v12.x/
 [13.x]: https://nodejs.org/download/release/latest-v13.x/
 [14.x]: https://nodejs.org/download/release/latest-v14.x/
+[15.x]: https://nodejs.org/download/release/latest-v15.x/
+[16.x]: https://nodejs.org/download/release/latest-v16.x/
 [JSON]: schedule.json
 
 The working group members are the union of the LTS, Releasers
