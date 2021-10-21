@@ -5,9 +5,9 @@
 | Release  | Status              | Codename    |Initial Release | Active LTS Start | Maintenance Start | End-of-life               |
 | :--:     | :---:               | :---:       | :---:          | :---:            | :---:             | :---:                     |
 | [12.x][] | **Maintenance**     | [Erbium][]  | 2019-04-23     | 2019-10-21       | 2020-11-30        | 2022-04-30                |
-| [14.x][] | **Active LTS**      | [Fermium][] | 2020-04-21     | 2020-10-27       | 2021-10-19        | 2023-04-30                |
+| [14.x][] | **Maintenance**     | [Fermium][] | 2020-04-21     | 2020-10-27       | 2021-10-19        | 2023-04-30                |
 | [16.x][] | **Current**         |             | 2021-04-20     | 2021-10-26       | 2022-10-18        | 2024-04-30                |
-| 17.x     | **Pending**         |             | 2021-10-19     | -                | 2022-04-01        | 2022-06-01                |
+| [17.x][] | **Current**         |             | 2021-10-19     | -                | 2022-04-01        | 2022-06-01                |
 | 18.x     | **Pending**         |             | 2022-04-19     | 2022-10-25       | 2023-10-18        | 2025-04-30                |
 
 Dates are subject to change.
@@ -159,6 +159,7 @@ the discretion of the Release working group.
 [14.x]: https://nodejs.org/download/release/latest-v14.x/
 [15.x]: https://nodejs.org/download/release/latest-v15.x/
 [16.x]: https://nodejs.org/download/release/latest-v16.x/
+[17.x]: https://nodejs.org/download/release/latest-v17.x/
 [JSON]: schedule.json
 
 The working group members are the union of the LTS, Releasers
