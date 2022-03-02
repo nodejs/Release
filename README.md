@@ -104,8 +104,8 @@ versions in October.
 
 In coordination with a new *odd-numbered* major release, the previous
 *even-numbered* major version will transition to Long Term Support. The
-transition to Long Term Support will happen in a *semver-minor* release and can
- happen either before or after the new major version is released.
+transition to Long Term Support will happen in a *semver-minor* release and
+should happen after the new major version is released.
 
 Every even (LTS) major version will be actively maintained for 12 months from
 the date it enters LTS coverage. Following those 12 months of active support,
