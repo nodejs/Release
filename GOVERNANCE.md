@@ -148,10 +148,12 @@ After the nominee's first prepared release has been promoted the new releaser mu
 * Be added to the GitHub [releasers team](https://github.com/orgs/nodejs/teams/releasers) in the Node.js org (grants ci-release access)
 * Be added to the GitHub [security-release team](https://github.com/orgs/nodejs/teams/security-release) in the Node.js and nodejs-private orgs
 * Have a single, high quality SSH key added to the "dist" user on the primary www server (see below for guidelines regarding SSH key quality)
-* Have a GPG key added to the nodejs/node [README.md](https://github.com/nodejs/node/#release-team)
-  * The key should be cherry-picked to all active release branches.
-  * Any future updates to the key should also be cherry-picked to all active release branches.
-* Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to add gpg key to [node.keys](https://github.com/nodejs/docker-node/blob/master/keys/node.keys)
+* Open a PR to add their GPG key to the nodejs/node [README.md](https://github.com/nodejs/node/#release-keys)
+  * Once landed, the key should be cherry-picked to all active release staging branches (i.e. the active `vMM.x-staging` branches).
+  * Any future updates to the key should also be cherry-picked to all active release staging branches.
+* Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to add their GPG key to [node.keys](https://github.com/nodejs/docker-node/blob/master/keys/node.keys).
+* Open a PR in [nodejs/release-keys](https://github.com/nodejs/release-keys) to add their GPG key via `./cli.sh add $KEY_ID`.
+* Open a PR in [nodejs/Release](https://github.com/nodejs/Release) to add themself under the "Releasers team" heading via `ncu-team sync README.md`.
 
 New releasers should wait at least 2 weeks after adding a GPG key to the
 nodejs/node README credentials before signing a release.
