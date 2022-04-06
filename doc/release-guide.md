@@ -2,7 +2,7 @@
 
 Guidance related to the management of Node.js releases and the release schedule.
 
-*Note: The process of creating a release is documented in the [releases.md](https://github.com/nodejs/node/blob/master/doc/guides/releases.md) file in the Node.js core repository.*
+*Note: The process of creating a release is documented in the [releases.md](https://github.com/nodejs/node/blob/master/doc/contributing/releases.md) file in the Node.js core repository.*
 
 # Updating the Release Schedule
 
