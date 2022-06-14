@@ -8,7 +8,7 @@ releases are subject to change.
 * Erbium (12.x 2019)
 * Fermium (14.x 2020)
 * Gallium (16.x 2021)
-* Hydrogen (18.x 2022)
+* Hafnium (18.x 2022)
 * Iron (20.x 2023)
 
 The release schedule is available as a [JSON](./schedule.json) file.
