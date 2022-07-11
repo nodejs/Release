@@ -34,7 +34,7 @@ phases.
 
 Changes required for critical security and bug fixes may lead to *semver-major*
 changes landing within a release stream, such situations will be rare and will
-land as *semver-minor*.
+land as *semver-minor*. Although, those changes should have a revert option included.
 
 The term 'supported release lines' will be used to refer to all release lines
 that are not End-of-Life.
