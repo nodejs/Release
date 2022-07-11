@@ -174,16 +174,17 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/lts) -->
 
-- [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
-- [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
-- [@codebytere](https://github.com/codebytere) - Shelley Vohr
-- [@danielleadams](https://github.com/danielleadams) - Danielle Adams
-- [@guybedford](https://github.com/guybedford) - Guy Bedford
-- [@mhdawson](https://github.com/mhdawson) - Michael Dawson
-- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-- [@richardlau](https://github.com/richardlau) - Richard Lau
-- [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
-- [@targos](https://github.com/targos) - Michaël Zasso
+* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
+* [@codebytere](https://github.com/codebytere) - Shelley Vohr
+* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
+* [@guybedford](https://github.com/guybedford) - Guy Bedford
+* [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+* [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
+* [@richardlau](https://github.com/richardlau) - Richard Lau
+* [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
+* [@targos](https://github.com/targos) - Michaël Zasso
 
 <!-- ncu-team-sync end -->
 
@@ -191,13 +192,14 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/backporters) -->
 
-- [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
-- [@codebytere](https://github.com/codebytere) - Shelley Vohr
-- [@danielleadams](https://github.com/danielleadams) - Danielle Adams
-- [@guybedford](https://github.com/guybedford) - Guy Bedford
-- [@mhdawson](https://github.com/mhdawson) - Michael Dawson
-- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-- [@richardlau](https://github.com/richardlau) - Richard Lau
+* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@codebytere](https://github.com/codebytere) - Shelley Vohr
+* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
+* [@guybedford](https://github.com/guybedford) - Guy Bedford
+* [@mhdawson](https://github.com/mhdawson) - Michael Dawson
+* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+* [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
+* [@richardlau](https://github.com/richardlau) - Richard Lau
 
 <!-- ncu-team-sync end -->
 
@@ -205,16 +207,19 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/releasers) -->
 
-- [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
-- [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
-- [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
-- [@codebytere](https://github.com/codebytere) - Shelley Vohr
-- [@danielleadams](https://github.com/danielleadams) - Danielle Adams
-- [@jasnell](https://github.com/jasnell) - James M Snell
-- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-- [@richardlau](https://github.com/richardlau) - Richard Lau
-- [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
-- [@targos](https://github.com/targos) - Michaël Zasso
+* [@bengl](https://github.com/bengl) - Bryan English
+* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
+* [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
+* [@codebytere](https://github.com/codebytere) - Shelley Vohr
+* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
+* [@jasnell](https://github.com/jasnell) - James M Snell
+* [@juanarbol](https://github.com/juanarbol) - Juan José
+* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+* [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
+* [@richardlau](https://github.com/richardlau) - Richard Lau
+* [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
+* [@targos](https://github.com/targos) - Michaël Zasso
 
 <!-- ncu-team-sync end -->
 
@@ -222,13 +227,13 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/citgm) -->
 
-- [@al-k21](https://github.com/al-k21) - Oleksandr Kushchak
-- [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
-- [@bzoz](https://github.com/bzoz) - Bartosz Sosnowski
-- [@gdams](https://github.com/gdams) - George Adams
-- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-- [@richardlau](https://github.com/richardlau) - Richard Lau
-- [@targos](https://github.com/targos) - Michaël Zasso
+* [@al-k21](https://github.com/al-k21) - Oleksandr Kushchak
+* [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
+* [@bzoz](https://github.com/bzoz) - Bartosz Sosnowski
+* [@gdams](https://github.com/gdams) - George Adams
+* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+* [@richardlau](https://github.com/richardlau) - Richard Lau
+* [@targos](https://github.com/targos) - Michaël Zasso
 
 <!-- ncu-team-sync end -->
 
