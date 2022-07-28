@@ -10,5 +10,6 @@ releases are subject to change.
 * Gallium (16.x 2021)
 * Hydrogen (18.x 2022)
 * Iron (20.x 2023)
+* Jod (22.x 2024)
 
 The release schedule is available as a [JSON](./schedule.json) file.
