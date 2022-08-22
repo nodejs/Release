@@ -34,5 +34,5 @@ The [Node.js Moderation Policy] applies to this WG.
 
 The [Node.js Code of Conduct][] applies to this WG.
 
-[Node.js Code of Conduct]: https://github.com/nodejs/TSC/blob/master/CODE_OF_CONDUCT.md
-[Node.js Moderation Policy]: https://github.com/nodejs/TSC/blob/master/Moderation-Policy.md
+[Node.js Code of Conduct]: https://github.com/nodejs/TSC/blob/main/CODE_OF_CONDUCT.md
+[Node.js Moderation Policy]: https://github.com/nodejs/TSC/blob/main/Moderation-Policy.md

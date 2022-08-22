@@ -151,7 +151,7 @@ After the nominee's first prepared release has been promoted the new releaser mu
 * Open a PR to add their GPG key to the nodejs/node [README.md](https://github.com/nodejs/node/#release-keys)
   * Once landed, the key should be cherry-picked to all active release staging branches (i.e. the active `vMM.x-staging` branches).
   * Any future updates to the key should also be cherry-picked to all active release staging branches.
-* Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to add their GPG key to [node.keys](https://github.com/nodejs/docker-node/blob/master/keys/node.keys).
+* Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to add their GPG key to [node.keys](https://github.com/nodejs/docker-node/blob/main/keys/node.keys).
 * Open a PR in [nodejs/release-keys](https://github.com/nodejs/release-keys) to add their GPG key via `./cli.sh add $KEY_ID`.
 * Open a PR in [nodejs/Release](https://github.com/nodejs/Release) to add themself under the "Releasers team" heading via `ncu-team sync README.md`.
 
@@ -214,7 +214,7 @@ The following steps should be taken as part of the offboarding process:
 * Be removed from the GitHub [security-release team](https://github.com/orgs/nodejs/teams/security-release) in the Node.js and nodejs-private organizations.
 * Ensure their SSH key is removed from the `dist` user on the primary www server.
 * Move their GPG key in nodejs/node [README.md](https://github.com/nodejs/node/#release-keys) to the 'Other keys used to sign some previous releases' section.
-* Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to remove their GPG key from [node.keys](https://github.com/nodejs/docker-node/blob/master/keys/node.keys).
-* Ensure they are moved to 'Emeritus - Releasers team' in the nodejs/release [README](https://github.com/nodejs/Release/blob/master/README.md).
+* Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to remove their GPG key from [node.keys](https://github.com/nodejs/docker-node/blob/main/keys/node.keys).
+* Ensure they are moved to 'Emeritus - Releasers team' in the nodejs/release [README](https://github.com/nodejs/Release/blob/main/README.md).
 
 Releasers are not automatically removed from the wider Release WG.

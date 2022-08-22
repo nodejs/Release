@@ -24,7 +24,7 @@ promoted to LTS - they will not go through the 'Active LTS' or 'Maintenance'
 phases.
 
  * Current - Should incorporate most of the non-major (non-breaking)
- changes that land on `nodejs/node` master branch.
+ changes that land on `nodejs/node` main branch.
  * Active LTS - New features, bug fixes, and updates that have been audited by
  the LTS team and have been determined to be appropriate and stable for the
  release line.
@@ -98,7 +98,7 @@ Working Group.
 
 ## Release Plan
 
-New *semver-major* releases of Node.js are branched from `master` every six
+New *semver-major* releases of Node.js are branched from `main` every six
 months. New even-numbered versions are released in April and odd-numbered
 versions in October.
 
@@ -128,11 +128,11 @@ Every LTS major version has two branches in the GitHub repository: a release
 branch and a staging branch. The release branch is used to cut new releases.
 Only members of the @nodejs/releasers team should land commits onto release branches.
 The staging branch is used to land cherry-picked or backported commits from
-master that need to be included in a future release. Only members of
+main that need to be included in a future release. Only members of
 @nodejs/backporters should land commits onto staging branches.
 
 For example, for Node.js v4, there is a `v4.x` branch and a `v4.x-staging`
-branch. When commits land in master that must be cherry-picked for a future
+branch. When commits land in main that must be cherry-picked for a future
 Node.js v4 release, those must be landed into the `v4.x-staging` branch. When
 commits are backported for a future Node.js v4 release, those must come in the
 form of pull requests opened against the `v4.x-staging` branch. **Commits are
