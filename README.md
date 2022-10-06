@@ -209,11 +209,7 @@ and CITGM team members listed below.
 
 * [@bengl](https://github.com/bengl) - Bryan English
 * [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
-* [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
-* [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
-* [@codebytere](https://github.com/codebytere) - Shelley Vohr
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
-* [@jasnell](https://github.com/jasnell) - James M Snell
 * [@juanarbol](https://github.com/juanarbol) - Juan José
 * [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
@@ -256,9 +252,13 @@ and CITGM team members listed below.
 - [@yunong](https://github.com/yunong) - Yunong Xiao
 
 ### Releasers team
+- [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
+- [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
+- [@codebytere](https://github.com/codebytere) - Shelley Vohr
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
+- [@jasnell](https://github.com/jasnell) - James M Snell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 
 ### CITGM team
