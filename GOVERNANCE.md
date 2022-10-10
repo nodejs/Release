@@ -154,6 +154,7 @@ After the nominee's first prepared release has been promoted the new releaser mu
 * Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to add their GPG key to [node.keys](https://github.com/nodejs/docker-node/blob/main/keys/node.keys).
 * Open a PR in [nodejs/release-keys](https://github.com/nodejs/release-keys) to add their GPG key via `./cli.sh add $KEY_ID`.
 * Open a PR in [nodejs/Release](https://github.com/nodejs/Release) to add themself under the "Releasers team" heading via `ncu-team sync README.md`.
+* Add them to the `#nodejs-release-private` team on the OpenJS Slack.
 
 New releasers should wait at least 2 weeks after adding a GPG key to the
 nodejs/node README credentials before signing a release.
@@ -216,5 +217,6 @@ The following steps should be taken as part of the offboarding process:
 * Move their GPG key in nodejs/node [README.md](https://github.com/nodejs/node/#release-keys) to the 'Other keys used to sign some previous releases' section.
 * Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to remove their GPG key from [node.keys](https://github.com/nodejs/docker-node/blob/main/keys/node.keys).
 * Ensure they are moved to 'Emeritus - Releasers team' in the nodejs/release [README](https://github.com/nodejs/Release/blob/main/README.md).
+* Remove them from the `#nodejs-release-private` team on the OpenJS Slack.
 
 Releasers are not automatically removed from the wider Release WG.
