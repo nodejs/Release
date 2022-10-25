@@ -6,7 +6,7 @@
 | :--:     | :---:               | :---:        | :---:          | :---:            | :---:             | :---:                     |
 | [14.x][] | **Maintenance**     | [Fermium][]  | 2020-04-21     | 2020-10-27       | 2021-10-19        | 2023-04-30                |
 | [16.x][] | **Maintenance**     | [Gallium][]  | 2021-04-20     | 2021-10-26       | 2022-10-18        | [2023-09-11][nodejs16eol] |
-| [18.x][] | **Current**         |              | 2022-04-19     | 2022-10-25       | 2023-10-18        | 2025-04-30                |
+| [18.x][] | **LTS**             | [Hydrogen][] | 2022-04-19     | 2022-10-25       | 2023-10-18        | 2025-04-30                |
 | [19.x][] | **Current**         |              | 2022-10-18     | -                | 2023-04-01        | 2023-06-01                |
 | 20.x     | **Pending**         |              | 2023-04-18     | 2023-10-24       | 2024-10-22        | 2026-04-30                |
 
@@ -149,6 +149,7 @@ the discretion of the Release working group.
 [Erbium]: https://nodejs.org/download/release/latest-erbium/
 [Fermium]: https://nodejs.org/download/release/latest-fermium/
 [Gallium]: https://nodejs.org/download/release/latest-gallium/
+[Hydrogen]: https://nodejs.org/download/release/latest-hydrogen/
 [JSON]: schedule.json
 [nodejs16eol]: https://nodejs.org/en/blog/announcements/nodejs16-eol/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
