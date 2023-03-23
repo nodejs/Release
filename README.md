@@ -223,17 +223,7 @@ and CITGM team members listed below.
 
 ## CITGM team
 
-<!-- ncu-team-sync.team(nodejs/citgm) -->
-
-* [@al-k21](https://github.com/al-k21) - Oleksandr Kushchak
-* [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
-* [@bzoz](https://github.com/bzoz) - Bartosz Sosnowski
-* [@gdams](https://github.com/gdams) - George Adams
-* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-* [@richardlau](https://github.com/richardlau) - Richard Lau
-* [@targos](https://github.com/targos) - Michaël Zasso
-
-<!-- ncu-team-sync end -->
+* https://github.com/nodejs/citgm#citgm-team
 
 ## Emeritus
 
@@ -262,8 +252,3 @@ and CITGM team members listed below.
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
-
-### CITGM team
-- [@bengl](https://github.com/bengl) - Bryan English
-- [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
-- [@jasnell](https://github.com/jasnell) - James M Snell
