@@ -164,7 +164,6 @@ reported to the TSC immediately so remedial action can be taken.**
 
 For releasing on LTS release lines, releasers must:
 
-* Be added as members of the GitHub [LTS team](https://github.com/orgs/nodejs/teams/lts)
 * Fully release at least one Current Node.js release; for practice, and to help promote the new GPG key to the user ecosystem prior to it being required to verify an LTS release
 
 ### SSH key guidance

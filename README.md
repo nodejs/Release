@@ -79,16 +79,13 @@ the working group does not automatically result in membership in these
 teams. These teams are:
 
 * Releasers team
-* LTS team
 * CITGM team
 
 The `releasers` team is entrusted with the secrets and CI access to be able
 build and sign releases. **Additions to the releasers team must be approved
-by the TSC following the process outlined in GOVERNANCE.md.**
-
-The Long Term Support (LTS) team manages the process/content of LTS releases
-and the required backporting for these releases. Additions to the LTS
-team needs sign off from the rest of the LTS team.
+by the TSC following the process outlined in GOVERNANCE.md.** The team also
+manages the process/content of LTS releases and the required backporting for
+these releases.
 
 The Canary in the Gold Mine (CITGM) team maintains CITGM as one of
 the key sanity checks for releases. This team maintains the CITGM
@@ -173,45 +170,12 @@ the discretion of the Release working group.
 The working group members are the union of the LTS, Releasers
 and CITGM team members listed below.
 
-## LTS Team members
-
-<!-- ncu-team-sync.team(nodejs/lts) -->
-
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
-* [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
-* [@codebytere](https://github.com/codebytere) - Shelley Vohr
-* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
-* [@guybedford](https://github.com/guybedford) - Guy Bedford
-* [@mhdawson](https://github.com/mhdawson) - Michael Dawson
-* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-* [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
-* [@richardlau](https://github.com/richardlau) - Richard Lau
-* [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
-* [@targos](https://github.com/targos) - Michaël Zasso
-
-<!-- ncu-team-sync end -->
-
-### Backporters team
-
-<!-- ncu-team-sync.team(nodejs/backporters) -->
-
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
-* [@codebytere](https://github.com/codebytere) - Shelley Vohr
-* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
-* [@guybedford](https://github.com/guybedford) - Guy Bedford
-* [@mhdawson](https://github.com/mhdawson) - Michael Dawson
-* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
-* [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
-* [@richardlau](https://github.com/richardlau) - Richard Lau
-
-<!-- ncu-team-sync end -->
-
 ## Releasers team
 
 <!-- ncu-team-sync.team(nodejs/releasers) -->
 
 * [@bengl](https://github.com/bengl) - Bryan English
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@BethGriggs](https://github.com/BethGriggs)
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@juanarbol](https://github.com/juanarbol) - Juan José
 * [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
@@ -219,6 +183,7 @@ and CITGM team members listed below.
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 * [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
 * [@targos](https://github.com/targos) - Michaël Zasso
+* [@UlisesGascon](https://github.com/UlisesGascon) - Ulises Gascón
 
 <!-- ncu-team-sync end -->
 
