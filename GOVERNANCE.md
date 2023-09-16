@@ -153,7 +153,7 @@ After the nominee's first prepared release has been promoted the new releaser mu
   * Any future updates to the key should also be cherry-picked to all active release staging branches.
 * Open a PR in [nodejs/docker-node](https://github.com/nodejs/docker-node/) to add their GPG key to [node.keys](https://github.com/nodejs/docker-node/blob/main/keys/node.keys).
 * Open a PR in [nodejs/release-keys](https://github.com/nodejs/release-keys) to add their GPG key via `./cli.sh add $KEY_ID`.
-* Open a PR in [nodejs/Release](https://github.com/nodejs/Release) to add themself under the "Releasers team" heading via `ncu-team sync README.md`.
+* Open a PR in [nodejs/Release](https://github.com/nodejs/Release) to add themselves under the "Releasers team" heading via `ncu-team sync README.md`.
 * Add them to the `#nodejs-release-private` team on the OpenJS Slack.
 
 New releasers should wait at least 2 weeks after adding a GPG key to the
