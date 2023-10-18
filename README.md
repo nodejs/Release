@@ -6,7 +6,7 @@
 | :--:     | :---:               | :---:        | :---:          | :---:            | :---:             | :---:                     |
 | [18.x][] | **LTS**             | [Hydrogen][] | 2022-04-19     | 2022-10-25       | 2023-10-18        | 2025-04-30                |
 | [20.x][] | **Current**         |              | 2023-04-18     | 2023-10-24       | 2024-10-22        | 2026-04-30                |
-| 21.x     | **Pending**         |              | 2023-10-17     | -                | 2024-04-01        | 2024-06-01                |
+| [21.x][] | **Current**         |              | 2023-10-17     | -                | 2024-04-01        | 2024-06-01                |
 | 22.x     | **Pending**         |              | 2024-04-23     | 2024-10-29       | 2025-10-21        | 2027-04-30                |
 | 23.x     | **Pending**         |              | 2024-10-15     | -                | 2025-04-01        | 2025-06-01                |
 | 24.x     | **Pending**         |              | 2025-04-22     | 2025-10-28       | 2026-10-20        | 2028-04-30                |
@@ -173,6 +173,7 @@ the discretion of the Release working group.
 [18.x]: https://nodejs.org/download/release/latest-v18.x/
 [19.x]: https://nodejs.org/download/release/latest-v19.x/
 [20.x]: https://nodejs.org/download/release/latest-v20.x/
+[21.x]: https://nodejs.org/download/release/latest-v21.x/
 
 The working group members are the union of the LTS, Releasers
 and CITGM team members listed below.
