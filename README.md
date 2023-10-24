@@ -5,7 +5,7 @@
 | Release  | Status              | Codename     |Initial Release | Active LTS Start | Maintenance Start | End-of-life               |
 | :--:     | :---:               | :---:        | :---:          | :---:            | :---:             | :---:                     |
 | [18.x][] | **LTS**             | [Hydrogen][] | 2022-04-19     | 2022-10-25       | 2023-10-18        | 2025-04-30                |
-| [20.x][] | **Current**         |              | 2023-04-18     | 2023-10-24       | 2024-10-22        | 2026-04-30                |
+| [20.x][] | **LTS**             | [Iron][]     | 2023-04-18     | 2023-10-24       | 2024-10-22        | 2026-04-30                |
 | [21.x][] | **Current**         |              | 2023-10-17     | -                | 2024-04-01        | 2024-06-01                |
 | 22.x     | **Pending**         |              | 2024-04-23     | 2024-10-29       | 2025-10-21        | 2027-04-30                |
 | 23.x     | **Pending**         |              | 2024-10-15     | -                | 2025-04-01        | 2025-06-01                |
@@ -154,6 +154,7 @@ the discretion of the Release working group.
 [Fermium]: https://nodejs.org/download/release/latest-fermium/
 [Gallium]: https://nodejs.org/download/release/latest-gallium/
 [Hydrogen]: https://nodejs.org/download/release/latest-hydrogen/
+[Iron]: https://nodejs.org/download/release/latest-iron/
 [JSON]: schedule.json
 [nodejs16eol]: https://nodejs.org/en/blog/announcements/nodejs16-eol/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
