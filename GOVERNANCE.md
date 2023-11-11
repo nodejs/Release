@@ -128,6 +128,8 @@ See "WG Membership" above.
 
 ## Adding new releasers
 
+While participation in the Working Group (WG) is open, the role of a releaser is considered critical within the Node.js Org. As per our policy, it is expected that a releaser either be an existing collaborator or someone soon to be nominated. To facilitate a smoother process for future nominations, it is recommended not to self-nominate as a releaser. Instead, it is advised to approach the releasers team directly in private. This allows the team to assist you in preparing your nomination and facilitates internal discussions at nodejs/releasers team.
+
 When considering adding a new releaser an email should be sent to the
 [Technical Steering Committee](https://github.com/nodejs/tsc) for approval.
 After approval the nominee will be assigned a mentor from the releasers team
