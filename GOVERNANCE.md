@@ -150,6 +150,8 @@ After the nominee's first prepared release has been promoted the new releaser mu
 * Be added to the GitHub [releasers team](https://github.com/orgs/nodejs/teams/releasers) in the Node.js org (grants ci-release access)
 * Be added to the GitHub [security-release team](https://github.com/orgs/nodejs/teams/security-release) in the Node.js and nodejs-private orgs
 * Have a single, high quality SSH key added to the "dist" user on the primary www server (see below for guidelines regarding SSH key quality)
+* Add your GPG key to your GitHub account for verification. [Github Guide](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account).
+  * Check that the key is added in your profile: `https://github.com/your-username.gpg`
 * Open a PR to add their GPG key to the nodejs/node [README.md](https://github.com/nodejs/node/#release-keys)
   * Once landed, the key should be cherry-picked to all active release staging branches (i.e. the active `vMM.x-staging` branches).
   * Any future updates to the key should also be cherry-picked to all active release staging branches.
