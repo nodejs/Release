@@ -13,7 +13,38 @@
 
 Dates are subject to change.
 
-<p><img src="schedule.svg" alt="LTS Schedule"/></p>
+```mermaid
+---
+displayMode: compact
+---
+gantt
+    dateFormat YYYY-MM-DD
+    axisFormat %b %Y
+    section Main
+        Unstable        :2022-04-19,2028-04-30
+    section Node.js 18
+        Current         :cur18,2022-04-19,2022-10-25
+        Active          :act18,after cur18,2023-10-18
+        Maintenance     :mtn18,after act18,2025-04-30
+    section Node.js 20
+        Current         :cur20,2023-04-18,2023-10-24
+        Active          :act20,after cur20,2024-10-22
+        Maintenance     :mtn20,after act20,2026-04-30
+    section Node.js 21
+        Current         :cur21,2023-10-17,2024-04-01
+        Maintenance     :mtn21,after cur21,2024-06-01
+    section Node.js 22
+        Current        :cur22,2024-04-23,2024-10-29
+        Active         :act22,after cur22,2025-10-21
+        Maintenance    :mtn22,after act22,2027-04-30
+    section Node.js 23
+        Current        :cur23,2024-10-15,2025-04-01
+        Maintenance    :mtn23,after cur23,2025-06-01
+    section Node.js 24
+        Current        :cur24,2025-04-22,2025-10-28
+        Active         :act24,after cur24,2026-10-20
+        Maintenance    :mtn24,after act24,2028-04-30
+```
 
 The Release schedule is available also as a [JSON][] file.
 
