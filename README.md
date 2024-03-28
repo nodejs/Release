@@ -183,7 +183,7 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/lts) -->
 
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
 * [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 * [@codebytere](https://github.com/codebytere) - Shelley Vohr
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
@@ -201,7 +201,7 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/backporters) -->
 
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
 * [@codebytere](https://github.com/codebytere) - Shelley Vohr
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@guybedford](https://github.com/guybedford) - Guy Bedford
@@ -217,9 +217,10 @@ and CITGM team members listed below.
 <!-- ncu-team-sync.team(nodejs/releasers) -->
 
 * [@bengl](https://github.com/bengl) - Bryan English
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Nicolle Griggs
+* [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@juanarbol](https://github.com/juanarbol) - Juan José
+* [@marco-ippolito](https://github.com/marco-ippolito) - Marco Ippolito
 * [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@richardlau](https://github.com/richardlau) - Richard Lau
