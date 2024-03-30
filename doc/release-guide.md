@@ -6,7 +6,7 @@ Guidance related to the management of Node.js releases and the release schedule.
 
 # Updating the Release Schedule
 
-When making amendments to the release schedule the following files in this repository should be updated:
+When making amendments to the release schedule, the following files in this repository should be updated:
  * `schedule.json` - The JSON file should be updated to reflect the added or amended dates/entries.
  * `README.md` - The [Release Schedule Table](https://github.com/nodejs/Release#release-schedule) should be updated.
  * `schedule.svg` - The timeline graphic should be regenerated. See [Updating the schedule.svg](#updating-the-schedulesvg)

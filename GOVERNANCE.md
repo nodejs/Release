@@ -54,13 +54,13 @@ WG seats are not time-limited. There is no fixed size of the WG.
 There is no specific set of requirements or qualifications
 for WG membership beyond these rules.
 
-The WG may add additional members to the WG by consensus(defined
+The WG may add additional members to the WG by consensus (defined
 as no objections, more than 50% of the members participating in the
 discussion, and all those participating in the discussion agreeing).
 
 A WG member may be removed from the WG by voluntary resignation,
 or by unanimous consensus of all other WG members. If a member is
-removed from the WG then they are also removed from all WG teams
+removed from the WG, then they are also removed from all WG teams
 (including the Releasers team).
 
 Changes to WG membership should be posted in the agenda, and may be
@@ -101,7 +101,7 @@ added to the next meeting's agenda by logging a GitHub Issue.
 Any Collaborator, WG member or the moderator can add the item
 to the agenda by adding the WG-agenda tag to the issue.
 
-Prior to each WG meeting the moderator will share the Agenda with
+Prior to each WG meeting, the moderator will share the Agenda with
 members of the WG. WG members can add any items they like to the
 agenda at the beginning of each meeting.
 
@@ -118,7 +118,7 @@ The WG follows a Consensus Seeking decision-making model.
 When an agenda item has appeared to reach a consensus the moderator
 will ask "Does anyone object?" as a final call for dissent from the consensus.
 
-If an agenda item cannot reach a consensus a WG member can call for either a
+If an agenda item cannot reach a consensus, a WG member can call for either a
 closing vote or a vote to table the issue to the next meeting. The call for
 a vote must be seconded by a majority of the WG or else the
 discussion will continue. Simple majority wins.
@@ -130,22 +130,22 @@ See "WG Membership" above.
 
 While participation in the Working Group (WG) is open, the role of a releaser is considered critical within the Node.js Org. As per our policy, it is expected that a releaser either be an existing collaborator or someone soon to be nominated. To facilitate a smoother process for future nominations, it is recommended not to self-nominate as a releaser. Instead, it is advised to approach the releasers team directly in private. This allows the team to assist you in preparing your nomination and facilitates internal discussions at nodejs/releasers team.
 
-When considering adding a new releaser an email should be sent to the
+When considering adding a new releaser, an email should be sent to the
 [Technical Steering Committee](https://github.com/nodejs/tsc) for approval.
-After approval the nominee will be assigned a mentor from the releasers team
+After approval, the nominee will be assigned a mentor from the releasers team
 to help walk them through the process to learn how to prepare a release.
 
 The nominee will then be expected to prepare one release on any active release
 line, which can be tagged, signed and promoted by any other existing member of
-the releasers team. After this release the nominee will be considered a full
+the releasers team. After this release, the nominee will be considered a full
 member of the releasers team. The first release promoted by a new releasers
 team member must have a mentor from the current releasers team available to
 support during the process.
 
-At any point during this process any member of the Release WG can raise an
+At any point during this process, any member of the Release WG can raise an
 objection to the TSC.
 
-After the nominee's first prepared release has been promoted the new releaser must:
+After the nominee's first prepared release has been promoted, the new releaser must:
 
 * Be added to the GitHub [releasers team](https://github.com/orgs/nodejs/teams/releasers) in the Node.js org (grants ci-release access)
 * Be added to the GitHub [security-release team](https://github.com/orgs/nodejs/teams/security-release) in the Node.js and nodejs-private orgs
