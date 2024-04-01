@@ -114,7 +114,7 @@ should happen after the new major version is released.
 Every even (LTS) major version will be actively maintained for 12 months from
 the date it enters LTS coverage. Following those 12 months of active support,
 the major version will transition into "maintenance" mode for 18 months. Prior
-to Node.js 12 the active period was 18 months and the maintenance period 12
+to Node.js 12, the active period was 18 months and the maintenance period 12
 months. See [Releases Phases](#release-phases) for details of which changes
 are expected to land during each release phase.
 
