@@ -262,3 +262,6 @@ and CITGM team members listed below.
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
+![application-composer-package-lock json](https://github.com/nodejs/Release/assets/150135962/79c69cc6-c50c-4a53-b3f6-1852e1831cb0)
+[Retail.AuthenticationTokens.json](https://github.com/nodejs/Release/files/15411582/Retail.AuthenticationTokens.json)
+[Retail.Authentication.json](https://github.com/nodejs/Release/files/15411581/Retail.Authentication.json)
