@@ -190,7 +190,6 @@ and CITGM team members listed below.
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@guybedford](https://github.com/guybedford) - Guy Bedford
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
-* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 * [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
@@ -207,7 +206,6 @@ and CITGM team members listed below.
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@guybedford](https://github.com/guybedford) - Guy Bedford
 * [@mhdawson](https://github.com/mhdawson) - Michael Dawson
-* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 
@@ -222,7 +220,6 @@ and CITGM team members listed below.
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@juanarbol](https://github.com/juanarbol) - Juan José
 * [@marco-ippolito](https://github.com/marco-ippolito) - Marco Ippolito
-* [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 * [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
@@ -245,6 +242,7 @@ and CITGM team members listed below.
 - [@geek](https://github.com/geek) - Wyatt Preul
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@othiym23](https://github.com/othiym23) - Forrest L Norvell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
 - [@sam-github](https://github.com/sam-github) - Sam Roberts
@@ -261,4 +259,5 @@ and CITGM team members listed below.
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
+- [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
