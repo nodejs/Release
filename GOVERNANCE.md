@@ -1,7 +1,7 @@
 # Release Working Group
 
 The Node.js Release Working Group (WG) maintains oversight
-over the Node.js Release, Long Term Support (LTS) and
+over the Node.js Release and
 Canary in the Gold Mine (CitGM) teams. It manages the release
 and long term support schedule and policies for all Node.js releases.
 
@@ -168,7 +168,7 @@ reported to the TSC immediately so remedial action can be taken.**
 
 For releasing on LTS release lines, releasers must:
 
-* Be added as members of the GitHub [LTS team](https://github.com/orgs/nodejs/teams/lts)
+* Be added as members of the GitHub [Release team](https://github.com/orgs/nodejs/teams/releasers)
 * Fully release at least one Current Node.js release; for practice, and to help promote the new GPG key to the user ecosystem prior to it being required to verify an LTS release
 
 ### SSH key guidance

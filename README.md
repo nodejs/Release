@@ -26,10 +26,10 @@ phases.
  * Current - Should incorporate most of the non-major (non-breaking)
  changes that land on `nodejs/node` main branch.
  * Active LTS - New features, bug fixes, and updates that have been audited by
- the LTS team and have been determined to be appropriate and stable for the
+ the Release team and have been determined to be appropriate and stable for the
  release line.
  * Maintenance - Critical bug fixes and security updates. New features may be
- added at the discretion of the LTS team - typically only in cases where
+ added at the discretion of the Release team - typically only in cases where
  the new feature supports migration to later release lines.
 
 Changes required for critical security and bug fixes may lead to *semver-major*
@@ -83,16 +83,16 @@ the working group does not automatically result in membership in these
 teams. These teams are:
 
 * Releasers team
-* LTS team
+* Backporters team
 * CITGM team
 
 The `releasers` team is entrusted with the secrets and CI access to be able
 build and sign releases. **Additions to the releasers team must be approved
 by the TSC following the process outlined in GOVERNANCE.md.**
 
-The Long Term Support (LTS) team manages the process/content of LTS releases
-and the required backporting for these releases. Additions to the LTS
-team needs sign off from the rest of the LTS team.
+The Release team manages the process/content of LTS releases
+and the required backporting for these releases. Additions to the Release
+team needs sign off from the rest of the Release team.
 
 The Canary in the Gold Mine (CITGM) team maintains CITGM as one of
 the key sanity checks for releases. This team maintains the CITGM
@@ -177,25 +177,8 @@ the discretion of the Release working group.
 [21.x]: https://nodejs.org/download/release/latest-v21.x/
 [22.x]: https://nodejs.org/download/release/latest-v22.x/
 
-The working group members are the union of the LTS, Releasers
+The working group members are the union of the Releasers, Backporters
 and CITGM team members listed below.
-
-## LTS Team members
-
-<!-- ncu-team-sync.team(nodejs/lts) -->
-
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
-* [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
-* [@codebytere](https://github.com/codebytere) - Shelley Vohr
-* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
-* [@guybedford](https://github.com/guybedford) - Guy Bedford
-* [@mhdawson](https://github.com/mhdawson) - Michael Dawson
-* [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
-* [@richardlau](https://github.com/richardlau) - Richard Lau
-* [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
-* [@targos](https://github.com/targos) - Michaël Zasso
-
-<!-- ncu-team-sync end -->
 
 ### Backporters team
 
