@@ -216,9 +216,9 @@ and CITGM team members listed below.
 
 ### LTS team
 - [@addaleax](https://github.com/addaleax) - Anna Henningsen
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
+- [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
-* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
+- [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 - [@ErisDS](https://github.com/ErisDS) - Hannah Wolfe
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@geek](https://github.com/geek) - Wyatt Preul
@@ -234,10 +234,12 @@ and CITGM team members listed below.
 - [@yunong](https://github.com/yunong) - Yunong Xiao
 
 ### Releasers team
-* [@bengl](https://github.com/bengl) - Bryan English
+- [@bengl](https://github.com/bengl) - Bryan English
+- [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
 - [@cjihrig](https://github.com/cjihrig) - Colin Ihrig
 - [@codebytere](https://github.com/codebytere) - Shelley Vohr
+- [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 - [@evanlucas](https://github.com/evanlucas) - Evan Lucas
 - [@Fishrock123](https://github.com/Fishrock123) - Jeremiah Senkpiel
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
