@@ -6,7 +6,7 @@
 | :--:     | :---:               | :---:        | :---:          | :---:            | :---:             | :---:                     |
 | [18.x][] | **Maintenance**     | [Hydrogen][] | 2022-04-19     | 2022-10-25       | 2023-10-18        | 2025-04-30                |
 | [20.x][] | **Maintenance**     | [Iron][]     | 2023-04-18     | 2023-10-24       | 2024-10-22        | 2026-04-30                |
-| [22.x][] | **Current**         |              | 2024-04-24     | 2024-10-29       | 2025-10-21        | 2027-04-30                |
+| [22.x][] | **LTS**             | [Jod][]      | 2024-04-24     | 2024-10-29       | 2025-10-21        | 2027-04-30                |
 | 23.x     | **Current**         |              | 2024-10-15     | -                | 2025-04-01        | 2025-06-01                |
 | 24.x     | **Pending**         |              | 2025-04-22     | 2025-10-28       | 2026-10-20        | 2028-04-30                |
 
@@ -155,6 +155,7 @@ the discretion of the Release working group.
 [Gallium]: https://nodejs.org/download/release/latest-gallium/
 [Hydrogen]: https://nodejs.org/download/release/latest-hydrogen/
 [Iron]: https://nodejs.org/download/release/latest-iron/
+[Jod]: https://nodejs.org/download/release/latest-jod/
 [JSON]: schedule.json
 [nodejs16eol]: https://nodejs.org/en/blog/announcements/nodejs16-eol/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
