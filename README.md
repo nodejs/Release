@@ -7,7 +7,7 @@
 | [18.x][] | **Maintenance**     | [Hydrogen][] | 2022-04-19     | 2022-10-25       | 2023-10-18        | 2025-04-30                |
 | [20.x][] | **Maintenance**     | [Iron][]     | 2023-04-18     | 2023-10-24       | 2024-10-22        | 2026-04-30                |
 | [22.x][] | **LTS**             | [Jod][]      | 2024-04-24     | 2024-10-29       | 2025-10-21        | 2027-04-30                |
-| 23.x     | **Current**         |              | 2024-10-15     | -                | 2025-04-01        | 2025-06-01                |
+| [23.x][] | **Current**         |              | 2024-10-15     | -                | 2025-04-01        | 2025-06-01                |
 | 24.x     | **Pending**         |              | 2025-04-22     | 2025-10-28       | 2026-10-20        | 2028-04-30                |
 
 Dates are subject to change.
@@ -177,6 +177,7 @@ the discretion of the Release working group.
 [20.x]: https://nodejs.org/download/release/latest-v20.x/
 [21.x]: https://nodejs.org/download/release/latest-v21.x/
 [22.x]: https://nodejs.org/download/release/latest-v22.x/
+[23.x]: https://nodejs.org/download/release/latest-v23.x/
 
 The working group members are the union of the Releasers, Backporters
 and CITGM team members listed below.
