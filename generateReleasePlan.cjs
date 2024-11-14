@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 'use strict';
 // Generate Release Plan table for a given release line.
 // Usage:
@@ -8,15 +10,15 @@ const schedule = require('./schedule.json');
 const [,, version] = process.argv;
 
 if (!Object.hasOwn(schedule, version)) {
-    throw new Error(`Unknown version ${version}`);
+	throw new Error(`Unknown version ${version}, accepted values are ${Object.keys(schedule)}`);
 }
 
 console.log(`_Draft schedule - all dates subject to change_
 
 Version | Release Date | Releaser
---------|--------------| -------------`)
+--------|--------------| -------------`);
 
-const {start, maintenance, lts} = schedule[version];
+const { start, maintenance, lts } = schedule[version];
 
 const ltsDateTime = lts && Temporal.PlainDate.from(lts);
 const maintenanceDateTime = Temporal.PlainDate.from(maintenance);
@@ -29,12 +31,13 @@ const endOfCycle = isNowDuringLTS ? maintenanceDateTime : ltsDateTime || mainten
 const weeks = isNowDuringLTS ? 4 : 2;
 
 for (let i = startOfCycle; Temporal.PlainDate.compare(i, endOfCycle) === -1; i = i.add({ weeks })) {
-    console.log(`${version}.x.x |  ${i}  | `)
+	console.log(`${version}.x.x |  ${i}  | `);
 }
 
 if (lts) {
-    console.log(`${
-        version}.x.x (${isNowDuringLTS ? 'Maintenance' : 'LTS'} transition) |  ${
-        isNowDuringLTS ? maintenance : lts}  | ${
-        isNowDuringLTS ? '_No release_' : ''}`);
+	console.log(
+		`${version}.x.x (${isNowDuringLTS ? 'Maintenance' : 'LTS'} transition) |  ${
+			isNowDuringLTS ? maintenance : lts
+		}  | ${isNowDuringLTS ? '_No release_' : ''}`,
+	);
 }
