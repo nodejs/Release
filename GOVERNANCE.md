@@ -159,6 +159,7 @@ After the nominee's first prepared release has been promoted, the new releaser m
 * Open a PR in [nodejs/release-keys](https://github.com/nodejs/release-keys) to add their GPG key via `./cli.sh add $KEY_ID`.
 * Open a PR in [nodejs/Release](https://github.com/nodejs/Release) to add themselves under the "Releasers team" heading via `ncu-team sync README.md`.
 * Add them to the `#nodejs-release-private` team on the OpenJS Slack.
+* Configure git to sign all commits inside the `node` folder: `git config commit.gpgsign true`.
 
 New releasers should wait at least 2 weeks after adding a GPG key to the
 nodejs/node README credentials before signing a release.
