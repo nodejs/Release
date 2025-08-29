@@ -1,0 +1,64 @@
+name: Update Release Schedule SVG
+
+on:
+  schedule:
+    - cron: "0 9 * * 1" # Every Monday at 9:00 AM UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-schedule-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Generate and optimize schedule SVG
+        shell: bash
+        env:
+          SCHEDULE_JSON: ${{ github.workspace }}/schedule.json
+          SCHEDULE_SVG: ${{ github.workspace }}/schedule.svg
+        run: |
+          # Calculate date range
+          START_DATE=$(date -d "3 months ago" +%Y-%m-%d)
+          END_DATE=$(date -d "18 months" +%Y-%m-%d)
+          echo "Generating SVG from $START_DATE to $END_DATE"
+
+          # Generate SVG (output to schedule.svg)
+          npx lts -s "$START_DATE" -e "$END_DATE" -d "$SCHEDULE_JSON" -g "$SCHEDULE_SVG"
+
+          # Optimize SVG
+          npx svgo "$SCHEDULE_SVG"
+
+      - name: Check for changes in schedule.svg
+        id: git_check
+        run: |
+          if git diff --quiet schedule.svg; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit and push changes
+        if: steps.git_check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add schedule.svg
+          git commit -m "chore: update release schedule svg"
+          git push
+
+      - name: Create workflow summary
+        run: |
+          if [[ "${{ steps.git_check.outputs.changed }}" == "true" ]]; then
+            echo "✅ Schedule SVG updated successfully" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "ℹ️ No changes detected in schedule SVG" >> "$GITHUB_STEP_SUMMARY"
+          fi
