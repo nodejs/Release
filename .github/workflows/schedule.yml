@@ -49,14 +49,19 @@ jobs:
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Commit and push changes
+      - name: Create Pull Request
         if: steps.git_check.outputs.changed == 'true'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add schedule.svg
-          git commit -m "chore: update release schedule svg"
-          git push
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
+        with:
+          token: ${{ secrets.GH_API_TOKEN }}
+          author: "Node.js GitHub Bot <nodejs-github-bot@users.noreply.github.com>"
+          branch: update-branch
+          base: main
+          commit-message: "feat: Node.js ${{ steps.updt.outputs.result }}"
+          title: "chore: update release svg"
+          delete-branch: true
+          team-reviewers: |
+            nodejs/releasers
 
       - name: Create workflow summary
         run: |
