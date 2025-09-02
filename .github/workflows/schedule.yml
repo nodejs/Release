@@ -35,10 +35,10 @@ jobs:
           echo "Generating SVG from $START_DATE to $END_DATE"
 
           # Generate SVG (output to schedule.svg)
-          npx lts -s "$START_DATE" -e "$END_DATE" -d "$SCHEDULE_JSON" -g "$SCHEDULE_SVG"
+          npx lts@2.0.0 -s "$START_DATE" -e "$END_DATE" -d "$SCHEDULE_JSON" -g "$SCHEDULE_SVG"
 
           # Optimize SVG
-          npx svgo "$SCHEDULE_SVG"
+          npx svgo@4.0.0 "$SCHEDULE_SVG"
 
       - name: Check for changes in schedule.svg
         id: git_check
