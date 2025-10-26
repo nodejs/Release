@@ -4,9 +4,10 @@
 
 | Release  | Status              | Codename     |Initial Release | Active LTS Start | Maintenance Start | End-of-life               |
 | :--:     | :---:               | :---:        | :---:          | :---:            | :---:             | :---:                     |
-| [20.x][] | **Maintenance**     | [Iron][]     | 2023-04-18     | 2023-10-24       | 2024-10-22        | 2026-04-30                |
-| [22.x][] | **LTS**             | [Jod][]      | 2024-04-24     | 2024-10-29       | 2025-10-21        | 2027-04-30                |
-| [24.x][] | **Current**         |              | 2025-05-06     | 2025-10-28       | 2026-10-20        | 2028-04-30                |
+| [20.x][] | **Maintenance LTS** | [Iron][]     | 2023-04-18     | 2023-10-24       | 2024-10-22        | 2026-04-30                |
+| [22.x][] | **Maintenance LTS** | [Jod][]      | 2024-04-24     | 2024-10-29       | 2025-10-21        | 2027-04-30                |
+| [24.x][] | **Active LTS**      | [Krypton][]  | 2025-05-06     | 2025-10-28       | 2026-10-20        | 2028-04-30                |
+| [25.x][] | **Current**         |              | 2025-10-15     | -                | 2026-04-01        | 2026-06-01                |
 
 Dates are subject to change.
 
@@ -156,6 +157,7 @@ the discretion of the Release working group.
 [Hydrogen]: https://nodejs.org/download/release/latest-hydrogen/
 [Iron]: https://nodejs.org/download/release/latest-iron/
 [Jod]: https://nodejs.org/download/release/latest-jod/
+[Krypton]: https://nodejs.org/download/release/latest-krypton/
 [JSON]: schedule.json
 [nodejs16eol]: https://nodejs.org/en/blog/announcements/nodejs16-eol/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
@@ -179,6 +181,7 @@ the discretion of the Release working group.
 [22.x]: https://nodejs.org/download/release/latest-v22.x/
 [23.x]: https://nodejs.org/download/release/latest-v23.x/
 [24.x]: https://nodejs.org/download/release/latest-v24.x/
+[25.x]: https://nodejs.org/download/release/latest-v25.x/
 
 The working group members are the union of the Releasers, Backporters
 and CITGM team members listed below.
