@@ -20,7 +20,7 @@ From a user perspective, the system is confusing. Most users, particularly enter
 
 **Key Stakeholder Feedback**
 
-1.  **Users/Enterprise:** There is a strong preference for extending the **LTS support window** (currently 30 months active/maintenance). Shortening the 36-month total LTS window would be highly unpopular and likely cause "a scream in the ecosystem". Companies require LTS windows to overlap (e.g., support for Node 22 must continue while migrating to Node 24) to accommodate long forward planning cycles (up to two years).
+1.  **Users/Enterprise:** There is a strong preference for extending the **LTS support window** (currently 30 months active/maintenance). Shortening the 30-month total LTS window would be highly unpopular and likely cause "a scream in the ecosystem". Companies require LTS windows to overlap (e.g., support for Node 22 must continue while migrating to Node 24) to accommodate long forward planning cycles (up to two years).
 2.  **Module Developers:** The "Current" releases are primarily useful for module developers to quickly integrate and test new V8 updates and features, ensuring modules are ready before features roll into LTS.
 3.  **The Project/Releasers:** The primary issue is maintaining the health and capacity of the release working group. The need for feature backporting to Active LTS lines adds significant effort. Automation for cutting releases is critical for relieving the maintainer burden.
 
