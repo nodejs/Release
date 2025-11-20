@@ -194,7 +194,6 @@ and CITGM team members listed below.
 * [@codebytere](https://github.com/codebytere) - Shelley Vohr
 * [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@guybedford](https://github.com/guybedford) - Guy Bedford
-* [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 
@@ -230,6 +229,7 @@ and CITGM team members listed below.
 - [@geek](https://github.com/geek) - Wyatt Preul
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
+- [@mhdawson](https://github.com/mhdawson) - Michael Dawson
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@othiym23](https://github.com/othiym23) - Forrest L Norvell
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
