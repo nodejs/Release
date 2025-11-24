@@ -190,9 +190,9 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/backporters) -->
 
-* [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
+* [@aduh95](https://github.com/aduh95) - Antoine du Hamel
+* [@BethGriggs](https://github.com/BethGriggs) - Beth Griggs
 * [@codebytere](https://github.com/codebytere) - Shelley Vohr
-* [@danielleadams](https://github.com/danielleadams) - Danielle Adams
 * [@guybedford](https://github.com/guybedford) - Guy Bedford
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@richardlau](https://github.com/richardlau) - Richard Lau
@@ -203,6 +203,7 @@ and CITGM team members listed below.
 
 <!-- ncu-team-sync.team(nodejs/releasers) -->
 
+* [@aduh95](https://github.com/aduh95) - Antoine du Hamel
 * [@juanarbol](https://github.com/juanarbol) - Juan José
 * [@marco-ippolito](https://github.com/marco-ippolito) - Marco Ippolito
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
