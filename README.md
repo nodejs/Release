@@ -7,6 +7,7 @@
 | [22.x][] | **Maintenance LTS** | [Jod][]      | 2024-04-24     | 2024-10-29       | 2025-10-21        | 2027-04-30                |
 | [24.x][] | **Active LTS**      | [Krypton][]  | 2025-05-06     | 2025-10-28       | 2026-10-20        | 2028-04-30                |
 | [25.x][] | **Maintenance**     |              | 2025-10-15     | -                | 2026-04-01        | 2026-06-01                |
+| [26.x][] | **Current**         |              | 2026-05-05     | 2026-10-28       | 2027-10-27        | 2029-04-30                |
 
 Dates are subject to change.
 
@@ -182,6 +183,7 @@ the discretion of the Release working group.
 [23.x]: https://nodejs.org/download/release/latest-v23.x/
 [24.x]: https://nodejs.org/download/release/latest-v24.x/
 [25.x]: https://nodejs.org/download/release/latest-v25.x/
+[26.x]: https://nodejs.org/download/release/latest-v26.x/
 
 The working group members are the union of the Releasers, Backporters
 and CITGM team members listed below.
