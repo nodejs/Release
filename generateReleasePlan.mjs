@@ -49,6 +49,7 @@ function outputFutureReleaseSchedule(majorVersion, lastReleaseDate) {
 }
 
 if (isNaN(majorVersion)) {
+  let hasOutputFutureScheduleYet = false;
   const existingReleases = [];
   const releaseTitle = /^## (\d{4}-\d{2}-\d{2}), Version (\d+\.\d+\.\d+) ([^,]+), (.+)$/;
   const securityRelease = /^This is a security release\.$/;
@@ -65,6 +66,7 @@ if (isNaN(majorVersion)) {
         existingReleases[0] = existingReleases[0].replace('|', '(LTS transition) |');
         console.log(existingReleases.splice(0, Infinity, '', '</details>').join('\n'));
         outputFutureReleaseSchedule(majorVersion, lastReleaseDate);
+		hasOutputFutureScheduleYet = true;
         console.log('\n\n<details><summary>Current</summary>\n\n' + tableHeader);
       }
       existingReleases.unshift(` ${version} | ${date} | ${releasers}`);
@@ -74,6 +76,10 @@ if (isNaN(majorVersion)) {
     }
   }
   console.log(existingReleases.join('\n'));
+  if (!hasOutputFutureScheduleYet) {
+	const majorVersion = existingReleases[0].slice(1, existingReleases[0].indexOf('.'));
+	outputFutureReleaseSchedule(majorVersion, lastReleaseDate);
+  }
 } else {
   outputFutureReleaseSchedule(majorVersion);
 }
