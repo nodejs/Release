@@ -198,6 +198,7 @@ and CITGM team members listed below.
 * [@guybedford](https://github.com/guybedford) - Guy Bedford
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@richardlau](https://github.com/richardlau) - Richard Lau
+* [@sxa](https://github.com/sxa) - Stewart X Addison
 
 <!-- ncu-team-sync end -->
 
@@ -211,6 +212,7 @@ and CITGM team members listed below.
 * [@RafaelGSS](https://github.com/RafaelGSS) - Rafael Gonzaga
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 * [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
+* [@sxa](https://github.com/sxa) - Stewart X Addison
 * [@targos](https://github.com/targos) - Michaël Zasso
 * [@UlisesGascon](https://github.com/UlisesGascon) - Ulises Gascón
 
