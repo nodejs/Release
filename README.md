@@ -213,7 +213,6 @@ and CITGM team members listed below.
 * [@richardlau](https://github.com/richardlau) - Richard Lau
 * [@ruyadorno](https://github.com/ruyadorno) - Ruy Adorno
 * [@sxa](https://github.com/sxa) - Stewart X Addison
-* [@targos](https://github.com/targos) - Michaël Zasso
 * [@UlisesGascon](https://github.com/UlisesGascon) - Ulises Gascón
 
 <!-- ncu-team-sync end -->
@@ -225,6 +224,7 @@ and CITGM team members listed below.
 ## Emeritus
 
 ### LTS team
+
 - [@addaleax](https://github.com/addaleax) - Anna Henningsen
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
 - [@bnoordhuis](https://github.com/bnoordhuis) - Ben Noordhuis
@@ -245,6 +245,7 @@ and CITGM team members listed below.
 - [@yunong](https://github.com/yunong) - Yunong Xiao
 
 ### Releasers team
+
 - [@bengl](https://github.com/bengl) - Bryan English
 - [@BethGriggs](https://github.com/BethGriggs) - Bethany Griggs
 - [@BridgeAR](https://github.com/BridgeAR) - Ruben Bridgewater
@@ -256,4 +257,5 @@ and CITGM team members listed below.
 - [@gibfahn](https://github.com/gibfahn) - Gibson Fahnestock
 - [@jasnell](https://github.com/jasnell) - James M Snell
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
+- [@targos](https://github.com/targos) - Michaël Zasso
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
