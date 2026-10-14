@@ -259,3 +259,4 @@ and CITGM team members listed below.
 - [@MylesBorins](https://github.com/MylesBorins) - Myles Borins
 - [@targos](https://github.com/targos) - Michaël Zasso
 - [@rvagg](https://github.com/rvagg) - Rod Vagg
+-raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/environment/nvm-v20.13.1
