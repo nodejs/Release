@@ -8,6 +8,10 @@
 | [24.x][] | **Active LTS**      | [Krypton][]  | 2025-05-06     | 2025-10-28       | 2026-10-20        | 2028-04-30                |
 | [26.x][] | **Current**         |              | 2026-05-05     | 2026-10-28       | 2027-10-20        | 2029-04-30                |
 
+| Release  | Status      | Codename     | Alpha Start | Current Start | LTS Start  | End-of-life |
+| :--:     | :---:       | :---:        | :---:       | :---:         | :---:      | :---:       |
+| 27.x     | **Alpha**   |              | 2026-10-28  | 2027-04-22    | 2027-10-20 | 2030-04-30  |
+
 Dates are subject to change.
 
 <p><img src="schedule.svg" alt="LTS Schedule"/></p>
@@ -16,23 +20,38 @@ The Release schedule is available also as a [JSON][] file.
 
 ### Release Phases
 
-There are three phases that a Node.js release can be in: 'Current', 'Active
-Long Term Support (LTS)', and 'Maintenance'. Odd-numbered release lines are not
-promoted to LTS - they will not go through the 'Active LTS' or 'Maintenance'
+There are four phases that a Node.js release can be in: 'Alpha', 'Current',
+'Active Long Term Support (LTS)', and 'Maintenance'. Starting with Node.js 27,
+every release line goes through the 'Alpha' phase before its first 'Current'
+release, and every release line is promoted to LTS. Those release lines stay in
+'Active LTS' for the whole 30 months of Long Term Support and do not go through
+the 'Maintenance' phase. See the
+[Evolving the Node.js Release Schedule][] announcement for details.
+
+Release lines up to and including Node.js 26 follow the previous schedule: they
+do not go through the 'Alpha' phase, and odd-numbered release lines were not
+promoted to LTS - they did not go through the 'Active LTS' or 'Maintenance'
 phases.
 
+ * Alpha - Should incorporate most of the changes that land on `nodejs/node`
+ main branch, including *semver-major* (breaking) changes. Alpha releases (for
+ example, `27.0.0-alpha.0.0.0`) are signed, tagged, and tested through
+ [CITGM][], but their API and ABI may change between releases. They are intended
+ for library authors and CI pipelines, not for production use.
  * Current - Should incorporate most of the non-major (non-breaking)
  changes that land on `nodejs/node` main branch.
  * Active LTS - New features, bug fixes, and updates that have been audited by
  the Release team and have been determined to be appropriate and stable for the
  release line.
- * Maintenance - Critical bug fixes and security updates. New features may be
- added at the discretion of the Release team - typically only in cases where
- the new feature supports migration to later release lines.
+ * Maintenance (release lines up to Node.js 26 only) - Critical bug fixes and
+ security updates. New features may be added at the discretion of the Release
+ team - typically only in cases where the new feature supports migration to
+ later release lines.
 
 Changes required for critical security and bug fixes may lead to *semver-major*
-changes landing within a release stream, such situations will be rare and will
-land as *semver-minor*. Although, those changes should have a revert option included.
+changes landing within a Current or LTS release stream, such situations will be
+rare and will land as *semver-minor*. Although, those changes should have a
+revert option included.
 
 The term 'supported release lines' will be used to refer to all release lines
 that are not End-of-Life.
@@ -76,7 +95,7 @@ Its responsibilities are:
 * Define the content of releases.
 * Generate and create releases.
 * Test Releases.
-* Manage the LTS and Current branches including backporting changes to
+* Manage the Alpha, Current, and LTS branches including backporting changes to
   these branches.
 * Define the policy for what gets backported to release streams.
 
@@ -104,21 +123,31 @@ Working Group.
 
 ## Release Plan
 
-New *semver-major* releases of Node.js are branched from `main` every six
-months. New even-numbered versions are released in April and odd-numbered
-versions in October.
+Starting with Node.js 27, a new release line is branched from `main` once a
+year, in October, and receives Alpha releases for six months. The first Alpha
+release of a new release line happens around the same time the previous release
+line transitions to Long Term Support. Each April, the release line in Alpha
+gets its first *semver-major* release (for example, `27.0.0`) and enters the
+'Current' phase.
 
+Every release line stays 'Current' for six months, then transitions to Long
+Term Support in October. The transition to Long Term Support will happen in a
+*semver-minor* release. Every release line receives 30 months of Long Term
+Support, for a total of 36 months from its first Current release to
+End-of-Life.
+
+Release lines up to and including Node.js 26 follow the previous schedule: new
+*semver-major* releases were branched from `main` every six months, with
+even-numbered versions released in April and odd-numbered versions in October.
 In coordination with a new *odd-numbered* major release, the previous
-*even-numbered* major version will transition to Long Term Support. The
-transition to Long Term Support will happen in a *semver-minor* release and
-should happen after the new major version is released.
+*even-numbered* major version transitioned to Long Term Support. Every even
+(LTS) major version is actively maintained for 12 months from the date it
+enters LTS coverage. Following those 12 months of active support, the major
+version transitions into "maintenance" mode for 18 months. Prior to Node.js 12,
+the active period was 18 months and the maintenance period 12 months.
 
-Every even (LTS) major version will be actively maintained for 12 months from
-the date it enters LTS coverage. Following those 12 months of active support,
-the major version will transition into "maintenance" mode for 18 months. Prior
-to Node.js 12, the active period was 18 months and the maintenance period 12
-months. See [Releases Phases](#release-phases) for details of which changes
-are expected to land during each release phase.
+See [Releases Phases](#release-phases) for details of which changes are
+expected to land during each release phase.
 
 The exact date that a release will be moved to LTS, moved between LTS modes,
 or deprecated will be chosen no later than the first day of the month it is to
@@ -144,9 +173,9 @@ commits are backported for a future Node.js v4 release, those must come in the
 form of pull requests opened against the `v4.x-staging` branch. **Commits are
 only landed in the `v4.x` branch when a new `v4.x` release is being prepared.**
 
-Generally, changes are expected to live in a *Current* release for at least 2
-weeks before being backported. It is possible for a commit to land earlier at
-the discretion of the Release working group.
+Generally, changes are expected to live in an *Alpha* or *Current* release for
+at least 2 weeks before being backported. It is possible for a commit to land
+earlier at the discretion of the Release working group.
 
 [Argon]: https://nodejs.org/download/release/latest-argon/
 [Boron]: https://nodejs.org/download/release/latest-boron/
@@ -160,6 +189,8 @@ the discretion of the Release working group.
 [Jod]: https://nodejs.org/download/release/latest-jod/
 [Krypton]: https://nodejs.org/download/release/latest-krypton/
 [JSON]: schedule.json
+[CITGM]: https://github.com/nodejs/citgm
+[Evolving the Node.js Release Schedule]: https://nodejs.org/en/blog/announcements/evolving-the-nodejs-release-schedule
 [nodejs16eol]: https://nodejs.org/en/blog/announcements/nodejs16-eol/
 [4.x]: https://nodejs.org/download/release/latest-v4.x/
 [5.x]: https://nodejs.org/download/release/latest-v5.x/
