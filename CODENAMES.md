@@ -13,9 +13,9 @@ releases are subject to change.
 * Jod (22.x 2024)
 * Krypton (24.x 2025)
 * Lithium (26.x 2026)
-* Magnesium (28.x 2027)
-* Neon (30.x 2028)
-* Oxygen (32.x 2029)
-* Platinum (34.x 2030)
+* Magnesium (27.x 2027)
+* Neon (28.x 2028)
+* Oxygen (29.x 2029)
+* Platinum (30.x 2030)
 
 The release schedule is available as a [JSON](./schedule.json) file.
