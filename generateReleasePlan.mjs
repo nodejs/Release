@@ -41,7 +41,11 @@ function outputFutureReleaseSchedule(majorVersion, lastReleaseDate) {
     console.log(` ${majorVersion}.x.x |  ${i}  | `);
   }
 
-  if (lts && (!lastReleaseDate || Temporal.PlainDate.compare(maintenance, lastReleaseDate) > 0)) {
+  if (
+    lts &&
+    (maintenance || !isNowDuringLTS) &&
+    (!lastReleaseDate || Temporal.PlainDate.compare(maintenance, lastReleaseDate) > 0)
+  ) {
     console.log(
       `${majorVersion}.x.x (${isNowDuringLTS ? 'Maintenance' : 'LTS'} transition) |  ${
         isNowDuringLTS ? maintenance : lts
