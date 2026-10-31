@@ -26,20 +26,26 @@ function outputFutureReleaseSchedule(majorVersion, lastReleaseDate) {
   const { start, maintenance, lts } = schedule[versionKey];
 
   const ltsDateTime = lts && Temporal.PlainDate.from(lts);
-  const maintenanceDateTime = Temporal.PlainDate.from(maintenance);
+  const maintenanceDateTime = maintenance && Temporal.PlainDate.from(maintenance);
 
   const isNowDuringLTS = lts && Temporal.PlainDate.compare(Temporal.Now.plainDateTimeISO(), ltsDateTime) > 0;
   const weeks = isNowDuringLTS ? 4 : 2;
 
   const startOfCycle =
     lastReleaseDate?.add({ weeks }) ?? (isNowDuringLTS ? ltsDateTime : Temporal.PlainDate.from(start));
-  const endOfCycle = isNowDuringLTS ? maintenanceDateTime : ltsDateTime || maintenanceDateTime;
+  const endOfCycle = isNowDuringLTS
+    ? maintenanceDateTime || ltsDateTime.add({ year: 1 })
+    : ltsDateTime || maintenanceDateTime;
 
   for (let i = startOfCycle; Temporal.PlainDate.compare(i, endOfCycle) === -1; i = i.add({ weeks })) {
     console.log(` ${majorVersion}.x.x |  ${i}  | `);
   }
 
-  if (lts && (!lastReleaseDate || Temporal.PlainDate.compare(maintenance, lastReleaseDate) > 0)) {
+  if (
+    lts &&
+    (maintenance || !isNowDuringLTS) &&
+    (!lastReleaseDate || Temporal.PlainDate.compare(maintenance, lastReleaseDate) > 0)
+  ) {
     console.log(
       `${majorVersion}.x.x (${isNowDuringLTS ? 'Maintenance' : 'LTS'} transition) |  ${
         isNowDuringLTS ? maintenance : lts
@@ -62,11 +68,11 @@ if (isNaN(majorVersion)) {
       lastReleaseDate ??= Temporal.PlainDate.from(date);
       const wasLTSTransition = releaseType && type === '(Current)' && type !== releaseType;
       if (wasLTSTransition) {
-		const majorVersion = existingReleases[0].slice(1, existingReleases[0].indexOf('.'));
+        const majorVersion = existingReleases[0].slice(1, existingReleases[0].indexOf('.'));
         existingReleases[0] = existingReleases[0].replace('|', '(LTS transition) |');
         console.log(existingReleases.splice(0, Infinity, '', '</details>').join('\n'));
         outputFutureReleaseSchedule(majorVersion, lastReleaseDate);
-		hasOutputFutureScheduleYet = true;
+        hasOutputFutureScheduleYet = true;
         console.log('\n\n<details><summary>Current</summary>\n\n' + tableHeader);
       }
       existingReleases.unshift(` ${version} | ${date} | ${releasers}`);
@@ -77,8 +83,8 @@ if (isNaN(majorVersion)) {
   }
   console.log(existingReleases.join('\n'));
   if (!hasOutputFutureScheduleYet) {
-	const majorVersion = existingReleases[0].slice(1, existingReleases[0].indexOf('.'));
-	outputFutureReleaseSchedule(majorVersion, lastReleaseDate);
+    const majorVersion = existingReleases[0].slice(1, existingReleases[0].indexOf('.'));
+    outputFutureReleaseSchedule(majorVersion, lastReleaseDate);
   }
 } else {
   outputFutureReleaseSchedule(majorVersion);
