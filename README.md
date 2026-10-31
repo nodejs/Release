@@ -5,8 +5,8 @@
 | Release  | Status              | Codename     |Initial Release | Active LTS Start | Maintenance Start | End-of-life               |
 | :--:     | :---:               | :---:        | :---:          | :---:            | :---:             | :---:                     |
 | [22.x][] | **Maintenance LTS** | [Jod][]      | 2024-04-24     | 2024-10-29       | 2025-10-21        | 2027-04-30                |
-| [24.x][] | **Active LTS**      | [Krypton][]  | 2025-05-06     | 2025-10-28       | 2026-10-20        | 2028-04-30                |
-| [26.x][] | **Current**         |              | 2026-05-05     | 2026-10-28       | 2027-10-20        | 2029-04-30                |
+| [24.x][] | **Maintenance LTS** | [Krypton][]  | 2025-05-06     | 2025-10-28       | 2026-10-20        | 2028-04-30                |
+| [26.x][] | **Active LTS**      | [Lithium][]  | 2026-05-05     | 2026-10-28       | 2027-10-20        | 2029-04-30                |
 
 | Release  | Status      | Codename     | Alpha Start | Current Start | LTS Start  | End-of-life |
 | :--:     | :---:       | :---:        | :---:       | :---:         | :---:      | :---:       |
@@ -188,6 +188,7 @@ earlier at the discretion of the Release working group.
 [Iron]: https://nodejs.org/download/release/latest-iron/
 [Jod]: https://nodejs.org/download/release/latest-jod/
 [Krypton]: https://nodejs.org/download/release/latest-krypton/
+[Lithium]: https://nodejs.org/download/release/latest-lithium/
 [JSON]: schedule.json
 [CITGM]: https://github.com/nodejs/citgm
 [Evolving the Node.js Release Schedule]: https://nodejs.org/en/blog/announcements/evolving-the-nodejs-release-schedule
